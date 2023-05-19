@@ -5,26 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】45, server: 172.67.73.39, port: 80, type: vmess, uuid: b8458948-a630-4e6d-809a-230b2223ff3d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /xrayvws, headers: {Host: f.tun4.live}}}
-  - {name: 🇸🇬 新加坡【付费推荐：https://v1.mk/vip】78, server: 138.2.71.111, port: 80, type: vmess, uuid: b2947942-701b-4de2-91cd-f6810d5d03bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】76, server: 192.74.229.220, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】42, server: 192.74.228.178, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】48, server: 172.66.43.240, port: 443, type: vmess, uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ou, headers: {Host: z.zorro.tk}}}
-  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】95, server: 142.0.133.39, port: 51412, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】6, server: 167.88.63.79, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】60, server: 167.88.63.79, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇩🇪 德国【付费推荐：https://v1.mk/vip】70, server: 95.179.171.203, port: 443, type: vmess, uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /nimvws, headers: {Host: phosphorylative.aurorainiceland.com}}}
-  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】17, server: hendostan.foriran.nl, port: 443, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /7ouWwj1jH2IbuOfQj2chg, headers: {Host: hendostan.foriran.nl}}}
-  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】74, server: en.foriran.live, port: 443, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /7ouWwj1jH2IbuOfQj2chg, headers: {Host: en.foriran.live}}}
-  - {name: 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】62, server: aparat.persianmizban.com, port: 4433, type: vmess, uuid: 88790a1b-f059-40c7-9c9d-b7c943b4420b, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】19, server: 172.67.134.123, port: 443, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /7ouWwj1jH2IbuOfQj2chg, headers: {Host: en.foriran.live}}}
-  - {name: 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】29, server: 188.114.97.3, port: 443, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /7ouWwj1jH2IbuOfQj2chg, headers: {Host: hendostan.foriran.nl}}}
-  - {name: 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】68, server: de63.thugiping.cloud, port: 443, type: vmess, uuid: c9a22360-3f66-48c8-89ab-13799b05a730, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇺🇸 v2rayfree.eu.org - 美国  2, server: 206.168.191.67, port: 80, type: vmess, uuid: 7997b5a0-f2f9-11ed-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /r2vt59x8, headers: {Host: 206.168.191.67}}}
-  - {name: 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 9, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}}
-  - {name: AU_31, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_195, server: 45.12.144.80, port: 47127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Pool_🇺🇸US_238, server: 107.148.242.216, port: 54082, type: vmess, uuid: dcca1294-7097-44b7-bd49-5f51c73f532f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本【付费推荐：https://v1.mk/vip】219, server: vjp2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp2.0bad.com}}}
+  - {name: 🇨🇳 台湾【付费推荐：https://v1.mk/vip】308, server: stw3-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡【付费推荐：https://v1.mk/vip】316, server: stw4-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
+  - {name: 🇯🇵 日本【付费推荐：https://v1.mk/vip】170, server: fschk.fscloud123456789.com, port: 443, type: trojan, password: e6a3b957-32a2-42f7-a06f-7e12ca529ab2, skip-cert-verify: true}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】198, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】115, server: 172.66.43.240, port: 443, type: vmess, uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ou, headers: {Host: z.zorro.tk}}}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】393, server: HKG.MIFJUN.ORG, port: 80, type: vmess, uuid: c76bf073-d8c6-4d2d-aa5f-3bbdd3b6d0b2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: HKG.MIFJUN.ORG}}}
+  - {name: 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】82, server: 154.85.1.3, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1683629314915}}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】391, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】52, server: 198.2.218.198, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1683629314915}}
+  - {name: 🇬🇧 英国【付费推荐：https://v1.mk/vip】120, server: wfi.sahnama.com, port: 80, type: vmess, uuid: 61280f80-cd25-4c7b-8e5a-b1560617047a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /T5t5p1DPeSIooUZfEmkFAYfTxZ, headers: {Host: wfi.sahnama.com}}}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】70, server: 172.66.46.15, port: 443, type: vmess, uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ou, headers: {Host: z.zorro.tk}}}
+  - {name: 🇬🇧 英国【付费推荐：https://v1.mk/vip】218, server: 178.239.171.103, port: 80, type: vmess, uuid: 61280f80-cd25-4c7b-8e5a-b1560617047a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /T5t5p1DPeSIooUZfEmkFAYfTxZ}}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】171, server: hendostan.foriran.nl, port: 443, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /7ouWwj1jH2IbuOfQj2chg, headers: {Host: hendostan.foriran.nl}}}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】65, server: 198.2.206.39, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1684063265777, headers: {Host: www.14787414.com}}}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】34, server: 96.43.94.83, port: 3003, type: vmess, uuid: 9da89a4a-232a-4aa4-8de0-9a16921dc802, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】89, server: 198.2.208.189, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1683715826870}}
+  - {name: 🇮🇳 印度【付费推荐：https://v1.mk/vip】157, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】259, server: en.foriran.live, port: 443, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /7ouWwj1jH2IbuOfQj2chg, headers: {Host: en.foriran.live}}}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】37, server: 38.63.0.68, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1683543024453}}
+  - {name: 🇨🇳 台湾【付费推荐：https://v1.mk/vip】358, server: stw6-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
+  - {name: 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】288, server: 188.114.97.3, port: 443, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /7ouWwj1jH2IbuOfQj2chg, headers: {Host: hendostan.foriran.nl}}}
+  - {name: 🇺🇸 美国【付费推荐：https://v1.mk/vip】24, server: 23.224.110.246, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1684230882527}}
+  - {name: 🇹🇷 土耳其【付费推荐：https://v1.mk/vip】285, server: 185.40.86.195, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯联邦【付费推荐：https://v1.mk/vip】226, server: 185.133.40.192, port: 35059, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】283, server: de63.thugiping.cloud, port: 443, type: vmess, uuid: c9a22360-3f66-48c8-89ab-13799b05a730, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 2, server: cdncf.scyu.app, port: 80, type: vmess, uuid: 074c70d1-7479-4781-cf6d-e76515d4b0b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vc.scyu.app}}}
+  - {name: 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 3, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}}
+  - {name: 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 11, server: 172.67.134.123, port: 443, type: vmess, uuid: 8357816b-68e4-4a2b-830c-e9bdd369ea22, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /7ouWwj1jH2IbuOfQj2chg, headers: {Host: en.foriran.live}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🏁ZZ_185, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: 951a393a-b557-4590-88b6-30948e1e0b8d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us1.sanfencdn.net}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_196, server: 192.74.228.176, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_237, server: 137.175.63.135, port: 59009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_252, server: 192.74.228.172, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
   - {name: 二爷翻墙网 https://1808.ga  节点_16, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
   # 以上为代理地址请插入
 proxy-groups:
@@ -33,26 +46,39 @@ proxy-groups:
     proxies:
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】45
-      - 🇸🇬 新加坡【付费推荐：https://v1.mk/vip】78
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】76
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】42
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】48
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】95
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】6
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】60
-      - 🇩🇪 德国【付费推荐：https://v1.mk/vip】70
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】17
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】74
-      - 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】62
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】19
-      - 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】29
-      - 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】68
-      - 🇺🇸 v2rayfree.eu.org - 美国  2
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 9
-      - AU_31
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_195
-      - Pool_🇺🇸US_238
+      - 🇯🇵 日本【付费推荐：https://v1.mk/vip】219
+      - 🇨🇳 台湾【付费推荐：https://v1.mk/vip】308
+      - 🇸🇬 新加坡【付费推荐：https://v1.mk/vip】316
+      - 🇯🇵 日本【付费推荐：https://v1.mk/vip】170
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】198
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】115
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】393
+      - 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】82
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】391
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】52
+      - 🇬🇧 英国【付费推荐：https://v1.mk/vip】120
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】70
+      - 🇬🇧 英国【付费推荐：https://v1.mk/vip】218
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】171
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】65
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】34
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】89
+      - 🇮🇳 印度【付费推荐：https://v1.mk/vip】157
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】259
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】37
+      - 🇨🇳 台湾【付费推荐：https://v1.mk/vip】358
+      - 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】288
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】24
+      - 🇹🇷 土耳其【付费推荐：https://v1.mk/vip】285
+      - 🇷🇺 俄罗斯联邦【付费推荐：https://v1.mk/vip】226
+      - 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】283
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 2
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 3
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 11
+      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_185
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_196
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_237
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_252
       - 二爷翻墙网 https://1808.ga  节点_16
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
@@ -60,26 +86,39 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】45
-      - 🇸🇬 新加坡【付费推荐：https://v1.mk/vip】78
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】76
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】42
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】48
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】95
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】6
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】60
-      - 🇩🇪 德国【付费推荐：https://v1.mk/vip】70
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】17
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】74
-      - 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】62
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】19
-      - 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】29
-      - 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】68
-      - 🇺🇸 v2rayfree.eu.org - 美国  2
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 9
-      - AU_31
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_195
-      - Pool_🇺🇸US_238
+      - 🇯🇵 日本【付费推荐：https://v1.mk/vip】219
+      - 🇨🇳 台湾【付费推荐：https://v1.mk/vip】308
+      - 🇸🇬 新加坡【付费推荐：https://v1.mk/vip】316
+      - 🇯🇵 日本【付费推荐：https://v1.mk/vip】170
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】198
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】115
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】393
+      - 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】82
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】391
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】52
+      - 🇬🇧 英国【付费推荐：https://v1.mk/vip】120
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】70
+      - 🇬🇧 英国【付费推荐：https://v1.mk/vip】218
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】171
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】65
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】34
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】89
+      - 🇮🇳 印度【付费推荐：https://v1.mk/vip】157
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】259
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】37
+      - 🇨🇳 台湾【付费推荐：https://v1.mk/vip】358
+      - 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】288
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】24
+      - 🇹🇷 土耳其【付费推荐：https://v1.mk/vip】285
+      - 🇷🇺 俄罗斯联邦【付费推荐：https://v1.mk/vip】226
+      - 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】283
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 2
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 3
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 11
+      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_185
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_196
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_237
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_252
       - 二爷翻墙网 https://1808.ga  节点_16
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
@@ -88,26 +127,39 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】45
-      - 🇸🇬 新加坡【付费推荐：https://v1.mk/vip】78
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】76
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】42
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】48
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】95
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】6
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】60
-      - 🇩🇪 德国【付费推荐：https://v1.mk/vip】70
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】17
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】74
-      - 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】62
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】19
-      - 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】29
-      - 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】68
-      - 🇺🇸 v2rayfree.eu.org - 美国  2
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 9
-      - AU_31
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_195
-      - Pool_🇺🇸US_238
+      - 🇯🇵 日本【付费推荐：https://v1.mk/vip】219
+      - 🇨🇳 台湾【付费推荐：https://v1.mk/vip】308
+      - 🇸🇬 新加坡【付费推荐：https://v1.mk/vip】316
+      - 🇯🇵 日本【付费推荐：https://v1.mk/vip】170
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】198
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】115
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】393
+      - 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】82
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】391
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】52
+      - 🇬🇧 英国【付费推荐：https://v1.mk/vip】120
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】70
+      - 🇬🇧 英国【付费推荐：https://v1.mk/vip】218
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】171
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】65
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】34
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】89
+      - 🇮🇳 印度【付费推荐：https://v1.mk/vip】157
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】259
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】37
+      - 🇨🇳 台湾【付费推荐：https://v1.mk/vip】358
+      - 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】288
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】24
+      - 🇹🇷 土耳其【付费推荐：https://v1.mk/vip】285
+      - 🇷🇺 俄罗斯联邦【付费推荐：https://v1.mk/vip】226
+      - 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】283
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 2
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 3
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 11
+      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_185
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_196
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_237
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_252
       - 二爷翻墙网 https://1808.ga  节点_16
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🐟 漏网之鱼
@@ -116,26 +168,39 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】45
-      - 🇸🇬 新加坡【付费推荐：https://v1.mk/vip】78
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】76
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】42
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】48
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】95
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】6
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】60
-      - 🇩🇪 德国【付费推荐：https://v1.mk/vip】70
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】17
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】74
-      - 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】62
-      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】19
-      - 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】29
-      - 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】68
-      - 🇺🇸 v2rayfree.eu.org - 美国  2
-      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 9
-      - AU_31
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_195
-      - Pool_🇺🇸US_238
+      - 🇯🇵 日本【付费推荐：https://v1.mk/vip】219
+      - 🇨🇳 台湾【付费推荐：https://v1.mk/vip】308
+      - 🇸🇬 新加坡【付费推荐：https://v1.mk/vip】316
+      - 🇯🇵 日本【付费推荐：https://v1.mk/vip】170
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】198
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】115
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】393
+      - 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】82
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】391
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】52
+      - 🇬🇧 英国【付费推荐：https://v1.mk/vip】120
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】70
+      - 🇬🇧 英国【付费推荐：https://v1.mk/vip】218
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】171
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】65
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】34
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】89
+      - 🇮🇳 印度【付费推荐：https://v1.mk/vip】157
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】259
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】37
+      - 🇨🇳 台湾【付费推荐：https://v1.mk/vip】358
+      - 🇳🇱 荷兰【付费推荐：https://v1.mk/vip】288
+      - 🇺🇸 美国【付费推荐：https://v1.mk/vip】24
+      - 🇹🇷 土耳其【付费推荐：https://v1.mk/vip】285
+      - 🇷🇺 俄罗斯联邦【付费推荐：https://v1.mk/vip】226
+      - 🇮🇷 伊朗【付费推荐：https://v1.mk/vip】283
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 2
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare公司CDN节点 3
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 11
+      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_185
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_196
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_237
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_252
       - 二爷翻墙网 https://1808.ga  节点_16
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
