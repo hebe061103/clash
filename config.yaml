@@ -5,40 +5,26 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 _US_美国, server: 198.41.193.174, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qazxcv00, headers: {Host: tou.vtcss.top}}}
-  - {name: 🇭🇰 _TW_台湾->🇭🇰_HK_香港, server: tw1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 4, server: 163.123.192.57, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: www.noice.id, port: 443, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}}
-  - {name: 🇺🇸 _US_美国 5, server: 163.123.192.60, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国->🇱🇺_LU_卢森堡, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}}
-  - {name: 🇩🇪 _DE_德国, server: z0110.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive"}
-  - {name: 🇺🇸 _US_美国 7, server: 163.123.192.59, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚, server: ee1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: false}
-  - {name: 🇭🇰 _HK_香港->🇳🇱_NL_荷兰, server: 156.245.8.225, port: 46955, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 9, server: 163.123.192.58, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 10, server: 104.24.181.229, port: 8080, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qazxcv00, headers: {Host: tou.vtcss.top}}}
-  - {name: 🇺🇸 _US_美国 11, server: 74.217.179.187, port: 40042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 12, server: 173.245.58.72, port: 8880, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qazxcv00, headers: {Host: tou.vtcss.top}}}
-  - {name: 🇸🇬 _SG_新加坡 2, server: 13.215.46.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _US_美国 16, server: 198.2.203.148, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】106, server: jp2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
-  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】40, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
-  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】136, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
-  - {name: 🇸🇬 新加坡【付费推荐：v1.mk/vip】121, server: cdncf.scyu.app, port: 80, type: vmess, uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}}
-  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】41, server: 172.66.43.240, port: 443, type: vmess, uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ou, headers: {Host: z.zorro.tk}}}
-  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】54, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us1.chuqiangtou.net}
-  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】38, server: 104.18.1.110, port: 443, type: vmess, uuid: 1d8488a7-c784-4e66-ae92-1b22da9c9e68, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/c3lZ7dp02p?ed=2048", headers: {Host: d2.pgypgykmoljklj.xyz}}}
-  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】69, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us2.chuqiangtou.net}
-  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】128, server: au1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
-  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】25, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
-  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】89, server: cdn.ikuan.dev, port: 2052, type: vmess, uuid: 3185c2f3-4246-49c4-ba8a-5ea8fb2ef6b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /FreeForGFW, headers: {Host: freeforgfw.ikuan.dev}}}
-  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】115, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
-  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】122, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}}
-  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】68, server: jp3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
-  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】30, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】135, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇮🇷 伊朗【付费推荐：v1.mk/vip】13, server: turkey.abraak.site, port: 2087, type: vmess, uuid: 21025839-c140-4c67-8f4c-9a413ca8de3f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】97, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 882f3f11-02bc-4ecf-96b6-2da1bebcd7e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /wmIMRWSrsFRTES3pFURTK72T, headers: {Host: de9.irteh.fun}}}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: www.noice.id, port: 443, client-fingerprint: chrome, type: vmess, uuid: 37776019-07ea-4a1d-94e7-88e5e133ad5a, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /worryfree, headers: {Host: v2ray1.udpgw.com}}}
+  - {name: 🇺🇸 _US_美国 3, server: 142.4.104.193, port: 56002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇳🇱 _NL_荷兰 2, server: 154.85.1.242, port: 45516, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2, server: visa.cn, port: 80, client-fingerprint: chrome, type: vmess, uuid: 8a694cfb-d143-4378-cb85-faacdc69e5e1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ass.669990.xyz}}}
+  - {name: 🇸🇬 _US_美国->🇳🇿_NZ_新西兰, server: datacenter.cm.01.biqibao.site, port: 2052, client-fingerprint: chrome, type: vmess, uuid: c36d4223-1804-494a-a453-d4f77f10c830, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /public, headers: {Host: detacenter.01.biqibao.site}}}
+  - {name: 🇺🇸 _US_美国 8, server: 192.74.228.179, port: 42857, client-fingerprint: chrome, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 12, server: zfc.windowsupdate1.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh3?ed=2048", headers: {Host: usfh3.pqjc.buzz}}}
+  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】28, server: jp2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】2, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】26, server: uk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】10, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us1.chuqiangtou.net}
+  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】48, server: jp3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】12, server: nl1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】29, server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】39, server: au1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg}
+  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}}
+  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】13, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}}
+  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】49, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇮🇱 以色列【付费推荐：v1.mk/vip】37, server: us2.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us2.chuqiangtou.net}
+  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】17, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -46,80 +32,52 @@ proxy-groups:
     proxies:
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 🇺🇸 _US_美国
-      - 🇭🇰 _TW_台湾->🇭🇰_HK_香港
-      - 🇺🇸 _US_美国 4
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-      - 🇩🇪 _DE_德国
-      - 🇺🇸 _US_美国 7
-      - 🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚
-      - 🇭🇰 _HK_香港->🇳🇱_NL_荷兰
-      - 🇺🇸 _US_美国 9
-      - 🇺🇸 _US_美国 10
-      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 3
+      - 🇳🇱 _NL_荷兰 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 _US_美国->🇳🇿_NZ_新西兰
+      - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 12
-      - 🇸🇬 _SG_新加坡 2
-      - 🇺🇸 _US_美国 16
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】106
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】40
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】136
-      - 🇸🇬 新加坡【付费推荐：v1.mk/vip】121
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】41
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】54
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】38
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】69
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】128
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】25
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】89
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】115
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】122
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】68
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】30
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】135
-      - 🇮🇷 伊朗【付费推荐：v1.mk/vip】13
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】97
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】28
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】2
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】26
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】10
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】48
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】12
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】29
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】39
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】1
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】13
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】49
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】37
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】17
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国
-      - 🇭🇰 _TW_台湾->🇭🇰_HK_香港
-      - 🇺🇸 _US_美国 4
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-      - 🇩🇪 _DE_德国
-      - 🇺🇸 _US_美国 7
-      - 🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚
-      - 🇭🇰 _HK_香港->🇳🇱_NL_荷兰
-      - 🇺🇸 _US_美国 9
-      - 🇺🇸 _US_美国 10
-      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 3
+      - 🇳🇱 _NL_荷兰 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 _US_美国->🇳🇿_NZ_新西兰
+      - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 12
-      - 🇸🇬 _SG_新加坡 2
-      - 🇺🇸 _US_美国 16
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】106
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】40
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】136
-      - 🇸🇬 新加坡【付费推荐：v1.mk/vip】121
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】41
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】54
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】38
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】69
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】128
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】25
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】89
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】115
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】122
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】68
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】30
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】135
-      - 🇮🇷 伊朗【付费推荐：v1.mk/vip】13
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】97
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】28
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】2
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】26
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】10
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】48
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】12
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】29
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】39
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】1
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】13
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】49
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】37
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】17
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -127,40 +85,26 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇸 _US_美国
-      - 🇭🇰 _TW_台湾->🇭🇰_HK_香港
-      - 🇺🇸 _US_美国 4
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-      - 🇩🇪 _DE_德国
-      - 🇺🇸 _US_美国 7
-      - 🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚
-      - 🇭🇰 _HK_香港->🇳🇱_NL_荷兰
-      - 🇺🇸 _US_美国 9
-      - 🇺🇸 _US_美国 10
-      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 3
+      - 🇳🇱 _NL_荷兰 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 _US_美国->🇳🇿_NZ_新西兰
+      - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 12
-      - 🇸🇬 _SG_新加坡 2
-      - 🇺🇸 _US_美国 16
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】106
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】40
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】136
-      - 🇸🇬 新加坡【付费推荐：v1.mk/vip】121
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】41
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】54
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】38
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】69
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】128
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】25
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】89
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】115
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】122
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】68
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】30
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】135
-      - 🇮🇷 伊朗【付费推荐：v1.mk/vip】13
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】97
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】28
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】2
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】26
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】10
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】48
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】12
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】29
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】39
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】1
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】13
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】49
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】37
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】17
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -168,40 +112,26 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 🇺🇸 _US_美国
-      - 🇭🇰 _TW_台湾->🇭🇰_HK_香港
-      - 🇺🇸 _US_美国 4
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-      - 🇩🇪 _DE_德国
-      - 🇺🇸 _US_美国 7
-      - 🇪🇪 _IL_以色列->🇪🇪_EE_爱沙尼亚
-      - 🇭🇰 _HK_香港->🇳🇱_NL_荷兰
-      - 🇺🇸 _US_美国 9
-      - 🇺🇸 _US_美国 10
-      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 3
+      - 🇳🇱 _NL_荷兰 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 _US_美国->🇳🇿_NZ_新西兰
+      - 🇺🇸 _US_美国 8
       - 🇺🇸 _US_美国 12
-      - 🇸🇬 _SG_新加坡 2
-      - 🇺🇸 _US_美国 16
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】106
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】40
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】136
-      - 🇸🇬 新加坡【付费推荐：v1.mk/vip】121
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】41
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】54
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】38
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】69
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】128
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】25
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】89
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】115
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】122
-      - 🇮🇱 以色列【付费推荐：v1.mk/vip】68
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】30
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】135
-      - 🇮🇷 伊朗【付费推荐：v1.mk/vip】13
-      - 🇺🇸 美国【付费推荐：v1.mk/vip】97
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】28
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】2
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】26
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】10
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】48
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】12
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】29
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】39
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】1
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】13
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】49
+      - 🇮🇱 以色列【付费推荐：v1.mk/vip】37
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】17
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
