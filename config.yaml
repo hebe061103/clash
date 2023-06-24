@@ -5,44 +5,36 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国【付费推荐：https://tt.vg/vip】109, server: cf-yd-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: 美国【付费推荐：https://tt.vg/vip】95, server: cf-dx-dns.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: 以色列【付费推荐：https://tt.vg/vip】8, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
   - {name: 美国【付费推荐：https://tt.vg/vip】49, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】39, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}, udp: true}
-  - {name: v2rayfree.eu.org - 以色列  5, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: v2rayfree.eu.org - 以色列  6, server: de1.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
-  - {name: v2rayfree.eu.org - 以色列  7, server: uk1.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
-  - {name: v2rayfree.eu.org - 以色列  11, server: de3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, skip-cert-verify: true, udp: true}
-  - {name: v2rayfree.eu.org - 美国CloudFlare节点 12, server: zfc.windowsupdate1.com, port: 80, type: vmess, uuid: 01925169-e2ff-483c-89f2-6e778dcdd450, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}, udp: true}
-  - {name: v2rayfree.eu.org - 以色列  21, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: v2rayfree.eu.org - 美国CloudFlare公司CDN节点 22, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
-  - {name: v2rayfree.eu.org - 美国CloudFlare公司CDN节点 23, server: beta.durov.ir, port: 8880, type: vmess, uuid: c7654980-72fe-492d-8b6f-a4cb55c94c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vnpt.iiio.wiki}}, udp: true}
-  - {name: _IL_以色列->🇯🇵_JP_日本, server: 149.50.71.164, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇯🇵_JP_日本 2, server: 149.50.70.107, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇯🇵_JP_日本 3, server: 149.50.70.83, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇯🇵_JP_日本 4, server: 149.50.70.76, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _TW_台湾, server: download1tw.windowsupdate.lol, port: 443, type: trojan, password: 274fefdb-6159-4765-b3e8-c6050b23b48f, sni: mzy.windowsupdatea.com, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇺🇸_US_美国, server: 149.50.69.131, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本, server: jp7.lianpi.xyz, port: 53638, type: trojan, password: 7e319f7a-4c47-4606-8008-ce6c92634dd8, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇺🇸_US_美国 2, server: 149.50.69.127, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇺🇸_US_美国 3, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 192.74.234.89, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇺🇸_US_美国 4, server: 149.50.69.109, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国 2, server: 104.16.111.91, port: 2086, type: vmess, uuid: 9572d691-e27a-4f54-ef4d-57600a785b55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
-  - {name: _US_美国 5, server: 107.148.194.240, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇦🇺_AU_澳大利亚, server: 149.50.66.124, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇦🇺_AU_澳大利亚 2, server: 149.50.66.127, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇦🇺_AU_澳大利亚 3, server: 149.50.83.40, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港->🇳🇱_NL_荷兰, server: 156.245.8.130, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇳🇱_NL_荷兰, server: 149.50.75.79, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇳🇱_NL_荷兰 2, server: 149.50.75.76, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 7, server: 104.18.127.153, port: 2096, type: vmess, uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: _IL_以色列->🇳🇱_NL_荷兰 3, server: nl3.nigirocloud.com, port: 4003, type: trojan, password: PlF471nxneY0YevI, sni: persianblog.ir, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇬🇧_GB_英国, server: 149.50.77.134, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _IL_以色列->🇬🇧_GB_英国 2, server: 149.50.77.109, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇭🇰_HK_香港, server: hkgkgb.76898102.xyz, port: 2082, type: vmess, uuid: 78fd41e5-346a-3bf4-b942-be0fad711979, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /funsdfrh, headers: {Host: hkg.76898102.xyz}}, udp: true}
-  - {name: _US_美国 9, server: 54.190.212.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _IL_以色列->🇬🇧_GB_英国 3, server: 149.50.77.102, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：https://tt.vg/vip】111, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: v2rayfree.eu.org - 以色列  3, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: v2rayfree.eu.org - 美国CloudFlare公司CDN节点 14, server: dl.v001sssv.pw, port: 80, type: vmess, uuid: a4bb7f93-cee6-43d7-b2dd-fa9c70b88233, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.v001sssv.pw}}, udp: true}
+  - {name: v2rayfree.eu.org - 美国CloudFlare公司CDN节点 16, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
+  - {name: _IL_以色列->🇯🇵_JP_日本 3, server: 149.50.70.107, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇯🇵_JP_日本 4, server: 149.50.70.72, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 140.99.57.19, port: 41212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇺🇸_US_美国, server: 149.50.69.139, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: 45.92.160.21, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: 142.0.138.131, port: 55502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇺🇸_US_美国 2, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _TW_台湾, server: hinet2.downloadvip.cfd, port: 443, type: trojan, password: d8b00b98-96fb-43d5-af14-4166a329a655, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 8, server: 52.35.87.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _IL_以色列->🇦🇺_AU_澳大利亚, server: 149.50.83.42, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇳🇱_NL_荷兰, server: 149.50.75.104, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 12, server: 104.16.108.77, port: 8080, type: vmess, uuid: 3b1b5871-6b4f-461d-8882-eba415d0ddf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: _IL_以色列->🇳🇱_NL_荷兰 2, server: 149.50.75.79, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇳🇱_NL_荷兰 3, server: 149.50.75.110, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇳🇱_NL_荷兰 4, server: 149.50.75.170, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港->🇳🇱_NL_荷兰, server: 156.245.8.225, port: 48123, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇳🇱_NL_荷兰 5, server: 149.50.75.197, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _NL_荷兰, server: 188.114.98.138, port: 8080, type: vmess, uuid: 3b1b5871-6b4f-461d-8882-eba415d0ddf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: ns1.v2-vip.fun, port: 80, type: vmess, uuid: 4f859149-2b2f-4b90-9a2c-8c0fe15c8c4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ozX9aUPiJVtoLavjTW, headers: {Host: de14.irteh.fun}}, udp: true}
+  - {name: _IL_以色列->🇬🇧_GB_英国, server: 149.50.77.102, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇬🇧_GB_英国 2, server: 149.50.77.135, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇬🇧_GB_英国 3, server: 149.50.77.97, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: _IL_以色列->🇬🇧_GB_英国 4, server: 149.50.77.95, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -50,88 +42,72 @@ proxy-groups:
     proxies:
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 美国【付费推荐：https://tt.vg/vip】109
+      - 美国【付费推荐：https://tt.vg/vip】95
+      - 以色列【付费推荐：https://tt.vg/vip】8
       - 美国【付费推荐：https://tt.vg/vip】49
-      - 美国【付费推荐：https://tt.vg/vip】39
-      - v2rayfree.eu.org - 以色列  5
-      - v2rayfree.eu.org - 以色列  6
-      - v2rayfree.eu.org - 以色列  7
-      - v2rayfree.eu.org - 以色列  11
-      - v2rayfree.eu.org - 美国CloudFlare节点 12
-      - v2rayfree.eu.org - 以色列  21
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 22
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 23
-      - _IL_以色列->🇯🇵_JP_日本
-      - _IL_以色列->🇯🇵_JP_日本 2
+      - 美国【付费推荐：https://tt.vg/vip】111
+      - v2rayfree.eu.org - 以色列  3
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 14
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 16
       - _IL_以色列->🇯🇵_JP_日本 3
       - _IL_以色列->🇯🇵_JP_日本 4
-      - _TW_台湾
-      - _IL_以色列->🇺🇸_US_美国
-      - _JP_日本
-      - _IL_以色列->🇺🇸_US_美国 2
-      - _IL_以色列->🇺🇸_US_美国 3
       - _US_美国
-      - _IL_以色列->🇺🇸_US_美国 4
-      - _SG_新加坡
+      - _IL_以色列->🇺🇸_US_美国
       - _US_美国 2
-      - _US_美国 5
+      - _US_美国 3
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _TW_台湾
+      - _US_美国 8
       - _IL_以色列->🇦🇺_AU_澳大利亚
-      - _IL_以色列->🇦🇺_AU_澳大利亚 2
-      - _IL_以色列->🇦🇺_AU_澳大利亚 3
-      - _HK_香港->🇳🇱_NL_荷兰
       - _IL_以色列->🇳🇱_NL_荷兰
+      - _US_美国 12
       - _IL_以色列->🇳🇱_NL_荷兰 2
-      - _US_美国 7
       - _IL_以色列->🇳🇱_NL_荷兰 3
+      - _IL_以色列->🇳🇱_NL_荷兰 4
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _IL_以色列->🇳🇱_NL_荷兰 5
+      - _NL_荷兰
+      - _US_美国->🇩🇪_DE_德国
       - _IL_以色列->🇬🇧_GB_英国
       - _IL_以色列->🇬🇧_GB_英国 2
-      - _US_美国->🇭🇰_HK_香港
-      - _US_美国 9
       - _IL_以色列->🇬🇧_GB_英国 3
+      - _IL_以色列->🇬🇧_GB_英国 4
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国【付费推荐：https://tt.vg/vip】109
+      - 美国【付费推荐：https://tt.vg/vip】95
+      - 以色列【付费推荐：https://tt.vg/vip】8
       - 美国【付费推荐：https://tt.vg/vip】49
-      - 美国【付费推荐：https://tt.vg/vip】39
-      - v2rayfree.eu.org - 以色列  5
-      - v2rayfree.eu.org - 以色列  6
-      - v2rayfree.eu.org - 以色列  7
-      - v2rayfree.eu.org - 以色列  11
-      - v2rayfree.eu.org - 美国CloudFlare节点 12
-      - v2rayfree.eu.org - 以色列  21
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 22
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 23
-      - _IL_以色列->🇯🇵_JP_日本
-      - _IL_以色列->🇯🇵_JP_日本 2
+      - 美国【付费推荐：https://tt.vg/vip】111
+      - v2rayfree.eu.org - 以色列  3
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 14
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 16
       - _IL_以色列->🇯🇵_JP_日本 3
       - _IL_以色列->🇯🇵_JP_日本 4
-      - _TW_台湾
-      - _IL_以色列->🇺🇸_US_美国
-      - _JP_日本
-      - _IL_以色列->🇺🇸_US_美国 2
-      - _IL_以色列->🇺🇸_US_美国 3
       - _US_美国
-      - _IL_以色列->🇺🇸_US_美国 4
-      - _SG_新加坡
+      - _IL_以色列->🇺🇸_US_美国
       - _US_美国 2
-      - _US_美国 5
+      - _US_美国 3
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _TW_台湾
+      - _US_美国 8
       - _IL_以色列->🇦🇺_AU_澳大利亚
-      - _IL_以色列->🇦🇺_AU_澳大利亚 2
-      - _IL_以色列->🇦🇺_AU_澳大利亚 3
-      - _HK_香港->🇳🇱_NL_荷兰
       - _IL_以色列->🇳🇱_NL_荷兰
+      - _US_美国 12
       - _IL_以色列->🇳🇱_NL_荷兰 2
-      - _US_美国 7
       - _IL_以色列->🇳🇱_NL_荷兰 3
+      - _IL_以色列->🇳🇱_NL_荷兰 4
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _IL_以色列->🇳🇱_NL_荷兰 5
+      - _NL_荷兰
+      - _US_美国->🇩🇪_DE_德国
       - _IL_以色列->🇬🇧_GB_英国
       - _IL_以色列->🇬🇧_GB_英国 2
-      - _US_美国->🇭🇰_HK_香港
-      - _US_美国 9
       - _IL_以色列->🇬🇧_GB_英国 3
+      - _IL_以色列->🇬🇧_GB_英国 4
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -139,44 +115,36 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 美国【付费推荐：https://tt.vg/vip】109
+      - 美国【付费推荐：https://tt.vg/vip】95
+      - 以色列【付费推荐：https://tt.vg/vip】8
       - 美国【付费推荐：https://tt.vg/vip】49
-      - 美国【付费推荐：https://tt.vg/vip】39
-      - v2rayfree.eu.org - 以色列  5
-      - v2rayfree.eu.org - 以色列  6
-      - v2rayfree.eu.org - 以色列  7
-      - v2rayfree.eu.org - 以色列  11
-      - v2rayfree.eu.org - 美国CloudFlare节点 12
-      - v2rayfree.eu.org - 以色列  21
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 22
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 23
-      - _IL_以色列->🇯🇵_JP_日本
-      - _IL_以色列->🇯🇵_JP_日本 2
+      - 美国【付费推荐：https://tt.vg/vip】111
+      - v2rayfree.eu.org - 以色列  3
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 14
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 16
       - _IL_以色列->🇯🇵_JP_日本 3
       - _IL_以色列->🇯🇵_JP_日本 4
-      - _TW_台湾
-      - _IL_以色列->🇺🇸_US_美国
-      - _JP_日本
-      - _IL_以色列->🇺🇸_US_美国 2
-      - _IL_以色列->🇺🇸_US_美国 3
       - _US_美国
-      - _IL_以色列->🇺🇸_US_美国 4
-      - _SG_新加坡
+      - _IL_以色列->🇺🇸_US_美国
       - _US_美国 2
-      - _US_美国 5
+      - _US_美国 3
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _TW_台湾
+      - _US_美国 8
       - _IL_以色列->🇦🇺_AU_澳大利亚
-      - _IL_以色列->🇦🇺_AU_澳大利亚 2
-      - _IL_以色列->🇦🇺_AU_澳大利亚 3
-      - _HK_香港->🇳🇱_NL_荷兰
       - _IL_以色列->🇳🇱_NL_荷兰
+      - _US_美国 12
       - _IL_以色列->🇳🇱_NL_荷兰 2
-      - _US_美国 7
       - _IL_以色列->🇳🇱_NL_荷兰 3
+      - _IL_以色列->🇳🇱_NL_荷兰 4
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _IL_以色列->🇳🇱_NL_荷兰 5
+      - _NL_荷兰
+      - _US_美国->🇩🇪_DE_德国
       - _IL_以色列->🇬🇧_GB_英国
       - _IL_以色列->🇬🇧_GB_英国 2
-      - _US_美国->🇭🇰_HK_香港
-      - _US_美国 9
       - _IL_以色列->🇬🇧_GB_英国 3
+      - _IL_以色列->🇬🇧_GB_英国 4
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -184,44 +152,36 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 美国【付费推荐：https://tt.vg/vip】109
+      - 美国【付费推荐：https://tt.vg/vip】95
+      - 以色列【付费推荐：https://tt.vg/vip】8
       - 美国【付费推荐：https://tt.vg/vip】49
-      - 美国【付费推荐：https://tt.vg/vip】39
-      - v2rayfree.eu.org - 以色列  5
-      - v2rayfree.eu.org - 以色列  6
-      - v2rayfree.eu.org - 以色列  7
-      - v2rayfree.eu.org - 以色列  11
-      - v2rayfree.eu.org - 美国CloudFlare节点 12
-      - v2rayfree.eu.org - 以色列  21
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 22
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 23
-      - _IL_以色列->🇯🇵_JP_日本
-      - _IL_以色列->🇯🇵_JP_日本 2
+      - 美国【付费推荐：https://tt.vg/vip】111
+      - v2rayfree.eu.org - 以色列  3
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 14
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 16
       - _IL_以色列->🇯🇵_JP_日本 3
       - _IL_以色列->🇯🇵_JP_日本 4
-      - _TW_台湾
-      - _IL_以色列->🇺🇸_US_美国
-      - _JP_日本
-      - _IL_以色列->🇺🇸_US_美国 2
-      - _IL_以色列->🇺🇸_US_美国 3
       - _US_美国
-      - _IL_以色列->🇺🇸_US_美国 4
-      - _SG_新加坡
+      - _IL_以色列->🇺🇸_US_美国
       - _US_美国 2
-      - _US_美国 5
+      - _US_美国 3
+      - _IL_以色列->🇺🇸_US_美国 2
+      - _TW_台湾
+      - _US_美国 8
       - _IL_以色列->🇦🇺_AU_澳大利亚
-      - _IL_以色列->🇦🇺_AU_澳大利亚 2
-      - _IL_以色列->🇦🇺_AU_澳大利亚 3
-      - _HK_香港->🇳🇱_NL_荷兰
       - _IL_以色列->🇳🇱_NL_荷兰
+      - _US_美国 12
       - _IL_以色列->🇳🇱_NL_荷兰 2
-      - _US_美国 7
       - _IL_以色列->🇳🇱_NL_荷兰 3
+      - _IL_以色列->🇳🇱_NL_荷兰 4
+      - _HK_香港->🇳🇱_NL_荷兰
+      - _IL_以色列->🇳🇱_NL_荷兰 5
+      - _NL_荷兰
+      - _US_美国->🇩🇪_DE_德国
       - _IL_以色列->🇬🇧_GB_英国
       - _IL_以色列->🇬🇧_GB_英国 2
-      - _US_美国->🇭🇰_HK_香港
-      - _US_美国 9
       - _IL_以色列->🇬🇧_GB_英国 3
+      - _IL_以色列->🇬🇧_GB_英国 4
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
