@@ -5,38 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国【付费推荐：https://tt.vg/vip】249, server: z.zorro.tk, port: 443, type: vmess, uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ou, headers: {Host: z.zorro.tk}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】216, server: 162.159.250.183, port: 2086, type: vmess, uuid: eb943c5b-ac55-46f9-8710-d0641c38ae9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】12, server: 107.167.29.235, port: 46321, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国CloudFlare节点 13, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_128, server: 142.4.112.27, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇷🇺RU_163, server: 104.27.1.133, port: 443, type: vmess, uuid: 2484f444-0e00-5a0f-b8f1-4fe2a2550d65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api01, headers: {Host: schereinappclient.alluserconnectv2ray.xyz}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_186, server: 64.32.4.43, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_188, server: 38.63.0.69, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1683955693848, headers: {Host: www.19458162.xyz}}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_192, server: 140.99.128.114, port: 58455, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_205, server: 107.167.16.34, port: 45592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 140.99.120.171, port: 57172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: 64.32.4.47, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 4, server: 142.4.106.244, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡->🇺🇸_US_美国, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us1.pqjc.site, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: 38.26.135.8, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 9, server: 142.4.126.77, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 11, server: 170.178.167.144, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 12, server: 108.186.192.228, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇸🇬_SG_新加坡 2, server: linkedin.disnet.gq, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: linkedin.disnet.gq}}, udp: true}
-  - {name: _US_美国 14, server: 64.32.4.39, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 17, server: 140.99.157.84, port: 47839, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 18, server: 163.123.192.60, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 19, server: 137.175.18.89, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.165, port: 55016, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 20, server: 137.175.18.91, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇸🇬_SG_新加坡 3, server: 104.31.16.196, port: 443, type: vmess, uuid: a869c557-5c7d-426f-9039-0279c16352bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: linkedin.disnet.gq}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 3, server: 156.225.67.17, port: 49901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 23, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 4, server: 156.225.67.152, port: 46433, type: vmess, uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国->🇳🇱_NL_荷兰 2, server: 156.249.18.36, port: 48222, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 26, server: 163.123.192.57, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国, server: 51.89.74.241, port: 51102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -44,76 +12,12 @@ proxy-groups:
     proxies:
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 美国【付费推荐：https://tt.vg/vip】249
-      - 美国【付费推荐：https://tt.vg/vip】216
-      - 美国【付费推荐：https://tt.vg/vip】12
-      - 美国CloudFlare节点 13
-      - Relay_🇺🇸US-🇺🇸US_128
-      - Relay_🇺🇸US-🇷🇺RU_163
-      - Relay_🇺🇸US-🇺🇸US_186
-      - US_188
-      - Relay_🇺🇸US-🇺🇸US_192
-      - Relay_🇺🇸US-🇺🇸US_205
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 4
-      - _SG_新加坡->🇺🇸_US_美国
-      - _US_美国 5
-      - _US_美国 9
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国->🇸🇬_SG_新加坡 2
-      - _US_美国 14
-      - _US_美国 17
-      - _US_美国 18
-      - _US_美国 19
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 20
-      - _US_美国->🇸🇬_SG_新加坡 3
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国 23
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _FR_法国->🇳🇱_NL_荷兰 2
-      - _US_美国 26
-      - _GB_英国
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国【付费推荐：https://tt.vg/vip】249
-      - 美国【付费推荐：https://tt.vg/vip】216
-      - 美国【付费推荐：https://tt.vg/vip】12
-      - 美国CloudFlare节点 13
-      - Relay_🇺🇸US-🇺🇸US_128
-      - Relay_🇺🇸US-🇷🇺RU_163
-      - Relay_🇺🇸US-🇺🇸US_186
-      - US_188
-      - Relay_🇺🇸US-🇺🇸US_192
-      - Relay_🇺🇸US-🇺🇸US_205
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 4
-      - _SG_新加坡->🇺🇸_US_美国
-      - _US_美国 5
-      - _US_美国 9
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国->🇸🇬_SG_新加坡 2
-      - _US_美国 14
-      - _US_美国 17
-      - _US_美国 18
-      - _US_美国 19
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 20
-      - _US_美国->🇸🇬_SG_新加坡 3
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国 23
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _FR_法国->🇳🇱_NL_荷兰 2
-      - _US_美国 26
-      - _GB_英国
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -121,38 +25,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 美国【付费推荐：https://tt.vg/vip】249
-      - 美国【付费推荐：https://tt.vg/vip】216
-      - 美国【付费推荐：https://tt.vg/vip】12
-      - 美国CloudFlare节点 13
-      - Relay_🇺🇸US-🇺🇸US_128
-      - Relay_🇺🇸US-🇷🇺RU_163
-      - Relay_🇺🇸US-🇺🇸US_186
-      - US_188
-      - Relay_🇺🇸US-🇺🇸US_192
-      - Relay_🇺🇸US-🇺🇸US_205
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 4
-      - _SG_新加坡->🇺🇸_US_美国
-      - _US_美国 5
-      - _US_美国 9
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国->🇸🇬_SG_新加坡 2
-      - _US_美国 14
-      - _US_美国 17
-      - _US_美国 18
-      - _US_美国 19
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 20
-      - _US_美国->🇸🇬_SG_新加坡 3
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国 23
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _FR_法国->🇳🇱_NL_荷兰 2
-      - _US_美国 26
-      - _GB_英国
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -160,38 +32,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 美国【付费推荐：https://tt.vg/vip】249
-      - 美国【付费推荐：https://tt.vg/vip】216
-      - 美国【付费推荐：https://tt.vg/vip】12
-      - 美国CloudFlare节点 13
-      - Relay_🇺🇸US-🇺🇸US_128
-      - Relay_🇺🇸US-🇷🇺RU_163
-      - Relay_🇺🇸US-🇺🇸US_186
-      - US_188
-      - Relay_🇺🇸US-🇺🇸US_192
-      - Relay_🇺🇸US-🇺🇸US_205
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 4
-      - _SG_新加坡->🇺🇸_US_美国
-      - _US_美国 5
-      - _US_美国 9
-      - _US_美国 11
-      - _US_美国 12
-      - _US_美国->🇸🇬_SG_新加坡 2
-      - _US_美国 14
-      - _US_美国 17
-      - _US_美国 18
-      - _US_美国 19
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 20
-      - _US_美国->🇸🇬_SG_新加坡 3
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - _US_美国 23
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _FR_法国->🇳🇱_NL_荷兰 2
-      - _US_美国 26
-      - _GB_英国
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
