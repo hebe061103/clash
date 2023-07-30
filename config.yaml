@@ -5,13 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国【付费推荐：https://tt.vg/vip】207, server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国【付费推荐：https://tt.vg/vip】112, server: 140.99.120.173, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1690282577532, headers: {Host: www.22716613.xyz}}, udp: true}
-  - {name: 美国加利福尼亚州洛杉矶MULTACOM数据中心 2, server: 173.82.55.92, port: 34412, type: vmess, uuid: 82620a6e-dbfd-4d57-8a59-9004a4bb9e92, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 3, server: 163.123.192.154, port: 443, type: trojan, password: d31792a4-b843-469f-9185-4a6111ff7612, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港 2, server: 154.92.9.19, port: 80, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: ecc.vtcss.top}}, udp: true}
-  - {name: _HK_香港 3, server: 154.92.9.234, port: 80, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: ecc.vtcss.top}}, udp: true}
-  - {name: _US_美国 10, server: 163.123.192.155, port: 443, type: trojan, password: d31792a4-b843-469f-9185-4a6111ff7612, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: 45.12.112.102, port: 48901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 20, server: 163.123.192.155, port: 443, type: trojan, password: d31792a4-b843-469f-9185-4a6111ff7612, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港 2, server: 154.92.9.101, port: 80, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: ecc.vtcss.top}}, udp: true}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -19,26 +16,20 @@ proxy-groups:
     proxies:
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 美国【付费推荐：https://tt.vg/vip】207
       - 美国【付费推荐：https://tt.vg/vip】112
-      - 美国加利福尼亚州洛杉矶MULTACOM数据中心 2
       - _US_美国 3
+      - _US_美国 20
       - _HK_香港 2
-      - _HK_香港 3
-      - _US_美国 10
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国【付费推荐：https://tt.vg/vip】207
       - 美国【付费推荐：https://tt.vg/vip】112
-      - 美国加利福尼亚州洛杉矶MULTACOM数据中心 2
       - _US_美国 3
+      - _US_美国 20
       - _HK_香港 2
-      - _HK_香港 3
-      - _US_美国 10
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -46,13 +37,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 美国【付费推荐：https://tt.vg/vip】207
       - 美国【付费推荐：https://tt.vg/vip】112
-      - 美国加利福尼亚州洛杉矶MULTACOM数据中心 2
       - _US_美国 3
+      - _US_美国 20
       - _HK_香港 2
-      - _HK_香港 3
-      - _US_美国 10
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -60,13 +48,10 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 美国【付费推荐：https://tt.vg/vip】207
       - 美国【付费推荐：https://tt.vg/vip】112
-      - 美国加利福尼亚州洛杉矶MULTACOM数据中心 2
       - _US_美国 3
+      - _US_美国 20
       - _HK_香港 2
-      - _HK_香港 3
-      - _US_美国 10
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
