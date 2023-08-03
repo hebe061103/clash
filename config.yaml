@@ -5,28 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国【付费推荐：https://tt.vg/vip】124, server: 108.162.195.141, port: 8880, type: vmess, uuid: d7ca2363-81c2-43a0-f141-352815da3ac3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: uxx.vtcss.top}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】213, server: 172.67.65.210, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】43, server: 172.64.106.104, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国 Datability, server: 140.99.129.244, port: 48901, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国加利福尼亚州洛杉矶市SharkTech数据中心 5, server: 107.167.29.93, port: 45585, type: vmess, uuid: 465dec1a-e09b-4bb6-9905-70f75d6035c8, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 广东省深圳市移动 13, server: 183.232.249.189, port: 59902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国CloudFlare公司CDN节点(shopify) 14, server: Shopify.com, port: 2086, type: vmess, uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: Fr.cloudflare.quest}}, udp: true}
-  - {name: 美国CloudFlare节点 16, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 欧盟  19, server: ask.ircf.space, port: 443, type: vmess, uuid: 79770a32-9607-4919-9483-0f1794559390, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: nika3hdfy2.foriran.trade, network: ws, ws-opts: {path: /juYLyvNBpY0LBOAommy2aJE, headers: {Host: nika3hdfy2.foriran.trade}}, udp: true}
-  - {name: 西班牙  20, server: shm.ircf.space, port: 443, type: vmess, uuid: 79770a32-9607-4919-9483-0f1794559390, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /juYLyvNBpY0LBOAommy2aJE, headers: {Host: hiddis2.freelines.net}}, udp: true}
-  - {name: 美国CloudFlare节点 31, server: cf3.992688.xyz, port: 8080, type: vmess, uuid: d3ded505-f89d-4070-dafa-8288ffbabd32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}, udp: true}
-  - {name: Relay_🇹🇼TW-🇹🇼TW_95, server: tw98-1g-hinet.mytls888.com, port: 554, type: vmess, uuid: 20e8b580-3c11-3017-a840-eb624b483324, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_133, server: 45.58.186.81, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇳🇱NL_147, server: 45.199.138.92, port: 49232, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 107.167.12.30, port: 41707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: cdn.aikun.online, port: 443, type: vmess, uuid: 9e89ba21-9b62-4e1e-b4ac-bec68b517fcf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cdn, headers: {Host: us-cdn-01.aikun.online}}, udp: true}
-  - {name: _US_美国 3, server: 162.159.135.251, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: _DE_德国, server: www.dongtaiwang4.com, port: 22222, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: _US_美国 8, server: racknerd.gorgorchicken.one, port: 8443, type: vmess, uuid: 1df0a6ca-5812-4bce-ddb1-9cd5548f4919, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /racknerd, headers: {Host: racknerd.gorgorchicken.one}}, udp: true}
-  - {name: _US_美国 13, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: f467f4da-2226-448d-a30d-463ef10548ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus2.vpn66.eu.org}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 2, server: 172.67.10.121, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk2.scproxy.top}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 5, server: 162.159.242.211, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
+  - {name: 美国CloudFlare节点 27, server: cf3.992688.xyz, port: 8080, type: vmess, uuid: d3ded505-f89d-4070-dafa-8288ffbabd32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_93, server: tw98-1g-hinet.mytls888.com, port: 554, type: vmess, uuid: 20e8b580-3c11-3017-a840-eb624b483324, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: 38.26.135.13, port: 40940, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 4, server: 107.167.12.29, port: 41707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _FR_法国->🇺🇸_US_美国, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _US_美国 11, server: 107.167.29.93, port: 45585, type: vmess, uuid: 465dec1a-e09b-4bb6-9905-70f75d6035c8, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大->🇫🇷_FR_法国, server: Shopify.com, port: 2086, type: vmess, uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: Fr.cloudflare.quest}}, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰 3, server: 172.64.92.42, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
+  - {name: _US_美国->🇦🇪_AE_阿联酋 2, server: 104.21.12.87, port: 80, type: vmess, uuid: 0b65bb06-6b28-487a-8e3c-820dda51e977, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dT9s3HqgZeD3eApzDAfhOHq, headers: {Host: series-v1.samanehha.co}}, udp: true}
+  - {name: _US_美国->🇦🇪_AE_阿联酋 4, server: series-v1.samanehha.co, port: 443, type: vmess, uuid: 0b65bb06-6b28-487a-8e3c-820dda51e977, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dT9s3HqgZeD3eApzDAfhOHq, headers: {Host: series-v1.samanehha.co}}, udp: true}
+  - {name: _US_美国 24, server: 172.67.65.210, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -34,56 +23,34 @@ proxy-groups:
     proxies:
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 美国【付费推荐：https://tt.vg/vip】124
-      - 美国【付费推荐：https://tt.vg/vip】213
-      - 美国【付费推荐：https://tt.vg/vip】43
-      - 美国 Datability
-      - 美国加利福尼亚州洛杉矶市SharkTech数据中心 5
-      - 广东省深圳市移动 13
-      - 美国CloudFlare公司CDN节点(shopify) 14
-      - 美国CloudFlare节点 16
-      - 欧盟  19
-      - 西班牙  20
-      - 美国CloudFlare节点 31
-      - Relay_🇹🇼TW-🇹🇼TW_95
-      - Relay_🇺🇸US-🇺🇸US_133
-      - Relay_🇺🇸US-🇳🇱NL_147
-      - _US_美国
-      - _US_美国 2
+      - 美国CloudFlare节点 27
+      - Relay_🇹🇼TW-🇹🇼TW_93
       - _US_美国 3
-      - _DE_德国
-      - _US_美国 8
-      - _US_美国 13
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国->🇳🇱_NL_荷兰 5
+      - _US_美国 4
+      - _FR_法国->🇺🇸_US_美国
+      - _US_美国 11
+      - _CA_加拿大->🇫🇷_FR_法国
+      - _US_美国->🇳🇱_NL_荷兰 3
+      - _US_美国->🇦🇪_AE_阿联酋 2
+      - _US_美国->🇦🇪_AE_阿联酋 4
+      - _US_美国 24
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国【付费推荐：https://tt.vg/vip】124
-      - 美国【付费推荐：https://tt.vg/vip】213
-      - 美国【付费推荐：https://tt.vg/vip】43
-      - 美国 Datability
-      - 美国加利福尼亚州洛杉矶市SharkTech数据中心 5
-      - 广东省深圳市移动 13
-      - 美国CloudFlare公司CDN节点(shopify) 14
-      - 美国CloudFlare节点 16
-      - 欧盟  19
-      - 西班牙  20
-      - 美国CloudFlare节点 31
-      - Relay_🇹🇼TW-🇹🇼TW_95
-      - Relay_🇺🇸US-🇺🇸US_133
-      - Relay_🇺🇸US-🇳🇱NL_147
-      - _US_美国
-      - _US_美国 2
+      - 美国CloudFlare节点 27
+      - Relay_🇹🇼TW-🇹🇼TW_93
       - _US_美国 3
-      - _DE_德国
-      - _US_美国 8
-      - _US_美国 13
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国->🇳🇱_NL_荷兰 5
+      - _US_美国 4
+      - _FR_法国->🇺🇸_US_美国
+      - _US_美国 11
+      - _CA_加拿大->🇫🇷_FR_法国
+      - _US_美国->🇳🇱_NL_荷兰 3
+      - _US_美国->🇦🇪_AE_阿联酋 2
+      - _US_美国->🇦🇪_AE_阿联酋 4
+      - _US_美国 24
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -91,28 +58,17 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 美国【付费推荐：https://tt.vg/vip】124
-      - 美国【付费推荐：https://tt.vg/vip】213
-      - 美国【付费推荐：https://tt.vg/vip】43
-      - 美国 Datability
-      - 美国加利福尼亚州洛杉矶市SharkTech数据中心 5
-      - 广东省深圳市移动 13
-      - 美国CloudFlare公司CDN节点(shopify) 14
-      - 美国CloudFlare节点 16
-      - 欧盟  19
-      - 西班牙  20
-      - 美国CloudFlare节点 31
-      - Relay_🇹🇼TW-🇹🇼TW_95
-      - Relay_🇺🇸US-🇺🇸US_133
-      - Relay_🇺🇸US-🇳🇱NL_147
-      - _US_美国
-      - _US_美国 2
+      - 美国CloudFlare节点 27
+      - Relay_🇹🇼TW-🇹🇼TW_93
       - _US_美国 3
-      - _DE_德国
-      - _US_美国 8
-      - _US_美国 13
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国->🇳🇱_NL_荷兰 5
+      - _US_美国 4
+      - _FR_法国->🇺🇸_US_美国
+      - _US_美国 11
+      - _CA_加拿大->🇫🇷_FR_法国
+      - _US_美国->🇳🇱_NL_荷兰 3
+      - _US_美国->🇦🇪_AE_阿联酋 2
+      - _US_美国->🇦🇪_AE_阿联酋 4
+      - _US_美国 24
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -120,28 +76,17 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 美国【付费推荐：https://tt.vg/vip】124
-      - 美国【付费推荐：https://tt.vg/vip】213
-      - 美国【付费推荐：https://tt.vg/vip】43
-      - 美国 Datability
-      - 美国加利福尼亚州洛杉矶市SharkTech数据中心 5
-      - 广东省深圳市移动 13
-      - 美国CloudFlare公司CDN节点(shopify) 14
-      - 美国CloudFlare节点 16
-      - 欧盟  19
-      - 西班牙  20
-      - 美国CloudFlare节点 31
-      - Relay_🇹🇼TW-🇹🇼TW_95
-      - Relay_🇺🇸US-🇺🇸US_133
-      - Relay_🇺🇸US-🇳🇱NL_147
-      - _US_美国
-      - _US_美国 2
+      - 美国CloudFlare节点 27
+      - Relay_🇹🇼TW-🇹🇼TW_93
       - _US_美国 3
-      - _DE_德国
-      - _US_美国 8
-      - _US_美国 13
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国->🇳🇱_NL_荷兰 5
+      - _US_美国 4
+      - _FR_法国->🇺🇸_US_美国
+      - _US_美国 11
+      - _CA_加拿大->🇫🇷_FR_法国
+      - _US_美国->🇳🇱_NL_荷兰 3
+      - _US_美国->🇦🇪_AE_阿联酋 2
+      - _US_美国->🇦🇪_AE_阿联酋 4
+      - _US_美国 24
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
