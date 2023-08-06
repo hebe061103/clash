@@ -5,61 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 法国【付费推荐：https://tt.vg/vip】67, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】84, server: 162.159.135.251, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】83, server: 162.159.133.130, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】120, server: 162.159.130.198, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】36, server: 172.67.61.240, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】257, server: 172.64.92.42, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】97, server: 104.25.213.122, port: 2082, type: vmess, uuid: 0ddf0cc4-1487-4ff1-a6a7-d9ab93040606, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: tot.vtcss.top}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】209, server: 172.67.8.33, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】251, server: 141.101.123.243, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】248, server: 172.67.193.109, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】243, server: 172.67.237.73, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】138, server: 45.199.138.145, port: 42111, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】287, server: 172.67.131.245, port: 80, type: vmess, uuid: 0b65bb06-6b28-487a-8e3c-820dda51e977, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dT9s3HqgZeD3eApzDAfhOHq, headers: {Host: series-v1.samanehha.co}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】309, server: 162.159.245.122, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】180, server: 141.101.122.190, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】134, server: 172.67.211.43, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】250, server: 198.41.214.55, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】161, server: 172.67.197.57, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】195, server: 162.159.242.155, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】24, server: 171.22.116.44, port: 46909, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】172, server: 172.67.7.186, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】19, server: 172.64.106.104, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】102, server: 172.64.129.7, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】104, server: 172.64.134.52, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】38, server: 172.64.175.26, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】254, server: 172.64.194.98, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】46, server: 172.64.194.234, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】29, server: 172.64.172.109, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】224, server: 142.4.126.20, port: 51115, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国 CloudFlare节点 7, server: 162.159.253.25, port: 80, type: vmess, uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 4a47e680, headers: {Host: ddp2.1808.cf}}, udp: true}
-  - {name: 美国 CloudFlare公司CDN节点(shopify), server: Shopify.com, port: 2086, type: vmess, uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: Fr.cloudflare.quest}}, udp: true}
-  - {name: 美国CloudFlare公司CDN节点(shopify) 7, server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: d.freeh1.xyz, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
-  - {name: 美国CloudFlare节点 10, server: cf3.992688.xyz, port: 8080, type: vmess, uuid: d3ded505-f89d-4070-dafa-8288ffbabd32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}, udp: true}
-  - {name: 福建省厦门市电信 18, server: qzcn2-01.dajuzi.cc, port: 15596, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国CloudFlare节点 24, server: 162.159.255.119, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: 美国CloudFlare节点 27, server: 162.159.240.218, port: 80, type: vmess, uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 4a47e680, headers: {Host: ddp2.1808.cf}}, udp: true}
-  - {name: Relay_🇫🇷FR-🇳🇱NL_34, server: 156.249.18.38, port: 48222, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 3, server: 107.167.12.30, port: 41707, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 4, server: 45.92.161.166, port: 47929, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇧🇷_BR_巴西 2, server: 172.64.165.188, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: _US_美国 7, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: 44c48fbe-cfbf-40ee-b0e4-12a1cec4da69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}, udp: true}
-  - {name: _US_美国->🇧🇷_BR_巴西 3, server: 141.101.115.89, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: _US_美国->🇧🇷_BR_巴西 4, server: 141.101.123.143, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: _US_美国->🇧🇷_BR_巴西 5, server: 172.67.144.240, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: _US_美国 10, server: 162.159.242.18, port: 80, type: vmess, uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 4a47e680, headers: {Host: ddp2.1808.cf}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.180, port: 45190, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 13, server: 100.42.70.145, port: 41245, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇧🇷_BR_巴西 7, server: 162.159.240.102, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: _US_美国->🇦🇪_AE_阿联酋 2, server: 104.21.12.87, port: 80, type: vmess, uuid: 0b65bb06-6b28-487a-8e3c-820dda51e977, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dT9s3HqgZeD3eApzDAfhOHq, headers: {Host: series-v1.samanehha.co}}, udp: true}
-  - {name: _US_美国->🇧🇷_BR_巴西 8, server: 172.67.97.183, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: _US_美国->🇧🇷_BR_巴西 9, server: 172.64.105.171, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: _US_美国->🇧🇷_BR_巴西 11, server: 162.159.242.211, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: _US_美国->🇧🇷_BR_巴西 12, server: 172.64.192.180, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: _US_美国->🇧🇷_BR_巴西 13, server: 172.64.207.232, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
-  - {name: _US_美国->🇧🇷_BR_巴西 14, server: 162.159.254.44, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
+  - {name: 美国 CloudFlare节点, server: 162.159.130.198, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: 欧盟  3, server: 45.92.161.166, port: 47929, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国CloudFlare公司CDN节点 7, server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}, udp: true}
+  - {name: _CY_塞浦路斯->🇺🇸_US_美国, server: 203.23.104.190, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}, udp: true}
+  - {name: _US_美国 4, server: 34.217.75.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国 5, server: 163.123.192.154, port: 443, type: trojan, password: d31792a4-b843-469f-9185-4a6111ff7612, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 10, server: 163.123.192.155, port: 443, type: trojan, password: d31792a4-b843-469f-9185-4a6111ff7612, skip-cert-verify: true, udp: true}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -67,122 +19,26 @@ proxy-groups:
     proxies:
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 法国【付费推荐：https://tt.vg/vip】67
-      - 美国【付费推荐：https://tt.vg/vip】84
-      - 美国【付费推荐：https://tt.vg/vip】83
-      - 美国【付费推荐：https://tt.vg/vip】120
-      - 美国【付费推荐：https://tt.vg/vip】36
-      - 美国【付费推荐：https://tt.vg/vip】257
-      - 美国【付费推荐：https://tt.vg/vip】97
-      - 美国【付费推荐：https://tt.vg/vip】209
-      - 美国【付费推荐：https://tt.vg/vip】251
-      - 美国【付费推荐：https://tt.vg/vip】248
-      - 美国【付费推荐：https://tt.vg/vip】243
-      - 美国【付费推荐：https://tt.vg/vip】138
-      - 美国【付费推荐：https://tt.vg/vip】287
-      - 美国【付费推荐：https://tt.vg/vip】309
-      - 美国【付费推荐：https://tt.vg/vip】180
-      - 美国【付费推荐：https://tt.vg/vip】134
-      - 美国【付费推荐：https://tt.vg/vip】250
-      - 美国【付费推荐：https://tt.vg/vip】161
-      - 美国【付费推荐：https://tt.vg/vip】195
-      - 美国【付费推荐：https://tt.vg/vip】24
-      - 美国【付费推荐：https://tt.vg/vip】172
-      - 美国【付费推荐：https://tt.vg/vip】19
-      - 美国【付费推荐：https://tt.vg/vip】102
-      - 美国【付费推荐：https://tt.vg/vip】104
-      - 美国【付费推荐：https://tt.vg/vip】38
-      - 美国【付费推荐：https://tt.vg/vip】254
-      - 美国【付费推荐：https://tt.vg/vip】46
-      - 美国【付费推荐：https://tt.vg/vip】29
-      - 美国【付费推荐：https://tt.vg/vip】224
-      - 美国 CloudFlare节点 7
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 美国CloudFlare公司CDN节点(shopify) 7
-      - 美国CloudFlare节点 10
-      - 福建省厦门市电信 18
-      - 美国CloudFlare节点 24
-      - 美国CloudFlare节点 27
-      - Relay_🇫🇷FR-🇳🇱NL_34
-      - _US_美国 3
+      - 美国 CloudFlare节点
+      - 欧盟  3
+      - 美国CloudFlare公司CDN节点 7
+      - _CY_塞浦路斯->🇺🇸_US_美国
       - _US_美国 4
-      - _US_美国->🇧🇷_BR_巴西 2
-      - _US_美国 7
-      - _US_美国->🇧🇷_BR_巴西 3
-      - _US_美国->🇧🇷_BR_巴西 4
-      - _US_美国->🇧🇷_BR_巴西 5
+      - _US_美国 5
       - _US_美国 10
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 13
-      - _US_美国->🇧🇷_BR_巴西 7
-      - _US_美国->🇦🇪_AE_阿联酋 2
-      - _US_美国->🇧🇷_BR_巴西 8
-      - _US_美国->🇧🇷_BR_巴西 9
-      - _US_美国->🇧🇷_BR_巴西 11
-      - _US_美国->🇧🇷_BR_巴西 12
-      - _US_美国->🇧🇷_BR_巴西 13
-      - _US_美国->🇧🇷_BR_巴西 14
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 法国【付费推荐：https://tt.vg/vip】67
-      - 美国【付费推荐：https://tt.vg/vip】84
-      - 美国【付费推荐：https://tt.vg/vip】83
-      - 美国【付费推荐：https://tt.vg/vip】120
-      - 美国【付费推荐：https://tt.vg/vip】36
-      - 美国【付费推荐：https://tt.vg/vip】257
-      - 美国【付费推荐：https://tt.vg/vip】97
-      - 美国【付费推荐：https://tt.vg/vip】209
-      - 美国【付费推荐：https://tt.vg/vip】251
-      - 美国【付费推荐：https://tt.vg/vip】248
-      - 美国【付费推荐：https://tt.vg/vip】243
-      - 美国【付费推荐：https://tt.vg/vip】138
-      - 美国【付费推荐：https://tt.vg/vip】287
-      - 美国【付费推荐：https://tt.vg/vip】309
-      - 美国【付费推荐：https://tt.vg/vip】180
-      - 美国【付费推荐：https://tt.vg/vip】134
-      - 美国【付费推荐：https://tt.vg/vip】250
-      - 美国【付费推荐：https://tt.vg/vip】161
-      - 美国【付费推荐：https://tt.vg/vip】195
-      - 美国【付费推荐：https://tt.vg/vip】24
-      - 美国【付费推荐：https://tt.vg/vip】172
-      - 美国【付费推荐：https://tt.vg/vip】19
-      - 美国【付费推荐：https://tt.vg/vip】102
-      - 美国【付费推荐：https://tt.vg/vip】104
-      - 美国【付费推荐：https://tt.vg/vip】38
-      - 美国【付费推荐：https://tt.vg/vip】254
-      - 美国【付费推荐：https://tt.vg/vip】46
-      - 美国【付费推荐：https://tt.vg/vip】29
-      - 美国【付费推荐：https://tt.vg/vip】224
-      - 美国 CloudFlare节点 7
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 美国CloudFlare公司CDN节点(shopify) 7
-      - 美国CloudFlare节点 10
-      - 福建省厦门市电信 18
-      - 美国CloudFlare节点 24
-      - 美国CloudFlare节点 27
-      - Relay_🇫🇷FR-🇳🇱NL_34
-      - _US_美国 3
+      - 美国 CloudFlare节点
+      - 欧盟  3
+      - 美国CloudFlare公司CDN节点 7
+      - _CY_塞浦路斯->🇺🇸_US_美国
       - _US_美国 4
-      - _US_美国->🇧🇷_BR_巴西 2
-      - _US_美国 7
-      - _US_美国->🇧🇷_BR_巴西 3
-      - _US_美国->🇧🇷_BR_巴西 4
-      - _US_美国->🇧🇷_BR_巴西 5
+      - _US_美国 5
       - _US_美国 10
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 13
-      - _US_美国->🇧🇷_BR_巴西 7
-      - _US_美国->🇦🇪_AE_阿联酋 2
-      - _US_美国->🇧🇷_BR_巴西 8
-      - _US_美国->🇧🇷_BR_巴西 9
-      - _US_美国->🇧🇷_BR_巴西 11
-      - _US_美国->🇧🇷_BR_巴西 12
-      - _US_美国->🇧🇷_BR_巴西 13
-      - _US_美国->🇧🇷_BR_巴西 14
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -190,61 +46,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 法国【付费推荐：https://tt.vg/vip】67
-      - 美国【付费推荐：https://tt.vg/vip】84
-      - 美国【付费推荐：https://tt.vg/vip】83
-      - 美国【付费推荐：https://tt.vg/vip】120
-      - 美国【付费推荐：https://tt.vg/vip】36
-      - 美国【付费推荐：https://tt.vg/vip】257
-      - 美国【付费推荐：https://tt.vg/vip】97
-      - 美国【付费推荐：https://tt.vg/vip】209
-      - 美国【付费推荐：https://tt.vg/vip】251
-      - 美国【付费推荐：https://tt.vg/vip】248
-      - 美国【付费推荐：https://tt.vg/vip】243
-      - 美国【付费推荐：https://tt.vg/vip】138
-      - 美国【付费推荐：https://tt.vg/vip】287
-      - 美国【付费推荐：https://tt.vg/vip】309
-      - 美国【付费推荐：https://tt.vg/vip】180
-      - 美国【付费推荐：https://tt.vg/vip】134
-      - 美国【付费推荐：https://tt.vg/vip】250
-      - 美国【付费推荐：https://tt.vg/vip】161
-      - 美国【付费推荐：https://tt.vg/vip】195
-      - 美国【付费推荐：https://tt.vg/vip】24
-      - 美国【付费推荐：https://tt.vg/vip】172
-      - 美国【付费推荐：https://tt.vg/vip】19
-      - 美国【付费推荐：https://tt.vg/vip】102
-      - 美国【付费推荐：https://tt.vg/vip】104
-      - 美国【付费推荐：https://tt.vg/vip】38
-      - 美国【付费推荐：https://tt.vg/vip】254
-      - 美国【付费推荐：https://tt.vg/vip】46
-      - 美国【付费推荐：https://tt.vg/vip】29
-      - 美国【付费推荐：https://tt.vg/vip】224
-      - 美国 CloudFlare节点 7
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 美国CloudFlare公司CDN节点(shopify) 7
-      - 美国CloudFlare节点 10
-      - 福建省厦门市电信 18
-      - 美国CloudFlare节点 24
-      - 美国CloudFlare节点 27
-      - Relay_🇫🇷FR-🇳🇱NL_34
-      - _US_美国 3
+      - 美国 CloudFlare节点
+      - 欧盟  3
+      - 美国CloudFlare公司CDN节点 7
+      - _CY_塞浦路斯->🇺🇸_US_美国
       - _US_美国 4
-      - _US_美国->🇧🇷_BR_巴西 2
-      - _US_美国 7
-      - _US_美国->🇧🇷_BR_巴西 3
-      - _US_美国->🇧🇷_BR_巴西 4
-      - _US_美国->🇧🇷_BR_巴西 5
+      - _US_美国 5
       - _US_美国 10
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 13
-      - _US_美国->🇧🇷_BR_巴西 7
-      - _US_美国->🇦🇪_AE_阿联酋 2
-      - _US_美国->🇧🇷_BR_巴西 8
-      - _US_美国->🇧🇷_BR_巴西 9
-      - _US_美国->🇧🇷_BR_巴西 11
-      - _US_美国->🇧🇷_BR_巴西 12
-      - _US_美国->🇧🇷_BR_巴西 13
-      - _US_美国->🇧🇷_BR_巴西 14
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -252,61 +60,13 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 法国【付费推荐：https://tt.vg/vip】67
-      - 美国【付费推荐：https://tt.vg/vip】84
-      - 美国【付费推荐：https://tt.vg/vip】83
-      - 美国【付费推荐：https://tt.vg/vip】120
-      - 美国【付费推荐：https://tt.vg/vip】36
-      - 美国【付费推荐：https://tt.vg/vip】257
-      - 美国【付费推荐：https://tt.vg/vip】97
-      - 美国【付费推荐：https://tt.vg/vip】209
-      - 美国【付费推荐：https://tt.vg/vip】251
-      - 美国【付费推荐：https://tt.vg/vip】248
-      - 美国【付费推荐：https://tt.vg/vip】243
-      - 美国【付费推荐：https://tt.vg/vip】138
-      - 美国【付费推荐：https://tt.vg/vip】287
-      - 美国【付费推荐：https://tt.vg/vip】309
-      - 美国【付费推荐：https://tt.vg/vip】180
-      - 美国【付费推荐：https://tt.vg/vip】134
-      - 美国【付费推荐：https://tt.vg/vip】250
-      - 美国【付费推荐：https://tt.vg/vip】161
-      - 美国【付费推荐：https://tt.vg/vip】195
-      - 美国【付费推荐：https://tt.vg/vip】24
-      - 美国【付费推荐：https://tt.vg/vip】172
-      - 美国【付费推荐：https://tt.vg/vip】19
-      - 美国【付费推荐：https://tt.vg/vip】102
-      - 美国【付费推荐：https://tt.vg/vip】104
-      - 美国【付费推荐：https://tt.vg/vip】38
-      - 美国【付费推荐：https://tt.vg/vip】254
-      - 美国【付费推荐：https://tt.vg/vip】46
-      - 美国【付费推荐：https://tt.vg/vip】29
-      - 美国【付费推荐：https://tt.vg/vip】224
-      - 美国 CloudFlare节点 7
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 美国CloudFlare公司CDN节点(shopify) 7
-      - 美国CloudFlare节点 10
-      - 福建省厦门市电信 18
-      - 美国CloudFlare节点 24
-      - 美国CloudFlare节点 27
-      - Relay_🇫🇷FR-🇳🇱NL_34
-      - _US_美国 3
+      - 美国 CloudFlare节点
+      - 欧盟  3
+      - 美国CloudFlare公司CDN节点 7
+      - _CY_塞浦路斯->🇺🇸_US_美国
       - _US_美国 4
-      - _US_美国->🇧🇷_BR_巴西 2
-      - _US_美国 7
-      - _US_美国->🇧🇷_BR_巴西 3
-      - _US_美国->🇧🇷_BR_巴西 4
-      - _US_美国->🇧🇷_BR_巴西 5
+      - _US_美国 5
       - _US_美国 10
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 13
-      - _US_美国->🇧🇷_BR_巴西 7
-      - _US_美国->🇦🇪_AE_阿联酋 2
-      - _US_美国->🇧🇷_BR_巴西 8
-      - _US_美国->🇧🇷_BR_巴西 9
-      - _US_美国->🇧🇷_BR_巴西 11
-      - _US_美国->🇧🇷_BR_巴西 12
-      - _US_美国->🇧🇷_BR_巴西 13
-      - _US_美国->🇧🇷_BR_巴西 14
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
