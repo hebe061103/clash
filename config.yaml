@@ -5,14 +5,15 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国CloudFlare公司CDN节点(shopify) 10, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
-  - {name: US_110, server: 45.58.186.91, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: mci.bamarambash.monster, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /b8767a6a-1c30-11ee-ba76-9ee097a90b8b, headers: {Host: b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster}}, udp: true}
-  - {name: _FR_法国->🇺🇸_US_美国, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: _JP_日本->🇺🇸_US_美国, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: e3a37909-487c-4748-8ba4-945290267018, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: e3a37909, headers: {Host: dd2.1808.cf}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.185, port: 44144, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰 2, server: 45.199.138.92, port: 49232, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡, server: 3.0.147.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 美国CloudFlare节点 9, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: f467f4da-2226-448d-a30d-463ef10548ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vcus2.vpn66.eu.org}}, udp: true}
+  - {name: 美国弗吉尼亚州阿什本NV NEXT数据中心 13, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _SG_新加坡, server: 54.254.129.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国 2, server: 140.99.128.99, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: 104.18.64.251, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /GdtYWlsLmNvbSJ9LCJjb3V, headers: {Host: newyork.yj2022.gq}}, udp: true}
+  - {name: _US_美国 9, server: 45.199.138.158, port: 49183, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 11, server: us2.cmbm.link, port: 443, type: vmess, uuid: 5436474d-13a9-47ef-898a-7101c2921be9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /re, headers: {Host: us2.cmbm.link}}, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡, server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: 16582759-3d20-4804-9c9c-a58ad7b260a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg3.sanfencdn2.com}}, udp: true}
+  - {name: _US_美国 17, server: 162.159.130.198, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -20,28 +21,30 @@ proxy-groups:
     proxies:
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 美国CloudFlare公司CDN节点(shopify) 10
-      - US_110
-      - _US_美国 2
-      - _FR_法国->🇺🇸_US_美国
-      - _JP_日本->🇺🇸_US_美国
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 2
+      - 美国CloudFlare节点 9
+      - 美国弗吉尼亚州阿什本NV NEXT数据中心 13
       - _SG_新加坡
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国->🇸🇬_SG_新加坡
+      - _US_美国 17
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国CloudFlare公司CDN节点(shopify) 10
-      - US_110
-      - _US_美国 2
-      - _FR_法国->🇺🇸_US_美国
-      - _JP_日本->🇺🇸_US_美国
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 2
+      - 美国CloudFlare节点 9
+      - 美国弗吉尼亚州阿什本NV NEXT数据中心 13
       - _SG_新加坡
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国->🇸🇬_SG_新加坡
+      - _US_美国 17
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -49,14 +52,15 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 美国CloudFlare公司CDN节点(shopify) 10
-      - US_110
-      - _US_美国 2
-      - _FR_法国->🇺🇸_US_美国
-      - _JP_日本->🇺🇸_US_美国
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 2
+      - 美国CloudFlare节点 9
+      - 美国弗吉尼亚州阿什本NV NEXT数据中心 13
       - _SG_新加坡
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国->🇸🇬_SG_新加坡
+      - _US_美国 17
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -64,14 +68,15 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 美国CloudFlare公司CDN节点(shopify) 10
-      - US_110
-      - _US_美国 2
-      - _FR_法国->🇺🇸_US_美国
-      - _JP_日本->🇺🇸_US_美国
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国->🇳🇱_NL_荷兰 2
+      - 美国CloudFlare节点 9
+      - 美国弗吉尼亚州阿什本NV NEXT数据中心 13
       - _SG_新加坡
+      - _US_美国 2
+      - _US_美国 3
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国->🇸🇬_SG_新加坡
+      - _US_美国 17
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
