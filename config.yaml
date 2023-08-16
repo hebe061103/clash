@@ -5,21 +5,32 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _JP_日本 2, server: gsawshk2.aiopen.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, tfo: false, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本 3, server: gsawsjp2.aiopen.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, tfo: false, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡, server: gsawssg1.aiopen.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, tfo: false, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: cfcdn2.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 78d6fa88-0d27-414f-8f51-1e16186d588f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us7.sanfencdn2.com}}, udp: true}
-  - {name: _US_美国 3, server: 45.92.160.34, port: 41098, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 6, server: ::ffff:6815:4f6e, port: 443, client-fingerprint: chrome, type: vmess, uuid: ffece2a9-0296-46a9-8db8-742d29d240ff, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: Elx0YjFbQWYqM3pxcityNDJEMyoeHih7UXJzRhsjaUVhC1l0MTo6BgpgCxtgeCUH, headers: {Host: bfcEb82481eEA41083b721E3D99d42c5b34AE27e4e03170FfaD8a75e948050D.wwwNaMAsha.Com}}, udp: true}
-  - {name: _US_美国 8, server: 173.245.59.107, port: 80, client-fingerprint: chrome, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue04, headers: {Host: ecc.vtcss.top}}, udp: true}
-  - {name: _US_美国 10, server: franc.digires.shop, port: 443, client-fingerprint: chrome, type: vmess, uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /11201, headers: {Host: franc.digires.shop}}, udp: true}
-  - {name: _US_美国 11, server: 104.26.5.124, port: 443, client-fingerprint: chrome, type: vless, uuid: 4237e058-a727-4503-b40d-db758a617c21, tls: true, tfo: false, servername: c01.c1.wang66.homes, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c01.c1.wang66.homes}}, udp: true}
-  - {name: _US_美国->🇬🇧_GB_英国, server: c1.wang66.homes, port: 443, client-fingerprint: chrome, type: vless, uuid: c2ee59b9-fb4d-4b75-a623-55455824fdaa, tls: true, tfo: false, servername: c1.wang66.homes, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c1.wang66.homes}}, udp: true}
-  - {name: _US_美国 12, server: 162.159.243.53, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: 156.225.67.89, port: 31129, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 CloudFlare节点, server: 172.64.87.129, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: 德国 阿里云, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: a7ee85f4, headers: {Host: dd2.1808.cf}}, udp: true}
+  - {name: 美国CloudFlare公司CDN节点(shopify) 22, server: 23.227.39.111, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 2.freek1.xyz, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
+  - {name: 美国CloudFlare公司CDN节点(shopify) 24, server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
+  - {name: _US_美国, server: 162.159.243.53, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _US_美国 2, server: 172.64.169.199, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: _US_美国 4, server: 172.64.201.138, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: _US_美国 5, server: 172.64.203.172, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: _US_美国 6, server: cf-lt.sharecentre.online, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}, udp: true}
+  - {name: _US_美国 7, server: 142.4.126.20, port: 51815, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 8, server: 140.99.59.243, port: 55100, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 9, server: 198.2.195.197, port: 47307, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: _FR_法国->🇺🇸_US_美国, server: 173.245.49.236, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: _KR_韩国 2, server: 43.201.7.243, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false, udp: true}
-  - {name: _US_美国 18, server: 45.199.138.192, port: 52015, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇰🇷_KR_韩国, server: 172.64.172.192, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7390f4bc-1bf0-42f4-9c4f-0cbc35217ee3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2.shabijichang.com}}, udp: true}
+  - {name: _FR_法国, server: 57.128.173.6, port: 443, client-fingerprint: chrome, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, tfo: false, sni: www.speedtest.net, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 12, server: 64.32.4.6, port: 50005, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇰🇷_KR_韩国 2, server: 172.64.109.233, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7390f4bc-1bf0-42f4-9c4f-0cbc35217ee3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2.shabijichang.com}}, udp: true}
+  - {name: _US_美国 13, server: 162.159.194.228, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: _US_美国->🇰🇷_KR_韩国 3, server: 172.64.110.64, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7390f4bc-1bf0-42f4-9c4f-0cbc35217ee3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2.shabijichang.com}}, udp: true}
+  - {name: _US_美国 16, server: 172.67.196.139, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _US_美国 18, server: 45.199.138.149, port: 42922, client-fingerprint: chrome, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇯🇵_JP_日本, server: fd.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7390f4bc-1bf0-42f4-9c4f-0cbc35217ee3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: db2.shabijichang.com}}, udp: true}
+  - {name: _US_美国 19, server: 172.64.193.37, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: _US_美国 22, server: 45.199.138.192, port: 52015, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 23, server: 141.101.115.65, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国 4, server: ns1.v2-vip.fun, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}, udp: true}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -27,42 +38,64 @@ proxy-groups:
     proxies:
       - ♻️  自动选择
       - 🔮 负载均衡
-      - _JP_日本 2
-      - _JP_日本 3
-      - _SG_新加坡
+      - 美国 CloudFlare节点
+      - 德国 阿里云
+      - 美国CloudFlare公司CDN节点(shopify) 22
+      - 美国CloudFlare公司CDN节点(shopify) 24
       - _US_美国
-      - _US_美国 3
+      - _US_美国 2
+      - _US_美国 4
+      - _US_美国 5
       - _US_美国 6
+      - _US_美国 7
       - _US_美国 8
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国 12
-      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 9
       - _FR_法国->🇺🇸_US_美国
-      - _KR_韩国 2
+      - _US_美国->🇰🇷_KR_韩国
+      - _FR_法国
+      - _US_美国 12
+      - _US_美国->🇰🇷_KR_韩国 2
+      - _US_美国 13
+      - _US_美国->🇰🇷_KR_韩国 3
+      - _US_美国 16
       - _US_美国 18
+      - _US_美国->🇯🇵_JP_日本
+      - _US_美国 19
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国->🇫🇷_FR_法国 4
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _JP_日本 2
-      - _JP_日本 3
-      - _SG_新加坡
+      - 美国 CloudFlare节点
+      - 德国 阿里云
+      - 美国CloudFlare公司CDN节点(shopify) 22
+      - 美国CloudFlare公司CDN节点(shopify) 24
       - _US_美国
-      - _US_美国 3
+      - _US_美国 2
+      - _US_美国 4
+      - _US_美国 5
       - _US_美国 6
+      - _US_美国 7
       - _US_美国 8
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国 12
-      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 9
       - _FR_法国->🇺🇸_US_美国
-      - _KR_韩国 2
+      - _US_美国->🇰🇷_KR_韩国
+      - _FR_法国
+      - _US_美国 12
+      - _US_美国->🇰🇷_KR_韩国 2
+      - _US_美国 13
+      - _US_美国->🇰🇷_KR_韩国 3
+      - _US_美国 16
       - _US_美国 18
+      - _US_美国->🇯🇵_JP_日本
+      - _US_美国 19
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国->🇫🇷_FR_法国 4
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -70,21 +103,32 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - _JP_日本 2
-      - _JP_日本 3
-      - _SG_新加坡
+      - 美国 CloudFlare节点
+      - 德国 阿里云
+      - 美国CloudFlare公司CDN节点(shopify) 22
+      - 美国CloudFlare公司CDN节点(shopify) 24
       - _US_美国
-      - _US_美国 3
+      - _US_美国 2
+      - _US_美国 4
+      - _US_美国 5
       - _US_美国 6
+      - _US_美国 7
       - _US_美国 8
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国 12
-      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 9
       - _FR_法国->🇺🇸_US_美国
-      - _KR_韩国 2
+      - _US_美国->🇰🇷_KR_韩国
+      - _FR_法国
+      - _US_美国 12
+      - _US_美国->🇰🇷_KR_韩国 2
+      - _US_美国 13
+      - _US_美国->🇰🇷_KR_韩国 3
+      - _US_美国 16
       - _US_美国 18
+      - _US_美国->🇯🇵_JP_日本
+      - _US_美国 19
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国->🇫🇷_FR_法国 4
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -92,21 +136,32 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - _JP_日本 2
-      - _JP_日本 3
-      - _SG_新加坡
+      - 美国 CloudFlare节点
+      - 德国 阿里云
+      - 美国CloudFlare公司CDN节点(shopify) 22
+      - 美国CloudFlare公司CDN节点(shopify) 24
       - _US_美国
-      - _US_美国 3
+      - _US_美国 2
+      - _US_美国 4
+      - _US_美国 5
       - _US_美国 6
+      - _US_美国 7
       - _US_美国 8
-      - _US_美国 10
-      - _US_美国 11
-      - _US_美国->🇬🇧_GB_英国
-      - _US_美国 12
-      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 9
       - _FR_法国->🇺🇸_US_美国
-      - _KR_韩国 2
+      - _US_美国->🇰🇷_KR_韩国
+      - _FR_法国
+      - _US_美国 12
+      - _US_美国->🇰🇷_KR_韩国 2
+      - _US_美国 13
+      - _US_美国->🇰🇷_KR_韩国 3
+      - _US_美国 16
       - _US_美国 18
+      - _US_美国->🇯🇵_JP_日本
+      - _US_美国 19
+      - _US_美国 22
+      - _US_美国 23
+      - _US_美国->🇫🇷_FR_法国 4
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
