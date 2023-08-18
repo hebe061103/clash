@@ -3,7 +3,33 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 0.0.0.0:9090
+external-ui: /usr/local/clash/ui
+# DNS服务器
+dns:
+  # 开启Clash内置DNS服务器
+  # 默认为false
+  enable: true
+  # 模式fake-ip
+  enhanced-mode: fake-ip
+  # DNS监听端口
+  listen: 0.0.0.0:9053
+  fake-ip-range: 192.12.0.1/16
+  nameserver:
+    - udp://223.5.5.5
+    - udp://180.76.76.76
+  fallback:
+    - tls://dns.google
+    - tls://dns.adguard.com
+    - tls://dns-family.adguard.com
+    - tls://dot.sb
+    - tls://1dot1dot1dot1.cloudflare-dns.com
+    - tls://one.one.one.one
+    - https://dns.google/dns-query
+    - https://dns.google/resolve
+    - https://dns.quad9.net/dns-query
+    - https://doh.opendns.com/dns-query
+    - https://1.1.1.1/dns-query
 proxies:
   - {name: 俄罗斯+v2rayfree.eu.org, server: 212.113.106.243, port: 13022, type: ss, cipher: chacha20-ietf-poly1305, password: w5drAL7PfCIwQ2ycUuoDsV2Ls, udp: true}
   - {name: 美国 CloudFlare节点 3, server: 172.67.27.227, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
@@ -85,6 +111,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️  自动选择
+      - 🔯 故障转移
       - 🔮 负载均衡
       - 俄罗斯+v2rayfree.eu.org
       - 美国 CloudFlare节点 3
@@ -164,7 +191,7 @@ proxy-groups:
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 300
+    interval: 120
     proxies:
       - 俄罗斯+v2rayfree.eu.org
       - 美国 CloudFlare节点 3
@@ -241,6 +268,86 @@ proxy-groups:
       - _FR_法国->🇺🇸_US_美国
       - _HK_香港->🇺🇸_US_美国
       # 以上为自动选择组下面的代理地址请插入
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 120
+    proxies:
+      - 俄罗斯+v2rayfree.eu.org
+      - 美国 CloudFlare节点 3
+      - 美国 CloudFlare节点 4
+      - 美国CloudFlare节点 19
+      - 美国加州 20
+      - " 2"
+      - " 3"
+      - " 4"
+      - " 5"
+      - " 6"
+      - " 7"
+      - " 8"
+      - " 9"
+      - " 10"
+      - " 11"
+      - " 12"
+      - " 13"
+      - " 14"
+      - " 15"
+      - " 16"
+      - " 17"
+      - " 18"
+      - " 19"
+      - " 21"
+      - " 22"
+      - " 23"
+      - " 24"
+      - " 25"
+      - " 26"
+      - " 27"
+      - " 28"
+      - " 29"
+      - " 30"
+      - " 31"
+      - " 32"
+      - " 33"
+      - " 34"
+      - " 35"
+      - " 36"
+      - " 37"
+      - " 39"
+      - " 40"
+      - " 41"
+      - " 42"
+      - " 43"
+      - " 44"
+      - " 45"
+      - " 46"
+      - " 47"
+      - " 48"
+      - " 49"
+      - " 50"
+      - " 51"
+      - " 52"
+      - " 53"
+      - " 54"
+      - " 55"
+      - " 56"
+      - " 57"
+      - " 58"
+      - " 60"
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国 3
+      - _JP_日本
+      - _US_美国 5
+      - _US_美国 7
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国 13
+      - _US_美国 16
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _FR_法国->🇺🇸_US_美国
+      - _HK_香港->🇺🇸_US_美国
+      # 以上为故障转移组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -327,6 +434,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️  自动选择
+      - 🔯 故障转移
       - 🔮 负载均衡
       - 俄罗斯+v2rayfree.eu.org
       - 美国 CloudFlare节点 3
