@@ -31,11 +31,12 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
-  - {name: 北京市+移动, server: gdyd.85413.xyz, port: 30272, type: ss, cipher: aes-128-gcm, password: 25258af0-ca08-43a8-a638-6c039c33da21, udp: true}
-  - {name: 美国弗吉尼亚州阿什本NV NEXT数据中心 8, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 美国CloudFlare节点 11, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}, udp: true}
-  - {name: 美国CloudFlare节点 25, server: 9.wyhkaa0.gq, port: 2095, type: vmess, uuid: d838d99a-6806-4be4-c126-7fca613cf6a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 9.wyhkaa0.gq}}, udp: true}
-  - {name: _US_美国 15, server: ahsorathiyaa.fly.dev, port: 443, client-fingerprint: chrome, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ahsorathiyaa.fly.dev}}, udp: true}
+  - {name: 🇨🇳 北京市+移动, server: gdyd.85413.xyz, port: 30272, type: ss, cipher: aes-128-gcm, password: 25258af0-ca08-43a8-a638-6c039c33da21}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: 162.159.243.133, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
+  - {name: 🇺🇸 美国RF Engineering 15, server: 141.193.213.20, port: 80, type: vmess, uuid: 25759dd1-d083-438d-95ce-4b120114fd91, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: france-1vm.mr-radwan-daoud.de}}}
+  - {name: 🇫🇷 法国_0818059, server: 94.23.116.190, port: 443, type: ssr, cipher: aes-256-ctr, password: HowdyBypasser2022, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%%�%%�, obfs-param: Non%%�%%�}
+  - {name: 🇳🇱 荷兰_0818060, server: 163.172.218.164, port: 443, type: ssr, cipher: aes-256-ctr, password: NewBypasser2023, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: Non%%�, obfs-param: "cdn.appsflyer.c%%�[%%�[��ǃd����%�I%%�[�%%�"}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_114, server: 140.99.128.99, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -44,33 +45,36 @@ proxy-groups:
       - ♻️  自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 北京市+移动
-      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 美国CloudFlare节点 11
-      - 美国CloudFlare节点 25
-      - _US_美国 15
+      - 🇨🇳 北京市+移动
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国RF Engineering 15
+      - 🇫🇷 法国_0818059
+      - 🇳🇱 荷兰_0818060
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_114
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 120
     proxies:
-      - 北京市+移动
-      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 美国CloudFlare节点 11
-      - 美国CloudFlare节点 25
-      - _US_美国 15
+      - 🇨🇳 北京市+移动
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国RF Engineering 15
+      - 🇫🇷 法国_0818059
+      - 🇳🇱 荷兰_0818060
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_114
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 120
     proxies:
-      - 北京市+移动
-      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 美国CloudFlare节点 11
-      - 美国CloudFlare节点 25
-      - _US_美国 15
+      - 🇨🇳 北京市+移动
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国RF Engineering 15
+      - 🇫🇷 法国_0818059
+      - 🇳🇱 荷兰_0818060
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_114
       # 以上为故障转移组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -78,11 +82,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 北京市+移动
-      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 美国CloudFlare节点 11
-      - 美国CloudFlare节点 25
-      - _US_美国 15
+      - 🇨🇳 北京市+移动
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国RF Engineering 15
+      - 🇫🇷 法国_0818059
+      - 🇳🇱 荷兰_0818060
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_114
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -91,11 +96,12 @@ proxy-groups:
       - ♻️  自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 北京市+移动
-      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 美国CloudFlare节点 11
-      - 美国CloudFlare节点 25
-      - _US_美国 15
+      - 🇨🇳 北京市+移动
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国RF Engineering 15
+      - 🇫🇷 法国_0818059
+      - 🇳🇱 荷兰_0818060
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_114
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
