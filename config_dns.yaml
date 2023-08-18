@@ -31,80 +31,12 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
-  - {name: 俄罗斯+v2rayfree.eu.org, server: 212.113.106.243, port: 13022, type: ss, cipher: chacha20-ietf-poly1305, password: w5drAL7PfCIwQ2ycUuoDsV2Ls, udp: true}
-  - {name: 美国 CloudFlare节点 3, server: 172.67.27.227, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
-  - {name: 美国 CloudFlare节点 4, server: 162.159.247.47, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 美国CloudFlare节点 19, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}, udp: true}
-  - {name: 美国加州 20, server: 216.24.57.1, port: 443, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dd2.1808.cf, network: ws, ws-opts: {path: a7ee85f4, headers: {Host: dd2.1808.cf}}, udp: true}
-  - {name: " 2", server: 139.99.245.164, port: 49921, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 3", server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 4", server: 175.27.154.61, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 5", server: 39.103.165.178, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 6", server: 114.117.234.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 7", server: 111.230.252.149, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 8", server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 9", server: 112.132.212.112, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 10", server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 11", server: 156.245.8.206, port: 443, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1692270323396, headers: {Host: www.13340198.xyz}}, udp: true}
-  - {name: " 12", server: 156.245.8.133, port: 35939, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 13", server: 156.245.8.151, port: 44169, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 14", server: 156.245.8.150, port: 44169, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 15", server: blackvpn4.anghezi.me, port: 39759, type: vmess, uuid: 9e648fa9-06c9-4f31-9129-4c397797babf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 16", server: 146.56.174.31, port: 8080, type: vmess, uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@herhero6}, udp: true}
-  - {name: " 17", server: 37.120.193.102, port: 52920, type: vmess, uuid: 57170ff0-7180-4664-8f61-8debdda345f7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 18", server: 8.219.150.28, port: 443, type: vmess, uuid: 1d4379ed-27c2-4f12-9f69-25b8ca8b084c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: " 19", server: gamespeed-gateway-1.numastergame.com, port: 11872, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 21", server: 45.199.138.195, port: 33358, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 22", server: 64.32.10.216, port: 443, type: vmess, uuid: 1f17fb81-2c5a-48d2-aa74-b19a648778a3, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691318318420, headers: {Host: www.33436785.xyz}}, udp: true}
-  - {name: " 23", server: vin1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vin1.0bad.com}}, udp: true}
-  - {name: " 24", server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk1.0bad.com}}, udp: true}
-  - {name: " 25", server: 170.178.179.189, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/031730091420}, udp: true}
-  - {name: " 26", server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vsg1.0bad.com}}, udp: true}
-  - {name: " 27", server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vau1.0bad.com}}, udp: true}
-  - {name: " 28", server: 107.167.20.183, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/243535322906}, udp: true}
-  - {name: " 29", server: 23.108.100.103, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /footers, headers: {Host: www.40587333.xyz}}, udp: true}
-  - {name: " 30", server: 64.32.20.97, port: 40039, type: vmess, uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 31", server: 64.32.4.6, port: 50005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 32", server: 198.211.9.182, port: 37869, type: vmess, uuid: 4c90d167-e65b-4419-d455-eb635724d2ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 33", server: 64.32.24.210, port: 48659, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 34", server: 23.234.198.86, port: 34888, type: vmess, uuid: a9abf3e7-87f4-473d-8d03-2f26ca4b3583, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 35", server: 140.99.128.99, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 36", server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 37", server: 108.186.116.166, port: 46605, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 39", server: 107.167.30.132, port: 43900, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 40", server: 64.32.20.104, port: 40039, type: vmess, uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 41", server: 64.32.24.213, port: 48659, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 42", server: 64.32.4.53, port: 43556, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 43", server: 64.32.20.103, port: 40039, type: vmess, uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 44", server: 108.186.116.167, port: 46605, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 45", server: 51vfly1.win, port: 443, type: vmess, uuid: 9681f99e-d251-477a-d777-1d01ee550481, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: 51vfly1.win}}, udp: true}
-  - {name: " 46", server: 199.188.111.244, port: 46500, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 47", server: 45.131.248.228, port: 59102, type: vmess, uuid: ac027362-c988-4670-f78f-021b5be6f4e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.131.248.228}}, udp: true}
-  - {name: " 48", server: 45.131.248.140, port: 50068, type: vmess, uuid: 557e532e-de4a-4b3e-9fb2-5d355ccb5da9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 45.131.248.140}}, udp: true}
-  - {name: " 49", server: 64.32.24.211, port: 48659, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 50", server: 45.199.138.181, port: 45695, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 51", server: 64.32.20.101, port: 40039, type: vmess, uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 52", server: 171.22.116.2, port: 41665, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 53", server: 45.63.106.86, port: 37869, type: vmess, uuid: 4c90d167-e65b-4419-d455-eb635724d2ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 54", server: vfly3.win, port: 443, type: vmess, uuid: 9681f99e-d251-477a-d777-1d01ee550481, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: vfly3.win}}, udp: true}
-  - {name: " 55", server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}, udp: true}
-  - {name: " 56", server: 67.21.64.84, port: 43123, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 57", server: 141.147.153.244, port: 41545, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 58", server: 156.225.67.242, port: 43370, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 60", server: 156.225.67.151, port: 46412, type: vmess, uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: 156.225.67.73, port: 31909, client-fingerprint: chrome, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 3, server: 142.4.109.68, port: 46672, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本, server: gsawsjp2.aiopen.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, tfo: false, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: 162.159.194.228, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
-  - {name: _US_美国 7, server: 45.199.138.136, port: 45249, client-fingerprint: chrome, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 9, server: 141.101.115.65, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: _US_美国 11, server: 45.199.138.173, port: 43074, client-fingerprint: chrome, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 13, server: 23.224.202.86, port: 57702, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 16, server: 64.32.21.246, port: 44313, client-fingerprint: chrome, type: vmess, uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡 2, server: gsawssg1.aiopen.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, tfo: false, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡 3, server: gsawssg2.aiopen.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: db4fb0e6-0e5b-4b12-95ac-03e60f5685d7, tfo: false, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国->🇺🇸_US_美国, server: 173.245.49.236, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: _HK_香港->🇺🇸_US_美国, server: 103.160.204.86, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}, udp: true}
+  - {name: 北京市+移动, server: gdyd.85413.xyz, port: 30272, type: ss, cipher: aes-128-gcm, password: 25258af0-ca08-43a8-a638-6c039c33da21, udp: true}
+  - {name: 美国 CloudFlare节点 4, server: 172.64.201.138, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: 美国 CloudFlare公司CDN节点(shopify), server: 23.227.38.82, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
+  - {name: 亚太地区  5, server: 103.160.204.250, port: 2082, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}, udp: true}
+  - {name: 美国弗吉尼亚州阿什本NV NEXT数据中心 8, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 美国CloudFlare节点 14, server: 172.67.149.81, port: 80, type: vmess, uuid: b5b09881-4e07-4730-8248-9fa60c95ec61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ydarm.e5outllok.me}}, udp: true}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -113,240 +45,36 @@ proxy-groups:
       - ♻️  自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 俄罗斯+v2rayfree.eu.org
-      - 美国 CloudFlare节点 3
+      - 北京市+移动
       - 美国 CloudFlare节点 4
-      - 美国CloudFlare节点 19
-      - 美国加州 20
-      - " 2"
-      - " 3"
-      - " 4"
-      - " 5"
-      - " 6"
-      - " 7"
-      - " 8"
-      - " 9"
-      - " 10"
-      - " 11"
-      - " 12"
-      - " 13"
-      - " 14"
-      - " 15"
-      - " 16"
-      - " 17"
-      - " 18"
-      - " 19"
-      - " 21"
-      - " 22"
-      - " 23"
-      - " 24"
-      - " 25"
-      - " 26"
-      - " 27"
-      - " 28"
-      - " 29"
-      - " 30"
-      - " 31"
-      - " 32"
-      - " 33"
-      - " 34"
-      - " 35"
-      - " 36"
-      - " 37"
-      - " 39"
-      - " 40"
-      - " 41"
-      - " 42"
-      - " 43"
-      - " 44"
-      - " 45"
-      - " 46"
-      - " 47"
-      - " 48"
-      - " 49"
-      - " 50"
-      - " 51"
-      - " 52"
-      - " 53"
-      - " 54"
-      - " 55"
-      - " 56"
-      - " 57"
-      - " 58"
-      - " 60"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 3
-      - _JP_日本
-      - _US_美国 5
-      - _US_美国 7
-      - _US_美国 9
-      - _US_美国 11
-      - _US_美国 13
-      - _US_美国 16
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _FR_法国->🇺🇸_US_美国
-      - _HK_香港->🇺🇸_US_美国
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - 亚太地区  5
+      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
+      - 美国CloudFlare节点 14
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 120
     proxies:
-      - 俄罗斯+v2rayfree.eu.org
-      - 美国 CloudFlare节点 3
+      - 北京市+移动
       - 美国 CloudFlare节点 4
-      - 美国CloudFlare节点 19
-      - 美国加州 20
-      - " 2"
-      - " 3"
-      - " 4"
-      - " 5"
-      - " 6"
-      - " 7"
-      - " 8"
-      - " 9"
-      - " 10"
-      - " 11"
-      - " 12"
-      - " 13"
-      - " 14"
-      - " 15"
-      - " 16"
-      - " 17"
-      - " 18"
-      - " 19"
-      - " 21"
-      - " 22"
-      - " 23"
-      - " 24"
-      - " 25"
-      - " 26"
-      - " 27"
-      - " 28"
-      - " 29"
-      - " 30"
-      - " 31"
-      - " 32"
-      - " 33"
-      - " 34"
-      - " 35"
-      - " 36"
-      - " 37"
-      - " 39"
-      - " 40"
-      - " 41"
-      - " 42"
-      - " 43"
-      - " 44"
-      - " 45"
-      - " 46"
-      - " 47"
-      - " 48"
-      - " 49"
-      - " 50"
-      - " 51"
-      - " 52"
-      - " 53"
-      - " 54"
-      - " 55"
-      - " 56"
-      - " 57"
-      - " 58"
-      - " 60"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 3
-      - _JP_日本
-      - _US_美国 5
-      - _US_美国 7
-      - _US_美国 9
-      - _US_美国 11
-      - _US_美国 13
-      - _US_美国 16
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _FR_法国->🇺🇸_US_美国
-      - _HK_香港->🇺🇸_US_美国
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - 亚太地区  5
+      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
+      - 美国CloudFlare节点 14
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 120
     proxies:
-      - 俄罗斯+v2rayfree.eu.org
-      - 美国 CloudFlare节点 3
+      - 北京市+移动
       - 美国 CloudFlare节点 4
-      - 美国CloudFlare节点 19
-      - 美国加州 20
-      - " 2"
-      - " 3"
-      - " 4"
-      - " 5"
-      - " 6"
-      - " 7"
-      - " 8"
-      - " 9"
-      - " 10"
-      - " 11"
-      - " 12"
-      - " 13"
-      - " 14"
-      - " 15"
-      - " 16"
-      - " 17"
-      - " 18"
-      - " 19"
-      - " 21"
-      - " 22"
-      - " 23"
-      - " 24"
-      - " 25"
-      - " 26"
-      - " 27"
-      - " 28"
-      - " 29"
-      - " 30"
-      - " 31"
-      - " 32"
-      - " 33"
-      - " 34"
-      - " 35"
-      - " 36"
-      - " 37"
-      - " 39"
-      - " 40"
-      - " 41"
-      - " 42"
-      - " 43"
-      - " 44"
-      - " 45"
-      - " 46"
-      - " 47"
-      - " 48"
-      - " 49"
-      - " 50"
-      - " 51"
-      - " 52"
-      - " 53"
-      - " 54"
-      - " 55"
-      - " 56"
-      - " 57"
-      - " 58"
-      - " 60"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 3
-      - _JP_日本
-      - _US_美国 5
-      - _US_美国 7
-      - _US_美国 9
-      - _US_美国 11
-      - _US_美国 13
-      - _US_美国 16
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _FR_法国->🇺🇸_US_美国
-      - _HK_香港->🇺🇸_US_美国
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - 亚太地区  5
+      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
+      - 美国CloudFlare节点 14
       # 以上为故障转移组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -354,80 +82,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 俄罗斯+v2rayfree.eu.org
-      - 美国 CloudFlare节点 3
+      - 北京市+移动
       - 美国 CloudFlare节点 4
-      - 美国CloudFlare节点 19
-      - 美国加州 20
-      - " 2"
-      - " 3"
-      - " 4"
-      - " 5"
-      - " 6"
-      - " 7"
-      - " 8"
-      - " 9"
-      - " 10"
-      - " 11"
-      - " 12"
-      - " 13"
-      - " 14"
-      - " 15"
-      - " 16"
-      - " 17"
-      - " 18"
-      - " 19"
-      - " 21"
-      - " 22"
-      - " 23"
-      - " 24"
-      - " 25"
-      - " 26"
-      - " 27"
-      - " 28"
-      - " 29"
-      - " 30"
-      - " 31"
-      - " 32"
-      - " 33"
-      - " 34"
-      - " 35"
-      - " 36"
-      - " 37"
-      - " 39"
-      - " 40"
-      - " 41"
-      - " 42"
-      - " 43"
-      - " 44"
-      - " 45"
-      - " 46"
-      - " 47"
-      - " 48"
-      - " 49"
-      - " 50"
-      - " 51"
-      - " 52"
-      - " 53"
-      - " 54"
-      - " 55"
-      - " 56"
-      - " 57"
-      - " 58"
-      - " 60"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 3
-      - _JP_日本
-      - _US_美国 5
-      - _US_美国 7
-      - _US_美国 9
-      - _US_美国 11
-      - _US_美国 13
-      - _US_美国 16
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _FR_法国->🇺🇸_US_美国
-      - _HK_香港->🇺🇸_US_美国
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - 亚太地区  5
+      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
+      - 美国CloudFlare节点 14
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -436,80 +96,12 @@ proxy-groups:
       - ♻️  自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 俄罗斯+v2rayfree.eu.org
-      - 美国 CloudFlare节点 3
+      - 北京市+移动
       - 美国 CloudFlare节点 4
-      - 美国CloudFlare节点 19
-      - 美国加州 20
-      - " 2"
-      - " 3"
-      - " 4"
-      - " 5"
-      - " 6"
-      - " 7"
-      - " 8"
-      - " 9"
-      - " 10"
-      - " 11"
-      - " 12"
-      - " 13"
-      - " 14"
-      - " 15"
-      - " 16"
-      - " 17"
-      - " 18"
-      - " 19"
-      - " 21"
-      - " 22"
-      - " 23"
-      - " 24"
-      - " 25"
-      - " 26"
-      - " 27"
-      - " 28"
-      - " 29"
-      - " 30"
-      - " 31"
-      - " 32"
-      - " 33"
-      - " 34"
-      - " 35"
-      - " 36"
-      - " 37"
-      - " 39"
-      - " 40"
-      - " 41"
-      - " 42"
-      - " 43"
-      - " 44"
-      - " 45"
-      - " 46"
-      - " 47"
-      - " 48"
-      - " 49"
-      - " 50"
-      - " 51"
-      - " 52"
-      - " 53"
-      - " 54"
-      - " 55"
-      - " 56"
-      - " 57"
-      - " 58"
-      - " 60"
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 3
-      - _JP_日本
-      - _US_美国 5
-      - _US_美国 7
-      - _US_美国 9
-      - _US_美国 11
-      - _US_美国 13
-      - _US_美国 16
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _FR_法国->🇺🇸_US_美国
-      - _HK_香港->🇺🇸_US_美国
+      - 美国 CloudFlare公司CDN节点(shopify)
+      - 亚太地区  5
+      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
+      - 美国CloudFlare节点 14
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
