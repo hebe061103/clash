@@ -32,11 +32,9 @@ dns:
     - https://1.1.1.1/dns-query
 proxies:
   - {name: 北京市+移动, server: gdyd.85413.xyz, port: 30272, type: ss, cipher: aes-128-gcm, password: 25258af0-ca08-43a8-a638-6c039c33da21, udp: true}
-  - {name: 美国 CloudFlare节点 4, server: 172.64.201.138, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
-  - {name: 美国 CloudFlare公司CDN节点(shopify), server: 23.227.38.82, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
-  - {name: 亚太地区  5, server: 103.160.204.250, port: 2082, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}, udp: true}
-  - {name: 美国弗吉尼亚州阿什本NV NEXT数据中心 8, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 美国CloudFlare节点 14, server: 172.67.149.81, port: 80, type: vmess, uuid: b5b09881-4e07-4730-8248-9fa60c95ec61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ydarm.e5outllok.me}}, udp: true}
+  - {name: 美国 CloudFlare节点 3, server: 9.wyhkaa0.gq, port: 2095, type: vmess, uuid: d838d99a-6806-4be4-c126-7fca613cf6a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 9.wyhkaa0.gq}}, udp: true}
+  - {name: 美国 CloudFlare节点 5, server: 162.159.243.133, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: 美国CloudFlare节点 11, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}, udp: true}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -46,11 +44,9 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - 北京市+移动
-      - 美国 CloudFlare节点 4
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 亚太地区  5
-      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 美国CloudFlare节点 14
+      - 美国 CloudFlare节点 3
+      - 美国 CloudFlare节点 5
+      - 美国CloudFlare节点 11
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
@@ -58,11 +54,9 @@ proxy-groups:
     interval: 120
     proxies:
       - 北京市+移动
-      - 美国 CloudFlare节点 4
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 亚太地区  5
-      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 美国CloudFlare节点 14
+      - 美国 CloudFlare节点 3
+      - 美国 CloudFlare节点 5
+      - 美国CloudFlare节点 11
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
@@ -70,11 +64,9 @@ proxy-groups:
     interval: 120
     proxies:
       - 北京市+移动
-      - 美国 CloudFlare节点 4
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 亚太地区  5
-      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 美国CloudFlare节点 14
+      - 美国 CloudFlare节点 3
+      - 美国 CloudFlare节点 5
+      - 美国CloudFlare节点 11
       # 以上为故障转移组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -83,11 +75,9 @@ proxy-groups:
     interval: 180
     proxies:
       - 北京市+移动
-      - 美国 CloudFlare节点 4
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 亚太地区  5
-      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 美国CloudFlare节点 14
+      - 美国 CloudFlare节点 3
+      - 美国 CloudFlare节点 5
+      - 美国CloudFlare节点 11
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -97,11 +87,9 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - 北京市+移动
-      - 美国 CloudFlare节点 4
-      - 美国 CloudFlare公司CDN节点(shopify)
-      - 亚太地区  5
-      - 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 美国CloudFlare节点 14
+      - 美国 CloudFlare节点 3
+      - 美国 CloudFlare节点 5
+      - 美国CloudFlare节点 11
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
