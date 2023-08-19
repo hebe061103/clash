@@ -5,12 +5,30 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 172.64.201.138, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
-  - {name: 🇺🇸 美国弗吉尼亚州阿什本NV NEXT数据中心 8, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 美国CloudFlare节点 25, server: 9.wyhkaa0.gq, port: 2095, type: vmess, uuid: d838d99a-6806-4be4-c126-7fca613cf6a9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 9.wyhkaa0.gq}}}
-  - {name: 🇺🇸 美国CloudFlare公司CDN节点 29, server: bluehost.com, port: 443, type: vmess, uuid: 12eed507-9a58-4ca5-f7af-2871e9aae684, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /19544, headers: {Host: cdntr2.digisport.shop}}}
+  - {name: 🇺🇸 _CA_加拿大->🇺🇸_US_美国, server: 23.227.38.109, port: 443, client-fingerprint: chrome, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
+  - {name: 🇺🇸 _US_美国 9, server: 172.64.207.79, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2, server: 156.225.67.198, port: 38651, client-fingerprint: chrome, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 10, server: 162.159.194.228, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国 11, server: fd.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0f8921ec-f691-4e05-aaa2-5d096133b606, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: asb2.shabijichang.com}}}
+  - {name: 🇺🇸 _US_美国 12, server: 74.217.182.122, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1692005985685}}
+  - {name: 🇺🇸 _CA_加拿大->🇺🇸_US_美国 2, server: dongtaiwang2.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
+  - {name: 🇺🇸 _US_美国 13, server: 172.64.201.138, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国 18, server: 162.159.243.133, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 19, server: 17.wyhkaa0.gq, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 1e36655b-7d28-4513-d7f8-5f1a0c00a07d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 17.wyhkaa0.gq}}}
+  - {name: 🇺🇸 _CA_加拿大->🇺🇸_US_美国 3, server: 23.227.38.111, port: 443, client-fingerprint: chrome, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}}
+  - {name: _US_美国 3, server: 172.64.202.22, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: _US_美国 4, server: 172.64.169.199, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: _US_美国 7, server: 172.64.193.37, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: _US_美国 9, server: 45.199.138.187, port: 42118, client-fingerprint: chrome, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 10, server: 16.wyhkaa0.gq, port: 2095, client-fingerprint: chrome, type: vmess, uuid: c0fa7a10-3622-492a-e1cf-b8f8f4df3412, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 16.wyhkaa0.gq}}, udp: true}
+  - {name: _US_美国 13, server: 45.199.138.190, port: 33560, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 14, server: shs.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0f8921ec-f691-4e05-aaa2-5d096133b606, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.shabijichang.com}}, udp: true}
+  - {name: _FR_法国, server: 57.128.173.6, port: 443, client-fingerprint: chrome, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, tfo: false, sni: www.speedtest.net, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 15, server: 6.wyhkaa0.gq, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 6bbc9554-07bc-47c6-a088-87aa79fd5ca1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 6.wyhkaa0.gq}}, udp: true}
+  - {name: _KR_韩国->🇺🇸_US_美国, server: cf.1808.cf, port: 30003, client-fingerprint: chrome, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: a7ee85f4, headers: {Host: dd2.1808.cf}}, udp: true}
+  - {name: _CA_加拿大 2, server: 23.227.38.82, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
+  - {name: _US_美国 22, server: 74.217.179.158, port: 31281, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国加州 30, server: 216.24.57.1, port: 443, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: true, servername: dd2.1808.cf, network: ws, ws-opts: {path: a7ee85f4, headers: {Host: dd2.1808.cf}}}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_78, server: gamespeed-gateway-1.numastergame.com, port: 11872, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_114, server: 140.99.128.99, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 Relay_🇺🇸US-🇬🇧GB_121, server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}}
   - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_134, server: 64.32.24.210, port: 48659, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: false}
@@ -21,12 +39,30 @@ proxy-groups:
     proxies:
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 🇺🇸 美国CloudFlare节点 25
-      - 🇺🇸 美国CloudFlare公司CDN节点 29
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 9
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
+      - 🇺🇸 _US_美国 10
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _US_美国 19
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国 3
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 7
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 13
+      - _US_美国 14
+      - _FR_法国
+      - _US_美国 15
+      - _KR_韩国->🇺🇸_US_美国
+      - _CA_加拿大 2
+      - _US_美国 22
       - 🇺🇸 美国加州 30
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_78
       - 🇺🇸 Relay_🇺🇸US-🇺🇸US_114
       - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_121
       - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
@@ -36,12 +72,30 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 🇺🇸 美国CloudFlare节点 25
-      - 🇺🇸 美国CloudFlare公司CDN节点 29
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 9
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
+      - 🇺🇸 _US_美国 10
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _US_美国 19
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国 3
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 7
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 13
+      - _US_美国 14
+      - _FR_法国
+      - _US_美国 15
+      - _KR_韩国->🇺🇸_US_美国
+      - _CA_加拿大 2
+      - _US_美国 22
       - 🇺🇸 美国加州 30
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_78
       - 🇺🇸 Relay_🇺🇸US-🇺🇸US_114
       - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_121
       - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
@@ -52,12 +106,30 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 🇺🇸 美国CloudFlare节点 25
-      - 🇺🇸 美国CloudFlare公司CDN节点 29
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 9
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
+      - 🇺🇸 _US_美国 10
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _US_美国 19
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国 3
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 7
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 13
+      - _US_美国 14
+      - _FR_法国
+      - _US_美国 15
+      - _KR_韩国->🇺🇸_US_美国
+      - _CA_加拿大 2
+      - _US_美国 22
       - 🇺🇸 美国加州 30
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_78
       - 🇺🇸 Relay_🇺🇸US-🇺🇸US_114
       - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_121
       - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
@@ -68,12 +140,30 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国弗吉尼亚州阿什本NV NEXT数据中心 8
-      - 🇺🇸 美国CloudFlare节点 25
-      - 🇺🇸 美国CloudFlare公司CDN节点 29
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
+      - 🇺🇸 _US_美国 9
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
+      - 🇺🇸 _US_美国 10
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国 2
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _US_美国 19
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国 3
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 7
+      - _US_美国 9
+      - _US_美国 10
+      - _US_美国 13
+      - _US_美国 14
+      - _FR_法国
+      - _US_美国 15
+      - _KR_韩国->🇺🇸_US_美国
+      - _CA_加拿大 2
+      - _US_美国 22
       - 🇺🇸 美国加州 30
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_78
       - 🇺🇸 Relay_🇺🇸US-🇺🇸US_114
       - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_121
       - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
