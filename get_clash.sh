@@ -363,7 +363,7 @@ date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "------------------------同步clash配置到github-------------------------" |tee -a /tmp/clash_run_log.log
 while true;
 do
-prostr=`$parm_path/updateClashToGithub/Creategithubfile.sh`
+prostr=`$parm_path/Creategithubfile.sh`
 if echo "$prostr" | grep -e "同步成功";then
 echo --$date-- "------------------------同步到github完成-------------------------" |tee -a /tmp/clash_run_log.log
 break
