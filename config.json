@@ -1,0 +1,15 @@
+{
+    "group":"job",
+    "speedtestMode":"speedonly",
+    "pingMethod":"googleping",
+    "sortMethod":"speed",
+    "concurrency":10,
+    "testMode":2,
+    "subscription":"",
+    "timeout":16,
+    "language":"en",
+    "fontSize":24,
+    "unique": true,
+    "theme":"rainbow",
+    "generatePicMode": 3
+}

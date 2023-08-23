@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 18 Aug 2023 16:17:16 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 23320
+Connection: keep-alive
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+ETag: "7126650ba5886cf0aa19dcc5ed9a4436a4a18831176bf91d2ecb1cfc685ec961"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: A228:301B:CB99F7:EF1EF1:64DF65C1
+Accept-Ranges: bytes
+Via: 1.1 varnish
+X-Served-By: cache-sjc1000128-SJC
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1692375436.895943,VS0,VE135
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 54586bb9e293f00df33c747810890dcce7821e52
+Expires: Fri, 18 Aug 2023 16:22:16 GMT
+Source-Age: 0
+Strict-Transport-Security: max-age=63072000
+
