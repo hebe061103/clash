@@ -353,7 +353,7 @@ restart_clash(){
 date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "------------------------重启CLASH-----------------------------" |tee -a /tmp/clash_run_log.log
 rm /usr/local/clash/config.yaml
-cp /tmp/config_cl.yaml  /usr/local/clash/config.yaml
+cp /tmp/allnode_config.yaml  /usr/local/clash/config.yaml
 systemctl restart clash.service
 date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "------------------------重启CLASH完成-------------------------" |tee -a /tmp/clash_run_log.log
