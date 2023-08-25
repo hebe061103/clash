@@ -25,6 +25,7 @@ date3=$(date "+%Y%m%d")
 urllist=("$subdz&url=https://ghproxy.com/https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2"
 "https://ghproxy.com/https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml"
 "https://ghproxy.com/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
+"https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clash5d792.yaml"
 "$subdz&url=https://proxy.yugogo.xyz/vmess/sub"
 "https://nodefree.org/dy/$date1/$date2/$date3.yaml"
 )
@@ -353,7 +354,7 @@ restart_clash(){
 date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "------------------------重启CLASH-----------------------------" |tee -a /tmp/clash_run_log.log
 rm /usr/local/clash/config.yaml
-cp /tmp/allnode_config.yaml  /usr/local/clash/config.yaml
+cp /tmp/config_cl.yaml  /usr/local/clash/config.yaml
 systemctl restart clash.service
 date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "------------------------重启CLASH完成-------------------------" |tee -a /tmp/clash_run_log.log
@@ -399,3 +400,4 @@ echo --$date-- "------------------------CLASH配置更新完成-----------------
 #https://github.com/moneyfly1/sublist    moneyfly1/sublist, 节点数量: 15
 #https://github.com/Pawdroid/Free-servers    Pawdroid/Free-servers, 节点数量: 15
 #https://github.com/Fukki-Z/nodefree    Nodefree.org, 节点数量: 50
+#https://github.com/snakem982/proxypool
