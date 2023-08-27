@@ -16,14 +16,12 @@ echo --$date-- "-----------------------开始更新CLASH配置文件------------
 #删除排序文件
 cd /tmp
 rm -rf line.log config.yaml node_config.yaml config_cl.yaml
-sleep 2
 cp $parm_path/formwork /tmp/newconfig
 date1=$(date "+%Y")
 date2=$(date "+%m")
 date3=$(date "+%Y%m%d")
 #以下列表可插入能直接下载的配置文件网址
-urllist=("$subdz&url=https://ghproxy.com/https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2"
-"https://ghproxy.com/https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml"
+urllist=("https://ghproxy.com/https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml"
 "https://ghproxy.com/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
 "https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clash5d792.yaml"
 "$subdz&url=https://proxy.yugogo.xyz/vmess/sub"
@@ -48,6 +46,7 @@ for i in ${urllist[@]}
     fi
     fi
     done
+sleep 5
 echo "------------------------------------------please wait!----------------------------------------------------"
 echo "----------------------------------------------------------------------------------------------------------"
 echo "----------------------------------------------------------------------------------------------------------"
