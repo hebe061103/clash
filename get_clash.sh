@@ -370,7 +370,7 @@ break
 else
 let try_num++
 echo --$date-- "------------------------同步到github失败,执行第$try_num次尝试-------------------------" |tee -a /tmp/clash_run_log.log
-if [ $try_num -eq 5 ];then
+if [ $try_num -eq 10 ];then
 echo --$date-- "------------------------经过$try_num次尝试依然失败,退出-------------------------" |tee -a /tmp/clash_run_log.log
 break
 fi
