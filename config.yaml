@@ -6,6 +6,10 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: _US_美国 4, server: stock.hostmonit.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: cd7f6a89-e86a-47ae-87d3-0277d205286f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nishikata, headers: {Host: us2.icu2rip.eu.org}}, udp: true}
+  - {name: _US_美国->🇧🇷_BR_巴西, server: sblarm.kaolll.tech, port: 80, client-fingerprint: chrome, type: vmess, uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sblarm.kaolll.tech}}, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇱🇹LT_108, server: 15.wyhkaa0.gq, port: 2095, type: vmess, uuid: d54527c2-27d6-48ab-87b1-c7e22ffd7aac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 15.wyhkaa0.gq}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇱🇹LT_113, server: 13.wyhkaa0.gq, port: 2095, type: vmess, uuid: 32af4006-0698-4910-806c-b813074f36eb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 13.wyhkaa0.gq}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_152, server: 3.wyhkaa0.gq, port: 2095, type: vmess, uuid: 0150eac1-6e49-4329-9c06-50027c0b9ad7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 3.wyhkaa0.gq}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -15,6 +19,10 @@ proxy-groups:
       - 🔮 负载均衡
       - 🔯 故障转移
       - _US_美国 4
+      - _US_美国->🇧🇷_BR_巴西
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_108
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_113
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_152
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
@@ -22,6 +30,10 @@ proxy-groups:
     interval: 300
     proxies:
       - _US_美国 4
+      - _US_美国->🇧🇷_BR_巴西
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_108
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_113
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_152
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -30,6 +42,10 @@ proxy-groups:
     interval: 300
     proxies:
       - _US_美国 4
+      - _US_美国->🇧🇷_BR_巴西
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_108
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_113
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_152
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
@@ -37,6 +53,10 @@ proxy-groups:
     interval: 300
     proxies:
       - _US_美国 4
+      - _US_美国->🇧🇷_BR_巴西
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_108
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_113
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_152
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -45,6 +65,10 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - _US_美国 4
+      - _US_美国->🇧🇷_BR_巴西
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_108
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_113
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_152
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
