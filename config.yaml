@@ -5,17 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 _US_美国->🇭🇰_HK_香港, server: wxll.e5outllok.me, port: 80, client-fingerprint: chrome, type: vmess, uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: wxll.e5outllok.me}}}
-  - {name: 🇺🇸 _US_美国 9, server: 5.wyhkaa0.gq, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 2733e8cb-b074-4d66-e7c0-99f1db465e4c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 5.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国 16, server: 142.4.109.68, port: 46672, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: _CA_加拿大, server: 23.227.38.81, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
-  - {name: _US_美国 3, server: 17.wyhkaa0.gq, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 1e36655b-7d28-4513-d7f8-5f1a0c00a07d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 17.wyhkaa0.gq}}, udp: true}
-  - {name: _US_美国->🇩🇪_DE_德国, server: 172.67.51.152, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3e.twittei.me}}, udp: true}
-  - {name: _US_美国 5, server: 172.67.87.175, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}, udp: true}
-  - {name: _US_美国->🇨🇦_CA_加拿大, server: singapore.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: yd1.992688.xyz, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}}
+  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度, server: ydarm.e5outllok.me, port: 80, client-fingerprint: chrome, type: vmess, uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ydarm.e5outllok.me}}}
+  - {name: _US_美国 3, server: 107.167.30.132, port: 43900, client-fingerprint: chrome, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: dx1.992688.xyz, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}, udp: true}
   - {name: _US_美国->🇨🇱_CL_智利, server: sdygarm.e5outllok.me, port: 80, client-fingerprint: chrome, type: vmess, uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sdygarm.e5outllok.me}}, udp: true}
+  - {name: _US_美国->🇬🇧_GB_英国, server: cdn.twitter.now.cc, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ikun, headers: {Host: lo.twittei.me}}, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大, server: singapore.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
   - {name: _US_美国 17, server: 216.24.57.1, port: 443, client-fingerprint: chrome, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: a7ee85f4, headers: {Host: dd2.1808.cf}}, udp: true}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇱🇹LT_150, server: 13.wyhkaa0.gq, port: 2095, type: vmess, uuid: 32af4006-0698-4910-806c-b813074f36eb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 13.wyhkaa0.gq}}}
+  - {name: _US_美国 18, server: 45.15.166.78, port: 39077, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇱🇹LT_110, server: 11.wyhkaa0.gq, port: 2095, type: vmess, uuid: a54fd3bc-3764-40cd-ff5a-471470417eac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 11.wyhkaa0.gq}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇱🇹LT_121, server: 9.wyhkaa0.gq, port: 2095, type: vmess, uuid: d838d99a-6806-4be4-c126-7fca613cf6a9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 9.wyhkaa0.gq}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -24,34 +24,34 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇭🇰 _US_美国->🇭🇰_HK_香港
-      - 🇺🇸 _US_美国 9
-      - 🇺🇸 _US_美国 16
-      - _CA_加拿大
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - _US_美国 3
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 5
-      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇱_CL_智利
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 17
-      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_150
+      - _US_美国 18
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_110
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_121
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 _US_美国->🇭🇰_HK_香港
-      - 🇺🇸 _US_美国 9
-      - 🇺🇸 _US_美国 16
-      - _CA_加拿大
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - _US_美国 3
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 5
-      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇱_CL_智利
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 17
-      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_150
+      - _US_美国 18
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_110
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_121
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -59,34 +59,34 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 _US_美国->🇭🇰_HK_香港
-      - 🇺🇸 _US_美国 9
-      - 🇺🇸 _US_美国 16
-      - _CA_加拿大
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - _US_美国 3
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 5
-      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇱_CL_智利
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 17
-      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_150
+      - _US_美国 18
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_110
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_121
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 _US_美国->🇭🇰_HK_香港
-      - 🇺🇸 _US_美国 9
-      - 🇺🇸 _US_美国 16
-      - _CA_加拿大
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - _US_美国 3
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 5
-      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇱_CL_智利
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 17
-      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_150
+      - _US_美国 18
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_110
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_121
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -94,17 +94,17 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 🇭🇰 _US_美国->🇭🇰_HK_香港
-      - 🇺🇸 _US_美国 9
-      - 🇺🇸 _US_美国 16
-      - _CA_加拿大
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
       - _US_美国 3
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 5
-      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国->🇨🇱_CL_智利
+      - _US_美国->🇬🇧_GB_英国
+      - _US_美国->🇨🇦_CA_加拿大
       - _US_美国 17
-      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_150
+      - _US_美国 18
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_110
+      - 🇺🇸 Relay_🇺🇸US-🇱🇹LT_121
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
