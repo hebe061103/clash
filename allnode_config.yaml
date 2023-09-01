@@ -31,6 +31,29 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
+  - {name: 🇺🇸 _US_美国, server: 216.52.183.244, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: "", host: "", path: "", tls: false, mux: false, skip-cert-verify: false}}
+  - {name: 🇺🇸 _US_美国 4, server: 11.wyhkaa0.gq, port: 2095, client-fingerprint: chrome, type: vmess, uuid: a54fd3bc-3764-40cd-ff5a-471470417eac, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 11.wyhkaa0.gq}}}
+  - {name: 🇺🇸 _US_美国 7, server: 172.67.102.115, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 8, server: 172.64.161.58, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇰🇷 _KR_韩国, server: 52.79.57.154, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇺🇸 _US_美国 9, server: 172.67.7.166, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
+  - {name: 🇯🇵 _JP_日本, server: jp6.lianpi.xyz, port: 23234, client-fingerprint: chrome, type: vmess, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 _JP_日本 2, server: kbawsjp1.aiopen.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: 343f9a0c-494e-4c23-8adc-afb3f75c1294, tfo: false, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国->🇨🇱_CL_智利, server: 172.67.163.162, port: 80, client-fingerprint: chrome, type: vmess, uuid: 11378141-9527-478d-b0b9-c18396ca7c53, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg.shabijichang.com}}}
+  - {name: 🇫🇷 _FR_法国, server: 57.128.173.6, port: 443, client-fingerprint: chrome, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, tfo: false, sni: www.speedtest.net, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 11, server: 142.4.110.29, port: 52925, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 12, server: 172.64.207.79, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇮🇹_IT_意大利, server: 172.67.29.49, port: 80, client-fingerprint: chrome, type: vmess, uuid: df7abf48-196d-4dbd-b981-4d0c4f4bb446, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ml3.shabijichang.com}}}
+  - {name: 🇺🇸 _US_美国 14, server: 172.67.183.40, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度, server: 172.67.0.34, port: 80, client-fingerprint: chrome, type: vmess, uuid: df7abf48-196d-4dbd-b981-4d0c4f4bb446, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}}
+  - {name: 🇺🇸 _US_美国 16, server: 162.159.194.228, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国 17, server: 172.64.132.22, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西, server: 172.64.80.28, port: 80, client-fingerprint: chrome, type: vmess, uuid: df7abf48-196d-4dbd-b981-4d0c4f4bb446, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+  - {name: 🇨🇦 _CA_加拿大, server: dongtaiwang3.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度 3, server: fd.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: df7abf48-196d-4dbd-b981-4d0c4f4bb446, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb.shabijichang.com}}}
+  - {name: 🇺🇸 _US_美国 20, server: 172.67.27.227, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国 21, server: stock.hostmonit.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: cd7f6a89-e86a-47ae-87d3-0277d205286f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /nishikata, headers: {Host: us2.icu2rip.eu.org}}}
+  - {name: 🇺🇸 _US_美国 22, server: 172.67.22.15, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
   - {name: _HK_香港->🇺🇸_US_美国, server: 103.160.204.98, port: 80, client-fingerprint: chrome, type: vmess, uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue06, headers: {Host: ecc.vtcss.top}}, udp: true}
   - {name: _US_美国->🇮🇳_IN_印度, server: 172.67.65.128, port: 80, client-fingerprint: chrome, type: vmess, uuid: df7abf48-196d-4dbd-b981-4d0c4f4bb446, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hdlb2.shabijichang.com}}, udp: true}
   - {name: _US_美国, server: 172.64.196.209, port: 80, client-fingerprint: chrome, type: vmess, uuid: df7abf48-196d-4dbd-b981-4d0c4f4bb446, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: asb2.shabijichang.com}}, udp: true}
@@ -205,6 +228,29 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国 9
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本 2
+      - 🇺🇸 _US_美国->🇨🇱_CL_智利
+      - 🇫🇷 _FR_法国
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - 🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
+      - 🇺🇸 _US_美国 16
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 22
       - _HK_香港->🇺🇸_US_美国
       - _US_美国->🇮🇳_IN_印度
       - _US_美国
@@ -377,6 +423,29 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国 9
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本 2
+      - 🇺🇸 _US_美国->🇨🇱_CL_智利
+      - 🇫🇷 _FR_法国
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - 🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
+      - 🇺🇸 _US_美国 16
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 22
       - _HK_香港->🇺🇸_US_美国
       - _US_美国->🇮🇳_IN_印度
       - _US_美国
@@ -550,6 +619,29 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国 9
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本 2
+      - 🇺🇸 _US_美国->🇨🇱_CL_智利
+      - 🇫🇷 _FR_法国
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - 🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
+      - 🇺🇸 _US_美国 16
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 22
       - _HK_香港->🇺🇸_US_美国
       - _US_美国->🇮🇳_IN_印度
       - _US_美国
@@ -722,6 +814,29 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国 9
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本 2
+      - 🇺🇸 _US_美国->🇨🇱_CL_智利
+      - 🇫🇷 _FR_法国
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - 🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
+      - 🇺🇸 _US_美国 16
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 22
       - _HK_香港->🇺🇸_US_美国
       - _US_美国->🇮🇳_IN_印度
       - _US_美国
@@ -896,6 +1011,29 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
+      - 🇺🇸 _US_美国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇰🇷 _KR_韩国
+      - 🇺🇸 _US_美国 9
+      - 🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本 2
+      - 🇺🇸 _US_美国->🇨🇱_CL_智利
+      - 🇫🇷 _FR_法国
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - 🇺🇸 _US_美国->🇮🇹_IT_意大利
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度
+      - 🇺🇸 _US_美国 16
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国->🇧🇷_BR_巴西
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇮🇳_IN_印度 3
+      - 🇺🇸 _US_美国 20
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 22
       - _HK_香港->🇺🇸_US_美国
       - _US_美国->🇮🇳_IN_印度
       - _US_美国
