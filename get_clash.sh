@@ -36,12 +36,12 @@ for i in ${urllist[@]}
     echo $get >> /tmp/clash_run_log.log
     if echo "$get" | grep -e "OK";then
     date=$(date "+%Y-%m-%d %H:%M:%S")
-    echo --$date-- "From $i download file finish!Rename to $b$c.yaml" |tee -a /tmp/clash_run_log.log
+    echo --$date-- "下载完成!" |tee -a /tmp/clash_run_log.log
     else
-    echo --$date-- "From $i download file failed!" |tee -a /tmp/clash_run_log.log
+    echo --$date-- "下载失败!" |tee -a /tmp/clash_run_log.log
     let err++
     if [ $err -eq "${#urllist[@]}" ];then
-        echo --$date-- "当前共:""${#urllist[@]}""个订阅地址,并且下载出错,无可用信息,巳结束运行!!" |tee -a /tmp/clash_run_log.log
+        echo --$date-- "当前共:""${#urllist[@]}""个订阅地址,并且全部下载出错,无可用信息,巳结束运行!!" |tee -a /tmp/clash_run_log.log
         exit 1
     fi
     fi
@@ -233,6 +233,7 @@ done
 rm -rf /tmp/*.mp  #清理线程临时文件
 #----------------------------------------------------------------------------------
 date=$(date "+%Y-%m-%d %H:%M:%S")
+echo --$date-- "正常可用的节点数量:""${#normal_num[*]}"|tee -a /tmp/clash_run_log.log
 echo --$date-- "正常可用的节点数量:""${#normal_num[*]}" |tee -a /tmp/line.log
 for ((i=0; i<"${#normal_num[*]}";i++))
 do
@@ -241,6 +242,7 @@ do
     echo "第:"$o"节点----""${normal_num[$i]}" "字符:"$str_num |tee -a /tmp/line.log
 done
 date=$(date "+%Y-%m-%d %H:%M:%S")
+echo --$date-- "待删除的节点数量:""${#remarks_array[*]}" |tee -a /tmp/clash_run_log.log
 echo --$date-- "待删除的节点数量:""${#remarks_array[*]}" |tee -a /tmp/line.log
 #----------------------------------------------------------------------------------------------
 echo --$date-- "开始排序待删除的:""${#remarks_array[*]}""个节点......"|tee -a /tmp/clash_run_log.log
