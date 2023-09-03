@@ -23,18 +23,16 @@ date3=$(date "+%Y%m%d")
 #以下列表可插入能直接下载的配置文件网址
 urllist=("https://ghproxy.com/https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml"
 "https://ghproxy.com/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
-"https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clash5d792.yaml"
-"$subdz&url=https://proxy.yugogo.xyz/vmess/sub"
-"https://nodefree.org/dy/$date1/$date2/$date3.yaml"
+"https://clashnode.com/wp-content/uploads/$date1/$date2/$date3.yaml"
 )
 for i in ${urllist[@]}
     do
     a=${i#*//}
     b=${a%%.*}
     let c++
-    get=$(wget --no-check-certificate $i -O /run/$b$c.yaml 2>&1)
+    get=`aria2c -d /run -o $b$c.yaml $i -l /tmp/aria2c.log 2>&1`
     echo $get >> /tmp/clash_run_log.log
-    if echo "$get" | grep -e "OK";then
+    if echo "$get" | grep -e "download completed";then
     date=$(date "+%Y-%m-%d %H:%M:%S")
     echo --$date-- "下载完成!" |tee -a /tmp/clash_run_log.log
     else
@@ -372,6 +370,7 @@ break
 else
 let try_num++
 echo --$date-- "------------------------同步到github失败,执行第$try_num次尝试-------------------------" |tee -a /tmp/clash_run_log.log
+sleep 10
 if [ $try_num -eq 10 ];then
 echo --$date-- "------------------------经过$try_num次尝试依然失败,退出-------------------------" |tee -a /tmp/clash_run_log.log
 break
