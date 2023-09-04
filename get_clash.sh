@@ -53,14 +53,16 @@ for filename in $(ls /run/*.yaml)
 do
   while read line
   do
+  let sum++
   if echo $line | grep "{name:";then
   a=${line%%,*}
   if echo $a | grep "+";then
     b=`echo $a | sed 's/+/ /g'`
     c=${line#*, }
-    echo "$b"", ""$c" >> /tmp/config.yaml
+    echo "$b""$sum"", ""$c" >> /tmp/config.yaml
   else
-  echo $line >> /tmp/config.yaml
+  d=${line%%,*}
+  echo "$a""$sum"",""$d" >> /tmp/config.yaml
   fi
   fi
   if echo $line | grep -q "proxy-groups:";then
