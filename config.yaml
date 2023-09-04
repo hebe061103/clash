@@ -5,27 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 _US_美国19, server: 172.67.1.234, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 0150eac1-6e49-4329-9c06-50027c0b9ad7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 3.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国 331, server: 172.66.131.31, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 2733e8cb-b074-4d66-e7c0-99f1db465e4c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 5.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国 634, server: 104.17.55.117, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 2c4db0b1-5cd9-4bad-e957-33c36e261987, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 8.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚35, server: fd.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
-  - {name: 🇰🇷 _KR_韩国->🇺🇸_US_美国 436, server: 130.162.157.253, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0c8afb29-56a8-4483-e6ec-864dd7163c22, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 9.wyhkaa0.gq}}}
-  - {name: 🇭🇰 _HK_香港->🇺🇸_US_美国 344, server: 103.160.204.72, port: 80, client-fingerprint: chrome, type: vmess, uuid: 220974d7-5785-435c-f04b-a7669c5f1845, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 8.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国 948, server: 172.67.102.115, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 🇺🇸 _US_美国 1050, server: stock.hostmonit.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: cd7f6a89-e86a-47ae-87d3-0277d205286f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /nishikata, headers: {Host: us2.icu2rip.eu.org}}}
-  - {name: 🇺🇸 _US_美国 1151, server: 45.199.138.152, port: 56186, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 1659, server: 162.159.247.47, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 🇭🇰 _HK_香港->🇺🇸_US_美国 463, server: 103.160.204.108, port: 80, client-fingerprint: chrome, type: vmess, uuid: 3c05373b-1187-4d74-a449-975f761d3bbe, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 7.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国65, server: 190.93.244.107, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 2733e8cb-b074-4d66-e7c0-99f1db465e4c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 5.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国 392, server: 162.159.253.16, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 _US_美国 798, server: 74.217.182.122, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1693390440063}}
-  - {name: 🇺🇸 _US_美国 899, server: 172.64.153.211, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6e751712-9569-5187-86ea-8f585ad99105, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api01, headers: {Host: schereswed.softwarenews.store}}}
-  - {name: 🇺🇸 _US_美国->🇮🇹_IT_意大利108, server: 172.67.91.164, port: 80, client-fingerprint: chrome, type: vmess, uuid: 1db82775-c1fe-4305-94ff-eee83174528e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ml4.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国114, server: 172.67.8.239, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3e.twittei.me}}}
-  - {name: 🇺🇸 _US_美国->🇫🇮_FI_芬兰117, server: 172.64.25.70, port: 80, client-fingerprint: chrome, type: vmess, uuid: 71dbb55c-78fa-4b57-a6b4-7e4717c6ed84, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: new.softtech.host}}}
-  - {name: 🇺🇸 _US_美国 19118, server: 6.wyhkaa0.gq, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 6bbc9554-07bc-47c6-a088-87aa79fd5ca1, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 6.wyhkaa0.gq}}}
-  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡120, server: cfyd.starsea.vip, port: 80, client-fingerprint: chrome, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sshkit/1736960111/64ee26041efcc/, headers: {Host: sg1-v2ray.sshkit.org}}}
-  - {name: 🇺🇸 _US_美国->🇱🇺_LU_卢森堡126, server: 104.31.16.196, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}}
+  - {name: 🇺🇸 _US_美国87, server: 172.67.1.234, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 0150eac1-6e49-4329-9c06-50027c0b9ad7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 3.wyhkaa0.gq}}}
+  - {name: 🇰🇷 _KR_韩国->🇺🇸_US_美国 4104, server: 130.162.157.253, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0c8afb29-56a8-4483-e6ec-864dd7163c22, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 9.wyhkaa0.gq}}}
+  - {name: 🇭🇰 _HK_香港->🇺🇸_US_美国 3112, server: 103.160.204.72, port: 80, client-fingerprint: chrome, type: vmess, uuid: 220974d7-5785-435c-f04b-a7669c5f1845, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 8.wyhkaa0.gq}}}
+  - {name: 🇺🇸 _US_美国 11119, server: 45.199.138.152, port: 56186, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -34,54 +17,20 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇺🇸 _US_美国19
-      - 🇺🇸 _US_美国 331
-      - 🇺🇸 _US_美国 634
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚35
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国 436
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 344
-      - 🇺🇸 _US_美国 948
-      - 🇺🇸 _US_美国 1050
-      - 🇺🇸 _US_美国 1151
-      - 🇺🇸 _US_美国 1659
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 463
-      - 🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国65
-      - 🇺🇸 _US_美国 392
-      - 🇺🇸 _US_美国 798
-      - 🇺🇸 _US_美国 899
-      - 🇺🇸 _US_美国->🇮🇹_IT_意大利108
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国114
-      - 🇺🇸 _US_美国->🇫🇮_FI_芬兰117
-      - 🇺🇸 _US_美国 19118
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡120
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡126
+      - 🇺🇸 _US_美国87
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国 4104
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国 3112
+      - 🇺🇸 _US_美国 11119
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国19
-      - 🇺🇸 _US_美国 331
-      - 🇺🇸 _US_美国 634
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚35
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国 436
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 344
-      - 🇺🇸 _US_美国 948
-      - 🇺🇸 _US_美国 1050
-      - 🇺🇸 _US_美国 1151
-      - 🇺🇸 _US_美国 1659
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 463
-      - 🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国65
-      - 🇺🇸 _US_美国 392
-      - 🇺🇸 _US_美国 798
-      - 🇺🇸 _US_美国 899
-      - 🇺🇸 _US_美国->🇮🇹_IT_意大利108
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国114
-      - 🇺🇸 _US_美国->🇫🇮_FI_芬兰117
-      - 🇺🇸 _US_美国 19118
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡120
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡126
+      - 🇺🇸 _US_美国87
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国 4104
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国 3112
+      - 🇺🇸 _US_美国 11119
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -89,54 +38,20 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国19
-      - 🇺🇸 _US_美国 331
-      - 🇺🇸 _US_美国 634
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚35
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国 436
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 344
-      - 🇺🇸 _US_美国 948
-      - 🇺🇸 _US_美国 1050
-      - 🇺🇸 _US_美国 1151
-      - 🇺🇸 _US_美国 1659
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 463
-      - 🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国65
-      - 🇺🇸 _US_美国 392
-      - 🇺🇸 _US_美国 798
-      - 🇺🇸 _US_美国 899
-      - 🇺🇸 _US_美国->🇮🇹_IT_意大利108
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国114
-      - 🇺🇸 _US_美国->🇫🇮_FI_芬兰117
-      - 🇺🇸 _US_美国 19118
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡120
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡126
+      - 🇺🇸 _US_美国87
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国 4104
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国 3112
+      - 🇺🇸 _US_美国 11119
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国19
-      - 🇺🇸 _US_美国 331
-      - 🇺🇸 _US_美国 634
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚35
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国 436
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 344
-      - 🇺🇸 _US_美国 948
-      - 🇺🇸 _US_美国 1050
-      - 🇺🇸 _US_美国 1151
-      - 🇺🇸 _US_美国 1659
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 463
-      - 🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国65
-      - 🇺🇸 _US_美国 392
-      - 🇺🇸 _US_美国 798
-      - 🇺🇸 _US_美国 899
-      - 🇺🇸 _US_美国->🇮🇹_IT_意大利108
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国114
-      - 🇺🇸 _US_美国->🇫🇮_FI_芬兰117
-      - 🇺🇸 _US_美国 19118
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡120
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡126
+      - 🇺🇸 _US_美国87
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国 4104
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国 3112
+      - 🇺🇸 _US_美国 11119
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -144,27 +59,10 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 🇺🇸 _US_美国19
-      - 🇺🇸 _US_美国 331
-      - 🇺🇸 _US_美国 634
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚35
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国 436
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 344
-      - 🇺🇸 _US_美国 948
-      - 🇺🇸 _US_美国 1050
-      - 🇺🇸 _US_美国 1151
-      - 🇺🇸 _US_美国 1659
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 463
-      - 🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国65
-      - 🇺🇸 _US_美国 392
-      - 🇺🇸 _US_美国 798
-      - 🇺🇸 _US_美国 899
-      - 🇺🇸 _US_美国->🇮🇹_IT_意大利108
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国114
-      - 🇺🇸 _US_美国->🇫🇮_FI_芬兰117
-      - 🇺🇸 _US_美国 19118
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡120
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡126
+      - 🇺🇸 _US_美国87
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国 4104
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国 3112
+      - 🇺🇸 _US_美国 11119
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
