@@ -31,8 +31,16 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
-  - {name: 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚103, server: fd.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 545e2bdb-ac6d-428f-82c7-7966be8d9ebc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xn2.shabijichang.com}}}
-  - {name: 🇭🇰 _HK_香港->🇺🇸_US_美国 4131, server: 103.160.204.108, port: 80, client-fingerprint: chrome, type: vmess, uuid: 3c05373b-1187-4d74-a449-975f761d3bbe, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 7.wyhkaa0.gq}}}
+  - {name: 🇺🇸 _US_美国 322, server: 172.67.6.189, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国 732, server: 171.22.116.45, port: 36709, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 1036, server: 172.64.153.211, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6e751712-9569-5187-86ea-8f585ad99105, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api01, headers: {Host: schereswed.softwarenews.store}}}
+  - {name: 🇺🇸 _US_美国 1137, server: 45.199.138.180, port: 54785, client-fingerprint: chrome, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇭🇰 _US_美国->🇭🇰_HK_香港40, server: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 80, client-fingerprint: chrome, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou}}}
+  - {name: 🇺🇸 _US_美国 1650, server: singapore.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大52, server: 172.67.75.194, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 _US_美国 7104, server: 172.67.49.8, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 8109, server: scw-fr.iiio.wiki, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw-fr.iiio.wiki}}}
+  - {name: 🇭🇰 _US_美国->🇭🇰_HK_香港130, server: 172.67.188.127, port: 80, client-fingerprint: chrome, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -41,16 +49,32 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚103
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 4131
+      - 🇺🇸 _US_美国 322
+      - 🇺🇸 _US_美国 732
+      - 🇺🇸 _US_美国 1036
+      - 🇺🇸 _US_美国 1137
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港40
+      - 🇺🇸 _US_美国 1650
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大52
+      - 🇺🇸 _US_美国 7104
+      - 🇺🇸 _US_美国 8109
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港130
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚103
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 4131
+      - 🇺🇸 _US_美国 322
+      - 🇺🇸 _US_美国 732
+      - 🇺🇸 _US_美国 1036
+      - 🇺🇸 _US_美国 1137
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港40
+      - 🇺🇸 _US_美国 1650
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大52
+      - 🇺🇸 _US_美国 7104
+      - 🇺🇸 _US_美国 8109
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港130
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -58,16 +82,32 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚103
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 4131
+      - 🇺🇸 _US_美国 322
+      - 🇺🇸 _US_美国 732
+      - 🇺🇸 _US_美国 1036
+      - 🇺🇸 _US_美国 1137
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港40
+      - 🇺🇸 _US_美国 1650
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大52
+      - 🇺🇸 _US_美国 7104
+      - 🇺🇸 _US_美国 8109
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港130
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚103
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 4131
+      - 🇺🇸 _US_美国 322
+      - 🇺🇸 _US_美国 732
+      - 🇺🇸 _US_美国 1036
+      - 🇺🇸 _US_美国 1137
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港40
+      - 🇺🇸 _US_美国 1650
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大52
+      - 🇺🇸 _US_美国 7104
+      - 🇺🇸 _US_美国 8109
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港130
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -76,8 +116,16 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇺🇸 _US_美国->🇦🇺_AU_澳大利亚103
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 4131
+      - 🇺🇸 _US_美国 322
+      - 🇺🇸 _US_美国 732
+      - 🇺🇸 _US_美国 1036
+      - 🇺🇸 _US_美国 1137
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港40
+      - 🇺🇸 _US_美国 1650
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大52
+      - 🇺🇸 _US_美国 7104
+      - 🇺🇸 _US_美国 8109
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港130
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
