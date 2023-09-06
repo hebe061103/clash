@@ -31,17 +31,10 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
-  - {name: 🇺🇸 _US_美国 393, server: 104.27.11.243, port: 2095, client-fingerprint: chrome, type: vmess, uuid: a04e2923-1a96-4998-ec89-2634f7197ebf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
-  - {name: 🇳🇱 _NL_荷兰95, server: 188.114.96.73, port: 2095, client-fingerprint: chrome, type: vmess, uuid: a04e2923-1a96-4998-ec89-2634f7197ebf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰98, server: 45.199.138.162, port: 54871, client-fingerprint: chrome, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国100, server: 104.20.27.27, port: 80, client-fingerprint: chrome, type: vmess, uuid: 21b54b80-48b5-11ee-b338-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oy0ns6x3, headers: {Host: eu-2.0rd.net}}}
-  - {name: 🇰🇷 _KR_韩国105, server: 3.34.189.149, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇺🇸 _US_美国 4110, server: a7.wuxianliulianng.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 4.wuxianliulianng.xyz}}}
+  - {name: 🇺🇸 _US_美国 291, server: 198.41.204.45, port: 2095, client-fingerprint: chrome, type: vmess, uuid: a04e2923-1a96-4998-ec89-2634f7197ebf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大103, server: singapore.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
   - {name: 🇺🇸 _US_美国 8118, server: 45.199.138.189, port: 34560, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 10120, server: 23.224.11.147, port: 41009, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 11121, server: 172.64.153.211, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6e751712-9569-5187-86ea-8f585ad99105, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api01, headers: {Host: schereswed.softwarenews.store}}}
   - {name: 🇺🇸 _US_美国 12122, server: 162.159.153.29, port: 2095, client-fingerprint: chrome, type: vmess, uuid: a04e2923-1a96-4998-ec89-2634f7197ebf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国 13124, server: 45.199.138.148, port: 49955, client-fingerprint: chrome, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国->🇻🇳_VN_越南134, server: Tokyo.mfa.ee, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
   # 以上为代理地址请插入
 proxy-groups:
@@ -51,17 +44,10 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇺🇸 _US_美国 393
-      - 🇳🇱 _NL_荷兰95
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰98
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国100
-      - 🇰🇷 _KR_韩国105
-      - 🇺🇸 _US_美国 4110
+      - 🇺🇸 _US_美国 291
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大103
       - 🇺🇸 _US_美国 8118
-      - 🇺🇸 _US_美国 10120
-      - 🇺🇸 _US_美国 11121
       - 🇺🇸 _US_美国 12122
-      - 🇺🇸 _US_美国 13124
       - 🇺🇸 _US_美国->🇻🇳_VN_越南134
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
@@ -69,17 +55,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国 393
-      - 🇳🇱 _NL_荷兰95
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰98
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国100
-      - 🇰🇷 _KR_韩国105
-      - 🇺🇸 _US_美国 4110
+      - 🇺🇸 _US_美国 291
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大103
       - 🇺🇸 _US_美国 8118
-      - 🇺🇸 _US_美国 10120
-      - 🇺🇸 _US_美国 11121
       - 🇺🇸 _US_美国 12122
-      - 🇺🇸 _US_美国 13124
       - 🇺🇸 _US_美国->🇻🇳_VN_越南134
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
@@ -88,17 +67,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国 393
-      - 🇳🇱 _NL_荷兰95
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰98
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国100
-      - 🇰🇷 _KR_韩国105
-      - 🇺🇸 _US_美国 4110
+      - 🇺🇸 _US_美国 291
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大103
       - 🇺🇸 _US_美国 8118
-      - 🇺🇸 _US_美国 10120
-      - 🇺🇸 _US_美国 11121
       - 🇺🇸 _US_美国 12122
-      - 🇺🇸 _US_美国 13124
       - 🇺🇸 _US_美国->🇻🇳_VN_越南134
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
@@ -106,17 +78,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国 393
-      - 🇳🇱 _NL_荷兰95
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰98
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国100
-      - 🇰🇷 _KR_韩国105
-      - 🇺🇸 _US_美国 4110
+      - 🇺🇸 _US_美国 291
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大103
       - 🇺🇸 _US_美国 8118
-      - 🇺🇸 _US_美国 10120
-      - 🇺🇸 _US_美国 11121
       - 🇺🇸 _US_美国 12122
-      - 🇺🇸 _US_美国 13124
       - 🇺🇸 _US_美国->🇻🇳_VN_越南134
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
@@ -126,17 +91,10 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇺🇸 _US_美国 393
-      - 🇳🇱 _NL_荷兰95
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰98
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国100
-      - 🇰🇷 _KR_韩国105
-      - 🇺🇸 _US_美国 4110
+      - 🇺🇸 _US_美国 291
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大103
       - 🇺🇸 _US_美国 8118
-      - 🇺🇸 _US_美国 10120
-      - 🇺🇸 _US_美国 11121
       - 🇺🇸 _US_美国 12122
-      - 🇺🇸 _US_美国 13124
       - 🇺🇸 _US_美国->🇻🇳_VN_越南134
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
