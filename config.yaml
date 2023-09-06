@@ -5,10 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 _US_美国 291, server: 198.41.204.45, port: 2095, client-fingerprint: chrome, type: vmess, uuid: a04e2923-1a96-4998-ec89-2634f7197ebf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大103, server: singapore.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇺🇸 _US_美国 8118, server: 45.199.138.189, port: 34560, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国 12122, server: 162.159.153.29, port: 2095, client-fingerprint: chrome, type: vmess, uuid: a04e2923-1a96-4998-ec89-2634f7197ebf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
+  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国100, server: 104.20.27.27, port: 80, client-fingerprint: chrome, type: vmess, uuid: 21b54b80-48b5-11ee-b338-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oy0ns6x3, headers: {Host: eu-2.0rd.net}}}
   - {name: 🇺🇸 _US_美国->🇻🇳_VN_越南134, server: Tokyo.mfa.ee, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
   # 以上为代理地址请插入
 proxy-groups:
@@ -18,10 +15,7 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇺🇸 _US_美国 291
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大103
-      - 🇺🇸 _US_美国 8118
-      - 🇺🇸 _US_美国 12122
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国100
       - 🇺🇸 _US_美国->🇻🇳_VN_越南134
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
@@ -29,10 +23,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国 291
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大103
-      - 🇺🇸 _US_美国 8118
-      - 🇺🇸 _US_美国 12122
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国100
       - 🇺🇸 _US_美国->🇻🇳_VN_越南134
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
@@ -41,10 +32,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国 291
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大103
-      - 🇺🇸 _US_美国 8118
-      - 🇺🇸 _US_美国 12122
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国100
       - 🇺🇸 _US_美国->🇻🇳_VN_越南134
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
@@ -52,10 +40,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国 291
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大103
-      - 🇺🇸 _US_美国 8118
-      - 🇺🇸 _US_美国 12122
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国100
       - 🇺🇸 _US_美国->🇻🇳_VN_越南134
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
@@ -64,10 +49,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 🇺🇸 _US_美国 291
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大103
-      - 🇺🇸 _US_美国 8118
-      - 🇺🇸 _US_美国 12122
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国100
       - 🇺🇸 _US_美国->🇻🇳_VN_越南134
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
