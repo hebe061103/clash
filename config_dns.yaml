@@ -31,10 +31,7 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
-  - {name: 🇫🇷 _FR_法国93, server: 173.245.49.236, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 _US_美国 897, server: fd.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 553128fc-df6d-4ff0-b608-67e4c625abcc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: asb2.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 499, server: cdn.twitter.now.cc, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3.twittei.me}}}
-  - {name: 🇭🇰 _HK_香港->🇺🇸_US_美国102, server: 103.160.204.63, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇰🇷 _KR_韩国->🇺🇸_US_美国77, server: 130.162.158.81, port: 80, client-fingerprint: chrome, type: vmess, uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -43,20 +40,14 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇫🇷 _FR_法国93
-      - 🇺🇸 _US_美国 897
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 499
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国102
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国77
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇫🇷 _FR_法国93
-      - 🇺🇸 _US_美国 897
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 499
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国102
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国77
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -64,20 +55,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇫🇷 _FR_法国93
-      - 🇺🇸 _US_美国 897
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 499
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国102
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国77
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇫🇷 _FR_法国93
-      - 🇺🇸 _US_美国 897
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 499
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国102
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国77
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -86,10 +71,7 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇫🇷 _FR_法国93
-      - 🇺🇸 _US_美国 897
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国 499
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国102
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国77
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
