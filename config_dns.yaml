@@ -31,7 +31,22 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
-  - {name: 🇰🇷 _KR_韩国->🇺🇸_US_美国77, server: 130.162.158.81, port: 80, client-fingerprint: chrome, type: vmess, uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
+  - {name: 🇺🇸 _CA_加拿大->🇺🇸_US_美国19, server: dongtaiwang2.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 3.freek1.xyz}}}
+  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国21, server: ns1.v2-vip.fun, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
+  - {name: 🇺🇸 _US_美国24, server: cf-test.q5wrff7jtkdg23.top, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 76c09a7e-e0e4-43a0-a1e2-d8563aa3baed, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /nyc1, headers: {Host: nyc1.q5wrff7jtkdg23.top}}}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大31, server: singapore.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 _US_美国 434, server: 173.245.58.109, port: 2095, client-fingerprint: chrome, type: vmess, uuid: a04e2923-1a96-4998-ec89-2634f7197ebf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
+  - {name: 🇭🇰 _HK_香港->🇨🇦_CA_加拿大35, server: 103.160.204.8, port: 80, client-fingerprint: chrome, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 10.wyhkaa0.gq}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国64, server: 162.159.58.231, port: 80, client-fingerprint: chrome, type: vmess, uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: nl10gbps.6577617.xyz}}}
+  - {name: 🇰🇷 _KR_韩国->🇺🇸_US_美国65, server: 130.162.158.81, port: 80, client-fingerprint: chrome, type: vmess, uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
+  - {name: 🇺🇸 _US_美国 475, server: 172.67.211.19, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 32af4006-0698-4910-806c-b813074f36eb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 13.wyhkaa0.gq}}}
+  - {name: 🇺🇸 _CA_加拿大->🇺🇸_US_美国76, server: 23.227.39.109, port: 443, client-fingerprint: chrome, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 3.freek1.xyz}}}
+  - {name: 🇫🇷 _FR_法国81, server: 173.245.49.236, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国 783, server: 141.101.115.65, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国 885, server: fd.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 553128fc-df6d-4ff0-b608-67e4c625abcc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: asb2.shabijichang.com}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 487, server: cdn.twitter.now.cc, port: 443, client-fingerprint: chrome, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ikun, headers: {Host: vceu3.twittei.me}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国 596, server: 162.159.58.164, port: 80, client-fingerprint: chrome, type: vmess, uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: nl10gbps.6577617.xyz}}}
+  - {name: 🇺🇸 _US_美国 1197, server: 172.67.107.16, port: 443, client-fingerprint: chrome, type: vmess, uuid: cd7f6a89-e86a-47ae-87d3-0277d205286f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /nishikata, headers: {Host: us2.icu2rip.eu.org}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -40,14 +55,44 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国77
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国19
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国21
+      - 🇺🇸 _US_美国24
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大31
+      - 🇺🇸 _US_美国 434
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大35
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国64
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国65
+      - 🇺🇸 _US_美国 475
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国76
+      - 🇫🇷 _FR_法国81
+      - 🇺🇸 _US_美国 783
+      - 🇺🇸 _US_美国 885
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 487
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 596
+      - 🇺🇸 _US_美国 1197
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国77
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国19
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国21
+      - 🇺🇸 _US_美国24
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大31
+      - 🇺🇸 _US_美国 434
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大35
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国64
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国65
+      - 🇺🇸 _US_美国 475
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国76
+      - 🇫🇷 _FR_法国81
+      - 🇺🇸 _US_美国 783
+      - 🇺🇸 _US_美国 885
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 487
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 596
+      - 🇺🇸 _US_美国 1197
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -55,14 +100,44 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国77
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国19
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国21
+      - 🇺🇸 _US_美国24
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大31
+      - 🇺🇸 _US_美国 434
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大35
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国64
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国65
+      - 🇺🇸 _US_美国 475
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国76
+      - 🇫🇷 _FR_法国81
+      - 🇺🇸 _US_美国 783
+      - 🇺🇸 _US_美国 885
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 487
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 596
+      - 🇺🇸 _US_美国 1197
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国77
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国19
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国21
+      - 🇺🇸 _US_美国24
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大31
+      - 🇺🇸 _US_美国 434
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大35
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国64
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国65
+      - 🇺🇸 _US_美国 475
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国76
+      - 🇫🇷 _FR_法国81
+      - 🇺🇸 _US_美国 783
+      - 🇺🇸 _US_美国 885
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 487
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 596
+      - 🇺🇸 _US_美国 1197
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -71,7 +146,22 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇰🇷 _KR_韩国->🇺🇸_US_美国77
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国19
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国21
+      - 🇺🇸 _US_美国24
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大31
+      - 🇺🇸 _US_美国 434
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大35
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国64
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国65
+      - 🇺🇸 _US_美国 475
+      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国76
+      - 🇫🇷 _FR_法国81
+      - 🇺🇸 _US_美国 783
+      - 🇺🇸 _US_美国 885
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 487
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国 596
+      - 🇺🇸 _US_美国 1197
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
