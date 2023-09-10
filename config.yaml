@@ -5,15 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 _US_美国 223, server: cfcdn2.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: cfd43f68-a5be-4c67-b1e9-686e2e1315a2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: tw1.sanfencdn2.com}}}
-  - {name: 🇺🇸 _US_美国 325, server: 104.17.227.121, port: 2095, client-fingerprint: chrome, type: vmess, uuid: a04e2923-1a96-4998-ec89-2634f7197ebf, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国 632, server: 137.175.0.155, port: 41551, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大33, server: 172.67.75.194, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇺🇸 _US_美国 734, server: 142.4.111.76, port: 42009, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 _HK_香港37, server: 103.160.204.8, port: 80, client-fingerprint: chrome, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 10.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大63, server: singapore.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇺🇸 _US_美国 872, server: 104.25.237.191, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 32af4006-0698-4910-806c-b813074f36eb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 13.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国 23101, server: 45.199.138.194, port: 40035, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 263, server: cfcdn2.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: cfd43f68-a5be-4c67-b1e9-686e2e1315a2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: tw1.sanfencdn2.com}}}
+  - {name: 🇺🇸 _US_美国 672, server: 137.175.0.155, port: 41551, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大73, server: 172.67.75.194, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 _US_美国 774, server: 142.4.111.76, port: 42009, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -22,30 +17,20 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇺🇸 _US_美国 223
-      - 🇺🇸 _US_美国 325
-      - 🇺🇸 _US_美国 632
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大33
-      - 🇺🇸 _US_美国 734
-      - 🇭🇰 _HK_香港37
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大63
-      - 🇺🇸 _US_美国 872
-      - 🇺🇸 _US_美国 23101
+      - 🇺🇸 _US_美国 263
+      - 🇺🇸 _US_美国 672
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大73
+      - 🇺🇸 _US_美国 774
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国 223
-      - 🇺🇸 _US_美国 325
-      - 🇺🇸 _US_美国 632
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大33
-      - 🇺🇸 _US_美国 734
-      - 🇭🇰 _HK_香港37
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大63
-      - 🇺🇸 _US_美国 872
-      - 🇺🇸 _US_美国 23101
+      - 🇺🇸 _US_美国 263
+      - 🇺🇸 _US_美国 672
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大73
+      - 🇺🇸 _US_美国 774
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -53,30 +38,20 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国 223
-      - 🇺🇸 _US_美国 325
-      - 🇺🇸 _US_美国 632
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大33
-      - 🇺🇸 _US_美国 734
-      - 🇭🇰 _HK_香港37
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大63
-      - 🇺🇸 _US_美国 872
-      - 🇺🇸 _US_美国 23101
+      - 🇺🇸 _US_美国 263
+      - 🇺🇸 _US_美国 672
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大73
+      - 🇺🇸 _US_美国 774
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国 223
-      - 🇺🇸 _US_美国 325
-      - 🇺🇸 _US_美国 632
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大33
-      - 🇺🇸 _US_美国 734
-      - 🇭🇰 _HK_香港37
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大63
-      - 🇺🇸 _US_美国 872
-      - 🇺🇸 _US_美国 23101
+      - 🇺🇸 _US_美国 263
+      - 🇺🇸 _US_美国 672
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大73
+      - 🇺🇸 _US_美国 774
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -84,15 +59,10 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 🇺🇸 _US_美国 223
-      - 🇺🇸 _US_美国 325
-      - 🇺🇸 _US_美国 632
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大33
-      - 🇺🇸 _US_美国 734
-      - 🇭🇰 _HK_香港37
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大63
-      - 🇺🇸 _US_美国 872
-      - 🇺🇸 _US_美国 23101
+      - 🇺🇸 _US_美国 263
+      - 🇺🇸 _US_美国 672
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大73
+      - 🇺🇸 _US_美国 774
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
