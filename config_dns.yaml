@@ -31,10 +31,8 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
-  - {name: 🇺🇸 _US_美国 263, server: cfcdn2.sanfencdn.net, port: 2052, client-fingerprint: chrome, type: vmess, uuid: cfd43f68-a5be-4c67-b1e9-686e2e1315a2, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: tw1.sanfencdn2.com}}}
+  - {name: 🇺🇸 _US_美国->🇻🇳_VN_越南70, server: Tokyo.mfa.ee, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
   - {name: 🇺🇸 _US_美国 672, server: 137.175.0.155, port: 41551, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大73, server: 172.67.75.194, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇺🇸 _US_美国 774, server: 142.4.111.76, port: 42009, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -43,20 +41,16 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇺🇸 _US_美国 263
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南70
       - 🇺🇸 _US_美国 672
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大73
-      - 🇺🇸 _US_美国 774
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国 263
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南70
       - 🇺🇸 _US_美国 672
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大73
-      - 🇺🇸 _US_美国 774
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -64,20 +58,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国 263
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南70
       - 🇺🇸 _US_美国 672
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大73
-      - 🇺🇸 _US_美国 774
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 _US_美国 263
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南70
       - 🇺🇸 _US_美国 672
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大73
-      - 🇺🇸 _US_美国 774
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -86,10 +76,8 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 🇺🇸 _US_美国 263
+      - 🇺🇸 _US_美国->🇻🇳_VN_越南70
       - 🇺🇸 _US_美国 672
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大73
-      - 🇺🇸 _US_美国 774
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
