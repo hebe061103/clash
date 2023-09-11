@@ -6,16 +6,42 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇺🇸 _US_美国 422, server: us1.mianfenyun012.eu.org, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 89e8501d-1a59-4754-cdc2-0e6334b97e3b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jdbp606, headers: {Host: us1.mianfenyun012.eu.org}}}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大23, server: singapore.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇺🇸 _US_美国 524, server: 107.167.30.149, port: 43900, client-fingerprint: chrome, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇨🇦 _CA_加拿大29, server: dongtaiwang3.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 _US_美国 726, server: 162.159.253.16, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: 🇺🇸 _US_美国 1134, server: stock.hostmonit.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sshkit/@yzcjd/64fb4a7d30294/, headers: {Host: lb.vhax.net}}}
+  - {name: 🇨🇦 _CA_加拿大 238, server: dongtaiwang2.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 3.freek1.xyz}}}
   - {name: 🇺🇸 _US_美国 1443, server: us2.mianfenyun012.eu.org, port: 8080, client-fingerprint: chrome, type: vmess, uuid: a8966719-aeaf-4886-d202-72f75f845b83, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jdbp606, headers: {Host: us2.mianfenyun012.eu.org}}}
-  - {name: 🇺🇸 _US_美国 1953, server: 172.67.120.174, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 _US_美国->🇻🇳_VN_越南84, server: Tokyo.mfa.ee, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
   - {name: 🇺🇸 _US_美国 686, server: 137.175.0.155, port: 41551, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大87, server: 172.67.75.194, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
   - {name: 🇭🇰 _HK_香港91, server: 103.160.204.8, port: 80, client-fingerprint: chrome, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 10.wyhkaa0.gq}}}
+  - {name: "|26.92Mb"224, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
+  - {name: "|11.73Mb"225, server: 39.103.165.178, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "|39.29Mb"226, server: 111.230.252.149, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "|21.52Mb"229, server: 112.132.212.112, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "|21.56Mb"230, server: 114.117.234.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "|53.64Mb"231, server: 175.27.154.61, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: "|11.63Mb"233, server: 146.56.174.31, port: 8080, type: vmess, uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg@herhero6}}
+  - {name: "|48.23Mb"237, server: 141.147.153.244, port: 41545, type: vmess, uuid: d47d7135-0954-46ab-a190-17b6c8630a85, alterId: 0, cipher: auto, tls: false}
+  - {name: Relay_ |27.61Mb238, server: 108.166.203.183, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false}
+  - {name: "|19.12Mb"241, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: Relay_ |12.20Mb244, server: 108.166.203.181, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false}
+  - {name: "|23.62Mb"245, server: 142.4.126.26, port: 51715, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|298.85Mb"246, server: 23.108.100.101, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers}}
+  - {name: "|25.03Mb"248, server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: "|12.41Mb"249, server: 45.63.106.86, port: 37869, type: vmess, uuid: 4c90d167-e65b-4419-d455-eb635724d2ed, alterId: 0, cipher: auto, tls: false}
+  - {name: "|19.01Mb"251, server: 23.158.56.89, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: "|23.32Mb"253, server: 142.4.126.28, port: 51715, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|22.70Mb"254, server: 142.4.126.22, port: 51715, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|25.23Mb"259, server: 66.151.172.173, port: 53419, type: vmess, uuid: d9257479-9462-4e7d-94ba-a8440a128a5d, alterId: 0, cipher: auto, tls: false}
+  - {name: "|22.54Mb"260, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.82615355.xyz}}}
+  - {name: "|22.10Mb"262, server: 192.74.239.77, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694083284866}}
+  - {name: "|23.19Mb"263, server: 142.4.126.24, port: 51715, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: Relay_ |426.42Mb264, server: 172.67.181.226, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vsg1.0bad.com/chat, headers: {Host: panel2.hodorauth.com}}}
+  - {name: "|23.32Mb 2"266, server: 198.2.208.81, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691232948890}}
+  - {name: "|18.85Mb"267, server: 3.37.89.182, port: 443, type: vmess, uuid: dcd146ed-19fa-4aeb-a8c2-283fe3aa3888, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: "|46.33Mb"269, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
+  - {name: "|25.75Mb"270, server: 142.4.126.25, port: 51715, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: Relay_ |25.57Mb277, server: 1496join.outline-vpn.cloud, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false}
+  - {name: "|22.18Mb"279, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -25,16 +51,42 @@ proxy-groups:
       - 🔮 负载均衡
       - 🔯 故障转移
       - 🇺🇸 _US_美国 422
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大23
-      - 🇺🇸 _US_美国 524
-      - 🇨🇦 _CA_加拿大29
+      - 🇺🇸 _US_美国 726
       - 🇺🇸 _US_美国 1134
+      - 🇨🇦 _CA_加拿大 238
       - 🇺🇸 _US_美国 1443
-      - 🇺🇸 _US_美国 1953
-      - 🇺🇸 _US_美国->🇻🇳_VN_越南84
       - 🇺🇸 _US_美国 686
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大87
       - 🇭🇰 _HK_香港91
+      - "|26.92Mb"224
+      - "|11.73Mb"225
+      - "|39.29Mb"226
+      - "|21.52Mb"229
+      - "|21.56Mb"230
+      - "|53.64Mb"231
+      - "|11.63Mb"233
+      - "|48.23Mb"237
+      - Relay_ |27.61Mb238
+      - "|19.12Mb"241
+      - Relay_ |12.20Mb244
+      - "|23.62Mb"245
+      - "|298.85Mb"246
+      - "|25.03Mb"248
+      - "|12.41Mb"249
+      - "|19.01Mb"251
+      - "|23.32Mb"253
+      - "|22.70Mb"254
+      - "|25.23Mb"259
+      - "|22.54Mb"260
+      - "|22.10Mb"262
+      - "|23.19Mb"263
+      - Relay_ |426.42Mb264
+      - "|23.32Mb 2"266
+      - "|18.85Mb"267
+      - "|46.33Mb"269
+      - "|25.75Mb"270
+      - Relay_ |25.57Mb277
+      - "|22.18Mb"279
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
@@ -42,16 +94,42 @@ proxy-groups:
     interval: 300
     proxies:
       - 🇺🇸 _US_美国 422
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大23
-      - 🇺🇸 _US_美国 524
-      - 🇨🇦 _CA_加拿大29
+      - 🇺🇸 _US_美国 726
       - 🇺🇸 _US_美国 1134
+      - 🇨🇦 _CA_加拿大 238
       - 🇺🇸 _US_美国 1443
-      - 🇺🇸 _US_美国 1953
-      - 🇺🇸 _US_美国->🇻🇳_VN_越南84
       - 🇺🇸 _US_美国 686
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大87
       - 🇭🇰 _HK_香港91
+      - "|26.92Mb"224
+      - "|11.73Mb"225
+      - "|39.29Mb"226
+      - "|21.52Mb"229
+      - "|21.56Mb"230
+      - "|53.64Mb"231
+      - "|11.63Mb"233
+      - "|48.23Mb"237
+      - Relay_ |27.61Mb238
+      - "|19.12Mb"241
+      - Relay_ |12.20Mb244
+      - "|23.62Mb"245
+      - "|298.85Mb"246
+      - "|25.03Mb"248
+      - "|12.41Mb"249
+      - "|19.01Mb"251
+      - "|23.32Mb"253
+      - "|22.70Mb"254
+      - "|25.23Mb"259
+      - "|22.54Mb"260
+      - "|22.10Mb"262
+      - "|23.19Mb"263
+      - Relay_ |426.42Mb264
+      - "|23.32Mb 2"266
+      - "|18.85Mb"267
+      - "|46.33Mb"269
+      - "|25.75Mb"270
+      - Relay_ |25.57Mb277
+      - "|22.18Mb"279
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -60,16 +138,42 @@ proxy-groups:
     interval: 300
     proxies:
       - 🇺🇸 _US_美国 422
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大23
-      - 🇺🇸 _US_美国 524
-      - 🇨🇦 _CA_加拿大29
+      - 🇺🇸 _US_美国 726
       - 🇺🇸 _US_美国 1134
+      - 🇨🇦 _CA_加拿大 238
       - 🇺🇸 _US_美国 1443
-      - 🇺🇸 _US_美国 1953
-      - 🇺🇸 _US_美国->🇻🇳_VN_越南84
       - 🇺🇸 _US_美国 686
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大87
       - 🇭🇰 _HK_香港91
+      - "|26.92Mb"224
+      - "|11.73Mb"225
+      - "|39.29Mb"226
+      - "|21.52Mb"229
+      - "|21.56Mb"230
+      - "|53.64Mb"231
+      - "|11.63Mb"233
+      - "|48.23Mb"237
+      - Relay_ |27.61Mb238
+      - "|19.12Mb"241
+      - Relay_ |12.20Mb244
+      - "|23.62Mb"245
+      - "|298.85Mb"246
+      - "|25.03Mb"248
+      - "|12.41Mb"249
+      - "|19.01Mb"251
+      - "|23.32Mb"253
+      - "|22.70Mb"254
+      - "|25.23Mb"259
+      - "|22.54Mb"260
+      - "|22.10Mb"262
+      - "|23.19Mb"263
+      - Relay_ |426.42Mb264
+      - "|23.32Mb 2"266
+      - "|18.85Mb"267
+      - "|46.33Mb"269
+      - "|25.75Mb"270
+      - Relay_ |25.57Mb277
+      - "|22.18Mb"279
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
@@ -77,16 +181,42 @@ proxy-groups:
     interval: 300
     proxies:
       - 🇺🇸 _US_美国 422
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大23
-      - 🇺🇸 _US_美国 524
-      - 🇨🇦 _CA_加拿大29
+      - 🇺🇸 _US_美国 726
       - 🇺🇸 _US_美国 1134
+      - 🇨🇦 _CA_加拿大 238
       - 🇺🇸 _US_美国 1443
-      - 🇺🇸 _US_美国 1953
-      - 🇺🇸 _US_美国->🇻🇳_VN_越南84
       - 🇺🇸 _US_美国 686
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大87
       - 🇭🇰 _HK_香港91
+      - "|26.92Mb"224
+      - "|11.73Mb"225
+      - "|39.29Mb"226
+      - "|21.52Mb"229
+      - "|21.56Mb"230
+      - "|53.64Mb"231
+      - "|11.63Mb"233
+      - "|48.23Mb"237
+      - Relay_ |27.61Mb238
+      - "|19.12Mb"241
+      - Relay_ |12.20Mb244
+      - "|23.62Mb"245
+      - "|298.85Mb"246
+      - "|25.03Mb"248
+      - "|12.41Mb"249
+      - "|19.01Mb"251
+      - "|23.32Mb"253
+      - "|22.70Mb"254
+      - "|25.23Mb"259
+      - "|22.54Mb"260
+      - "|22.10Mb"262
+      - "|23.19Mb"263
+      - Relay_ |426.42Mb264
+      - "|23.32Mb 2"266
+      - "|18.85Mb"267
+      - "|46.33Mb"269
+      - "|25.75Mb"270
+      - Relay_ |25.57Mb277
+      - "|22.18Mb"279
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -95,16 +225,42 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🇺🇸 _US_美国 422
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大23
-      - 🇺🇸 _US_美国 524
-      - 🇨🇦 _CA_加拿大29
+      - 🇺🇸 _US_美国 726
       - 🇺🇸 _US_美国 1134
+      - 🇨🇦 _CA_加拿大 238
       - 🇺🇸 _US_美国 1443
-      - 🇺🇸 _US_美国 1953
-      - 🇺🇸 _US_美国->🇻🇳_VN_越南84
       - 🇺🇸 _US_美国 686
       - 🇺🇸 _US_美国->🇨🇦_CA_加拿大87
       - 🇭🇰 _HK_香港91
+      - "|26.92Mb"224
+      - "|11.73Mb"225
+      - "|39.29Mb"226
+      - "|21.52Mb"229
+      - "|21.56Mb"230
+      - "|53.64Mb"231
+      - "|11.63Mb"233
+      - "|48.23Mb"237
+      - Relay_ |27.61Mb238
+      - "|19.12Mb"241
+      - Relay_ |12.20Mb244
+      - "|23.62Mb"245
+      - "|298.85Mb"246
+      - "|25.03Mb"248
+      - "|12.41Mb"249
+      - "|19.01Mb"251
+      - "|23.32Mb"253
+      - "|22.70Mb"254
+      - "|25.23Mb"259
+      - "|22.54Mb"260
+      - "|22.10Mb"262
+      - "|23.19Mb"263
+      - Relay_ |426.42Mb264
+      - "|23.32Mb 2"266
+      - "|18.85Mb"267
+      - "|46.33Mb"269
+      - "|25.75Mb"270
+      - Relay_ |25.57Mb277
+      - "|22.18Mb"279
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择

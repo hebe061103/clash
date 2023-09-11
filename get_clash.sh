@@ -24,6 +24,7 @@ date3=$(date "+%Y%m%d")
 urllist=("https://ghproxy.com/https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml"
 "https://ghproxy.com/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
 "https://clashnode.com/wp-content/uploads/$date1/$date2/$date3.yaml"
+"$subdz&url=https://free.jingfu.cf/vmess/sub"
 )
 for i in ${urllist[@]}
     do
