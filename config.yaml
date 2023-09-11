@@ -5,16 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 吉祥28, server: 172.64.105.187, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 吉祥35, server: 162.159.253.16, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 吉祥41, server: stock.hostmonit.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sshkit/@yzcjd/64fb4a7d30294/, headers: {Host: lb.vhax.net}}}
-  - {name: 吉祥45, server: 172.67.120.200, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 吉祥51, server: 172.67.83.191, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 吉祥52, server: Tokyo.mfa.ee, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
-  - {name: 吉祥59, server: 103.149.144.196, port: 35186, type: vmess, uuid: a406e9f8-d80c-45cb-efa1-b63855b79814, alterId: 0, cipher: auto, tls: false}
-  - {name: 吉祥69, server: 108.166.203.183, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false}
-  - {name: 吉祥75, server: 108.166.203.181, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false}
-  - {name: 吉祥108, server: 1496join.outline-vpn.cloud, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -23,32 +13,12 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥28
-      - 吉祥35
-      - 吉祥41
-      - 吉祥45
-      - 吉祥51
-      - 吉祥52
-      - 吉祥59
-      - 吉祥69
-      - 吉祥75
-      - 吉祥108
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥28
-      - 吉祥35
-      - 吉祥41
-      - 吉祥45
-      - 吉祥51
-      - 吉祥52
-      - 吉祥59
-      - 吉祥69
-      - 吉祥75
-      - 吉祥108
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -56,32 +26,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥28
-      - 吉祥35
-      - 吉祥41
-      - 吉祥45
-      - 吉祥51
-      - 吉祥52
-      - 吉祥59
-      - 吉祥69
-      - 吉祥75
-      - 吉祥108
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥28
-      - 吉祥35
-      - 吉祥41
-      - 吉祥45
-      - 吉祥51
-      - 吉祥52
-      - 吉祥59
-      - 吉祥69
-      - 吉祥75
-      - 吉祥108
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -89,16 +39,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 吉祥28
-      - 吉祥35
-      - 吉祥41
-      - 吉祥45
-      - 吉祥51
-      - 吉祥52
-      - 吉祥59
-      - 吉祥69
-      - 吉祥75
-      - 吉祥108
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
