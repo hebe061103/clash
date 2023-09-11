@@ -162,7 +162,6 @@ fi
 date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "测速完成!" |tee -a /tmp/clash_run_log.log
 #----------------------------------------------------------------------------------------------
-echo --$date-- "重新提取全部节点"|tee -a |tee -a /tmp/line.log
 for filename in $(ls /tmp/allnode_config.yaml)
 do
   while read line
