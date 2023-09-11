@@ -56,15 +56,8 @@ do
   do
   let sum++
   if echo $line | grep "{name:";then
-  a=${line%%,*}
-  if echo $a | grep "+";then
-    b=`echo $a | sed 's/+/ /g'`
-    c=${line#*, }
-    echo $b$sum","$c >> /home/config.yaml
-  else
-  d=${line#*,}
-  echo $a$sum","$d >> /home/config.yaml
-  fi
+     a=${line#*, }
+     echo "吉祥"$sum","$a >> /home/config.yaml
   fi
   if echo $line | grep -q "proxy-groups:";then
        break
