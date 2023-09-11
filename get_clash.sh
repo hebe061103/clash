@@ -54,10 +54,10 @@ for filename in $(ls /run/*.yaml)
 do
   while read line
   do
-  let sum++
   if echo $line | grep "{name:";then
+     let sum++
      a=${line#*, }
-     echo "吉祥"$sum","$a >> /home/config.yaml
+     echo "- {name: 吉祥"$sum", "$a >> /home/config.yaml
   fi
   if echo $line | grep -q "proxy-groups:";then
        break
