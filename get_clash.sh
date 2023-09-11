@@ -15,7 +15,7 @@ date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "-----------------------开始更新CLASH配置文件----------------------" |tee -a /tmp/clash_run_log.log
 #删除排序文件
 cd /tmp
-rm -rf line.log config.yaml node_config.yaml config_cl.yaml
+rm -rf line.log node_config.yaml config_cl.yaml
 cp $parm_path/formwork /tmp/newconfig
 date1=$(date "+%Y")
 date2=$(date "+%m")
@@ -59,10 +59,10 @@ do
   if echo $a | grep "+";then
     b=`echo $a | sed 's/+/ /g'`
     c=${line#*, }
-    echo $b$sum","$c >> /tmp/config.yaml
+    echo $b$sum","$c >> /home/config.yaml
   else
   d=${line#*,}
-  echo $a$sum","$d >> /tmp/config.yaml
+  echo $a$sum","$d >> /home/config.yaml
   fi
   fi
   if echo $line | grep -q "proxy-groups:";then
@@ -73,7 +73,7 @@ done
 rm -rf /run/*.yaml
 #-------------------------------------------------------------------------------------------------
 echo --$date-- "节点服务器去重"|tee -a /tmp/clash_run_log.log
-for filename in $(ls /tmp/config.yaml)
+for filename in $(ls /home/config.yaml)
 do
   while read line
   do
@@ -94,18 +94,18 @@ for filename in $(ls /tmp/same)
 do
   while read line
   do
-   s=`cat /tmp/config.yaml |grep -n "$line"|cut -f1 -d:`
+   s=`cat /home/config.yaml |grep -n "$line"|cut -f1 -d:`
    delnum=($s)
    del=$["${#delnum[@]}" - 1]
    for ((i=0; i<$del; i++));do
        n="${delnum[$i]}"
        #给要删除的行做标记
-       sed -i "${n},${n}s/- {name/mark-del/g" /tmp/config.yaml
+       sed -i "${n},${n}s/- {name/mark-del/g" /home/config.yaml
    done
   done < $filename
 done
 #删除重复节点的数量
-for filename in $(ls /tmp/config.yaml);do
+for filename in $(ls /home/config.yaml);do
     while read line;do
         if echo $line | grep "mark-del";then
             let x++
@@ -114,8 +114,8 @@ for filename in $(ls /tmp/config.yaml);do
 done
 date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "需要从可用节点中删除重复服务器节点的数量为:"$x |tee -a /tmp/clash_run_log.log
-sed -i -e "/mark-del/d" /tmp/config.yaml #删除所有标记的重复行
-sed -i -e "/vless,/d"   /tmp/config.yaml #删除不可识别的代理类型
+sed -i -e "/mark-del/d" /home/config.yaml #删除所有标记的重复行
+sed -i -e "/vless,/d"   /home/config.yaml #删除不可识别的代理类型
 echo --$date-- "可用节点服务器完成去重"|tee -a /tmp/clash_run_log.log
 rm -rf /tmp/same
 else
@@ -124,7 +124,7 @@ fi
 rm -rf /tmp/samenodeserver
 #---------------------------------------------------------------------------------------------
 #提取代理与模板文件进行合并并生成新的配置文件
-for filename in $(ls /tmp/config.yaml)
+for filename in $(ls /home/config.yaml)
 do
   while read line
   do
