@@ -54,7 +54,7 @@ for filename in $(ls /run/*.yaml)
 do
   while read line
   do
-  if echo $line | grep "{name:";then
+  if echo $line | grep "{name:" | grep -v "中国";then
      let sum++
      a=${line#*, }
      echo "- {name: 吉祥"$sum", "$a >> /home/config.yaml
@@ -122,7 +122,7 @@ for filename in $(ls /home/config.yaml)
 do
   while read line
   do
-  if echo $line | grep "{name:" | grep -v "中国";then
+  if echo $line | grep "{name:" ;then
   sed -i '/以上为代理地址请插入/i\'"  $line"'' /tmp/newconfig
   a=${line#*:}
   b=${a%%,*}
