@@ -50,20 +50,30 @@ echo "------------------------------------------please wait!--------------------
 echo "----------------------------------------------------------------------------------------------------------"
 echo "----------------------------------------------------------------------------------------------------------"
 echo --$date-- "准备获取全部节点列表"|tee -a |tee -a /tmp/line.log
-if [ -s /home/config.yaml ];then
-n1=`sed -n '$p' /home/config.yaml`
-n1=${n1#*|}
-n1=${n1%%,*}
-n1=`expr $n1`
+if [ -s /mnt/updateClashToGithub/node ];then
+all_p=`awk '{print NR}' /mnt/updateClashToGithub/node|tail -n1`
+max=`sed -n '1 p' /mnt/updateClashToGithub/node`
+max=${max#*|}
+max=${max%%,*}
+max=`expr $max`
+for i in $all_p ;do
+    min=`sed -n ${i}'p' /mnt/updateClashToGithub/node`
+    min=${min#*|}
+    min=${min%%,*}
+    min=`expr $min`
+    if [[ ${max} -le ${min} ]];then
+        max=${min}
+    fi
+done
 fi
 for filename in $(ls /run/*.yaml)
 do
   while read line
   do
   if echo $line | grep "{name:" | grep -v "中国";then
-     let n1++
+     let max++
      a=${line#*, }
-     echo "- {name: 吉祥|"$n1", "$a >> /home/config.yaml
+     echo "- {name: 吉祥|"$max", "$a >> /mnt/updateClashToGithub/node
   fi
   if echo $line | grep -q "proxy-groups:";then
        break
@@ -73,7 +83,7 @@ done
 rm -rf /run/*.yaml
 #-------------------------------------------------------------------------------------------------
 echo --$date-- "节点服务器去重"|tee -a /tmp/clash_run_log.log
-for filename in $(ls /home/config.yaml)
+for filename in $(ls /mnt/updateClashToGithub/node)
 do
   while read line
   do
@@ -94,18 +104,18 @@ for filename in $(ls /tmp/same)
 do
   while read line
   do
-   s=`cat /home/config.yaml |grep -n "$line"|cut -f1 -d:`
+   s=`cat /mnt/updateClashToGithub/node |grep -n "$line"|cut -f1 -d:`
    delnum=($s)
    del=$["${#delnum[@]}" - 1]
    for ((i=0; i<$del; i++));do
        n="${delnum[$i]}"
        #给要删除的行做标记
-       sed -i "${n},${n}s/- {name/mark-del/g" /home/config.yaml
+       sed -i "${n},${n}s/- {name/mark-del/g" /mnt/updateClashToGithub/node
    done
   done < $filename
 done
 #删除重复节点的数量
-for filename in $(ls /home/config.yaml);do
+for filename in $(ls /mnt/updateClashToGithub/node);do
     while read line;do
         if echo $line | grep "mark-del";then
             let x++
@@ -114,8 +124,8 @@ for filename in $(ls /home/config.yaml);do
 done
 date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "需要从可用节点中删除重复服务器节点的数量为:"$x |tee -a /tmp/clash_run_log.log
-sed -i -e "/mark-del/d" /home/config.yaml #删除所有标记的重复行
-sed -i -e "/vless,/d"   /home/config.yaml #删除不可识别的代理类型
+sed -i -e "/mark-del/d" /mnt/updateClashToGithub/node #删除所有标记的重复行
+sed -i -e "/vless,/d"   /mnt/updateClashToGithub/node #删除不可识别的代理类型
 echo --$date-- "可用节点服务器完成去重"|tee -a /tmp/clash_run_log.log
 rm -rf /tmp/same
 else
@@ -124,7 +134,7 @@ fi
 rm -rf /tmp/samenodeserver
 #---------------------------------------------------------------------------------------------
 #提取代理与模板文件进行合并并生成新的配置文件
-for filename in $(ls /home/config.yaml)
+for filename in $(ls /mnt/updateClashToGithub/node)
 do
   while read line
   do
