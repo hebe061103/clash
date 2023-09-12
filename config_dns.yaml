@@ -31,13 +31,33 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
-  - {name: 吉祥|302, server: v101.runba.gq, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /frfrxxx0fk832v101N, headers: {Host: v101.runba.gq}}}
-  - {name: 吉祥|311, server: 172.67.211.253, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 吉祥|315, server: Tokyo.mfa.ee, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
-  - {name: 吉祥|318, server: 172.67.83.191, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 吉祥|319, server: 172.64.105.187, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 吉祥|321, server: 172.64.161.58, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 吉祥|328, server: 172.64.202.22, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 吉祥|435, server: v101.runba.gq, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /frfrxxx0fk832v101N, headers: {Host: v101.runba.gq}}}
+  - {name: 吉祥|436, server: 172.67.148.210, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 吉祥|439, server: us1.mianfenyun012.eu.org, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 89e8501d-1a59-4754-cdc2-0e6334b97e3b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jdbp606, headers: {Host: us1.mianfenyun012.eu.org}}}
+  - {name: 吉祥|448, server: Tokyo.mfa.ee, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vnpt.iiio.wiki}}}
+  - {name: 吉祥|452, server: 172.64.105.187, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 吉祥|454, server: 172.64.161.58, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 吉祥|461, server: 172.64.202.22, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 吉祥|534, server: 64.110.86.210, port: 32702, type: ss, cipher: aes-128-gcm, password: f234e3da-452e-4b7c-85f5-50a3ac1d1d34}
+  - {name: 吉祥|535, server: 64.110.86.210, port: 32703, type: ss, cipher: aes-128-gcm, password: f234e3da-452e-4b7c-85f5-50a3ac1d1d34}
+  - {name: 吉祥|538, server: 64.110.86.210, port: 32701, type: ss, cipher: aes-128-gcm, password: f234e3da-452e-4b7c-85f5-50a3ac1d1d34}
+  - {name: 吉祥|543, server: 64.110.86.210, port: 32601, type: ss, cipher: aes-128-gcm, password: f234e3da-452e-4b7c-85f5-50a3ac1d1d34}
+  - {name: 吉祥|544, server: 64.110.86.210, port: 32602, type: ss, cipher: aes-128-gcm, password: f234e3da-452e-4b7c-85f5-50a3ac1d1d34}
+  - {name: 吉祥|546, server: 64.110.86.210, port: 32603, type: ss, cipher: aes-128-gcm, password: f234e3da-452e-4b7c-85f5-50a3ac1d1d34}
+  - {name: 吉祥|551, server: 36.137.19.45, port: 55108, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
+  - {name: 吉祥|558, server: wqryo-1075-v2-0.d-hinet-02.ddll.bond, port: 888, type: vmess, uuid: a590e692-4c8d-42dd-ba80-b1765a34f699, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.cjhh.lol}}}
+  - {name: 吉祥|559, server: yjxbu-1087-tr-1.d-kcd.tuil.xyz, port: 889, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol}
+  - {name: 吉祥|560, server: nlctg-1060-tr-2.d-cmi.ddll.bond, port: 889, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol}
+  - {name: 吉祥|561, server: yuumv-1088-tr-0.d-kcd.tuil.xyz, port: 889, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: s3.cjhh.beauty}
+  - {name: 吉祥|562, server: 64.110.86.210, port: 32303, type: ss, cipher: aes-128-gcm, password: 1a93a19f-bc74-415c-8bd4-c300bc3b5b58}
+  - {name: 吉祥|563, server: 64.110.86.210, port: 32403, type: ss, cipher: aes-128-gcm, password: 1a93a19f-bc74-415c-8bd4-c300bc3b5b58}
+  - {name: 吉祥|564, server: 64.110.86.210, port: 32302, type: ss, cipher: aes-128-gcm, password: 1a93a19f-bc74-415c-8bd4-c300bc3b5b58}
+  - {name: 吉祥|565, server: 64.110.86.210, port: 32301, type: ss, cipher: aes-128-gcm, password: 1a93a19f-bc74-415c-8bd4-c300bc3b5b58}
+  - {name: 吉祥|566, server: 64.110.86.210, port: 32401, type: ss, cipher: aes-128-gcm, password: 1a93a19f-bc74-415c-8bd4-c300bc3b5b58}
+  - {name: 吉祥|567, server: 64.110.86.210, port: 32402, type: ss, cipher: aes-128-gcm, password: 1a93a19f-bc74-415c-8bd4-c300bc3b5b58}
+  - {name: 吉祥|568, server: 64.110.86.210, port: 32501, type: ss, cipher: aes-128-gcm, password: 1a93a19f-bc74-415c-8bd4-c300bc3b5b58}
+  - {name: 吉祥|569, server: 64.110.86.210, port: 32502, type: ss, cipher: aes-128-gcm, password: 1a93a19f-bc74-415c-8bd4-c300bc3b5b58}
+  - {name: 吉祥|570, server: 64.110.86.210, port: 32503, type: ss, cipher: aes-128-gcm, password: 1a93a19f-bc74-415c-8bd4-c300bc3b5b58}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -46,26 +66,66 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|302
-      - 吉祥|311
-      - 吉祥|315
-      - 吉祥|318
-      - 吉祥|319
-      - 吉祥|321
-      - 吉祥|328
+      - 吉祥|435
+      - 吉祥|436
+      - 吉祥|439
+      - 吉祥|448
+      - 吉祥|452
+      - 吉祥|454
+      - 吉祥|461
+      - 吉祥|534
+      - 吉祥|535
+      - 吉祥|538
+      - 吉祥|543
+      - 吉祥|544
+      - 吉祥|546
+      - 吉祥|551
+      - 吉祥|558
+      - 吉祥|559
+      - 吉祥|560
+      - 吉祥|561
+      - 吉祥|562
+      - 吉祥|563
+      - 吉祥|564
+      - 吉祥|565
+      - 吉祥|566
+      - 吉祥|567
+      - 吉祥|568
+      - 吉祥|569
+      - 吉祥|570
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|302
-      - 吉祥|311
-      - 吉祥|315
-      - 吉祥|318
-      - 吉祥|319
-      - 吉祥|321
-      - 吉祥|328
+      - 吉祥|435
+      - 吉祥|436
+      - 吉祥|439
+      - 吉祥|448
+      - 吉祥|452
+      - 吉祥|454
+      - 吉祥|461
+      - 吉祥|534
+      - 吉祥|535
+      - 吉祥|538
+      - 吉祥|543
+      - 吉祥|544
+      - 吉祥|546
+      - 吉祥|551
+      - 吉祥|558
+      - 吉祥|559
+      - 吉祥|560
+      - 吉祥|561
+      - 吉祥|562
+      - 吉祥|563
+      - 吉祥|564
+      - 吉祥|565
+      - 吉祥|566
+      - 吉祥|567
+      - 吉祥|568
+      - 吉祥|569
+      - 吉祥|570
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -73,26 +133,66 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|302
-      - 吉祥|311
-      - 吉祥|315
-      - 吉祥|318
-      - 吉祥|319
-      - 吉祥|321
-      - 吉祥|328
+      - 吉祥|435
+      - 吉祥|436
+      - 吉祥|439
+      - 吉祥|448
+      - 吉祥|452
+      - 吉祥|454
+      - 吉祥|461
+      - 吉祥|534
+      - 吉祥|535
+      - 吉祥|538
+      - 吉祥|543
+      - 吉祥|544
+      - 吉祥|546
+      - 吉祥|551
+      - 吉祥|558
+      - 吉祥|559
+      - 吉祥|560
+      - 吉祥|561
+      - 吉祥|562
+      - 吉祥|563
+      - 吉祥|564
+      - 吉祥|565
+      - 吉祥|566
+      - 吉祥|567
+      - 吉祥|568
+      - 吉祥|569
+      - 吉祥|570
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|302
-      - 吉祥|311
-      - 吉祥|315
-      - 吉祥|318
-      - 吉祥|319
-      - 吉祥|321
-      - 吉祥|328
+      - 吉祥|435
+      - 吉祥|436
+      - 吉祥|439
+      - 吉祥|448
+      - 吉祥|452
+      - 吉祥|454
+      - 吉祥|461
+      - 吉祥|534
+      - 吉祥|535
+      - 吉祥|538
+      - 吉祥|543
+      - 吉祥|544
+      - 吉祥|546
+      - 吉祥|551
+      - 吉祥|558
+      - 吉祥|559
+      - 吉祥|560
+      - 吉祥|561
+      - 吉祥|562
+      - 吉祥|563
+      - 吉祥|564
+      - 吉祥|565
+      - 吉祥|566
+      - 吉祥|567
+      - 吉祥|568
+      - 吉祥|569
+      - 吉祥|570
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -101,13 +201,33 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|302
-      - 吉祥|311
-      - 吉祥|315
-      - 吉祥|318
-      - 吉祥|319
-      - 吉祥|321
-      - 吉祥|328
+      - 吉祥|435
+      - 吉祥|436
+      - 吉祥|439
+      - 吉祥|448
+      - 吉祥|452
+      - 吉祥|454
+      - 吉祥|461
+      - 吉祥|534
+      - 吉祥|535
+      - 吉祥|538
+      - 吉祥|543
+      - 吉祥|544
+      - 吉祥|546
+      - 吉祥|551
+      - 吉祥|558
+      - 吉祥|559
+      - 吉祥|560
+      - 吉祥|561
+      - 吉祥|562
+      - 吉祥|563
+      - 吉祥|564
+      - 吉祥|565
+      - 吉祥|566
+      - 吉祥|567
+      - 吉祥|568
+      - 吉祥|569
+      - 吉祥|570
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
