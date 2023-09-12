@@ -50,14 +50,20 @@ echo "------------------------------------------please wait!--------------------
 echo "----------------------------------------------------------------------------------------------------------"
 echo "----------------------------------------------------------------------------------------------------------"
 echo --$date-- "准备获取全部节点列表"|tee -a |tee -a /tmp/line.log
+if [ -s /home/config.yaml ];then
+n1=`sed -n '$p' /home/config.yaml`
+n1=${n1#*|}
+n1=${n1%%,*}
+n1=`expr $n1`
+fi
 for filename in $(ls /run/*.yaml)
 do
   while read line
   do
   if echo $line | grep "{name:" | grep -v "中国";then
-     let sum++
+     let n1++
      a=${line#*, }
-     echo "- {name: 吉祥"$sum", "$a >> /home/config.yaml
+     echo "- {name: 吉祥|"$n1", "$a >> /home/config.yaml
   fi
   if echo $line | grep -q "proxy-groups:";then
        break
