@@ -46,32 +46,18 @@ for i in ${urllist[@]}
     fi
     fi
     done
-sleep 5
 echo "------------------------------------------please wait!----------------------------------------------------"
 echo "----------------------------------------------------------------------------------------------------------"
 echo "----------------------------------------------------------------------------------------------------------"
 echo --$date-- "准备获取全部节点列表"|tee -a |tee -a /tmp/line.log
-if [ -s /mnt/updateClashToGithub/node ];then
-all_p=`awk '{print NR}' /mnt/updateClashToGithub/node|tail -n1`
-let max
-for i in $all_p ;do
-    min=`sed -n ${i}'p' /mnt/updateClashToGithub/node`
-    min=${min#*|}
-    min=${min%%,*}
-    min=`expr $min`
-    if [[ ${max} -le ${min} ]];then
-        max=${min}
-    fi
-done
-fi
 for filename in $(ls /run/*.yaml)
 do
   while read line
   do
   if echo $line | grep "{name:" | grep -v "中国";then
-     let max++
      a=${line#*, }
-     echo "- {name: 吉祥|"$max", "$a >> /mnt/updateClashToGithub/node
+     random=`head /dev/urandom | tr -dc A-Za-z0-9 | head -c 15`
+     echo "- {name: 吉祥|"$random"|, "$a >> /mnt/updateClashToGithub/node
   fi
   if echo $line | grep -q "proxy-groups:";then
        break
