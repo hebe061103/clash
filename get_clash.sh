@@ -52,10 +52,7 @@ echo "--------------------------------------------------------------------------
 echo --$date-- "准备获取全部节点列表"|tee -a |tee -a /tmp/line.log
 if [ -s /mnt/updateClashToGithub/node ];then
 all_p=`awk '{print NR}' /mnt/updateClashToGithub/node|tail -n1`
-max=`sed -n '1 p' /mnt/updateClashToGithub/node`
-max=${max#*|}
-max=${max%%,*}
-max=`expr $max`
+let max
 for i in $all_p ;do
     min=`sed -n ${i}'p' /mnt/updateClashToGithub/node`
     min=${min#*|}
@@ -98,7 +95,6 @@ done < $filename
 done
 temp1=`sort /tmp/samenodeserver|uniq -d`
 if [[ "$temp1" != "" ]];then
-echo --$date-- "重复的节点服务器:"$temp1 |tee -a /tmp/clash_run_log.log
 echo "$temp1" >>/tmp/same
 for filename in $(ls /tmp/same)
 do
