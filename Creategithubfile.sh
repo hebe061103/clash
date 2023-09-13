@@ -34,15 +34,16 @@ git commit -m "$date"
 git remote set-url origin https://$GITHUBTOKEN@github.com/hebe061103/clash.git
 result=`git push -u origin master`
 if echo "$result" | grep -e "set up to track remote branch";then
+date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "------------------------同步到github成功-------------------------" |tee -a /tmp/clash_run_log.log
 break
 else
 let try_num++
 date=$(date "+%Y-%m-%d %H:%M:%S")
-echo --$date-- "------------------------同步到github失败,执行第$((try_num+1))次尝试-------------------------" |tee -a /tmp/clash_run_log.log
+echo --$date-- "------------------------同步失败,执行第$try_num次尝试-------------------------" |tee -a /tmp/clash_run_log.log
 sleep 30
 if [ $try_num -eq 10 ];then
-echo --$date-- "------------------------经过$((try_num+1))次尝试依然失败,退出-------------------------" |tee -a /tmp/clash_run_log.log
+echo --$date-- "------------------------经过$try_num次尝试依然失败,故障退出-------------------------" |tee -a /tmp/clash_run_log.log
 break
 fi
 fi
