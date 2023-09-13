@@ -1,5 +1,7 @@
 #!/bin/bash
 #开始整理config.yaml配置文件并提取代理
+date=$(date "+%Y-%m-%d %H:%M:%S")
+echo --$date-- "------------------------同步clash配置到github-------------------------" |tee -a /tmp/clash_run_log.log
 parm_path=$(cd `dirname $0`; pwd)
 cp $parm_path/formwork.update_to_github /tmp/no_dns_config.yaml
 for filename in $(ls /tmp/node_config.yaml)
@@ -22,6 +24,8 @@ cd $parm_path
 cp /tmp/no_dns_config.yaml config.yaml
 cp /tmp/config_cl.yaml config_dns.yaml
 cp /tmp/allnode_config.yaml ./
+while true;
+do
 date=$(date "+%Y-%m-%d %H:%M:%S")
 echo "$date 更新!" > README.md
 git init
@@ -30,7 +34,16 @@ git commit -m "$date"
 git remote set-url origin https://$GITHUBTOKEN@github.com/hebe061103/clash.git
 result=`git push -u origin master`
 if echo "$result" | grep -e "set up to track remote branch";then
-echo "同步成功"
+echo --$date-- "------------------------同步到github成功-------------------------" |tee -a /tmp/clash_run_log.log
+break
 else
-echo "同步失败"
+let try_num++
+date=$(date "+%Y-%m-%d %H:%M:%S")
+echo --$date-- "------------------------同步到github失败,执行第$((try_num+1))次尝试-------------------------" |tee -a /tmp/clash_run_log.log
+sleep 30
+if [ $try_num -eq 10 ];then
+echo --$date-- "------------------------经过$((try_num+1))次尝试依然失败,退出-------------------------" |tee -a /tmp/clash_run_log.log
+break
 fi
+fi
+done

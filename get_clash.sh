@@ -342,7 +342,7 @@ do
 done
 echo --$date-- "代理提取完成并成功生成配置文件" |tee -a /tmp/clash_run_log.log
 mv /tmp/newconfig /tmp/config_cl.yaml
-echo --$date-- "配置文件以生成到:/tmp/config_cl.yaml" |tee -a /tmp/clash_run_log.log
+echo --$date-- "配置文件以生成到:/tmp/config_cl.yaml,更新完成!" |tee -a /tmp/clash_run_log.log
 restart_clash(){
 date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "------------------------重启CLASH-----------------------------" |tee -a /tmp/clash_run_log.log
@@ -354,31 +354,13 @@ echo --$date-- "------------------------重启CLASH完成-----------------------
 }
 restart_clash #cp配置文件到clash配置目录并重启clash
 date=$(date "+%Y-%m-%d %H:%M:%S")
-echo --$date-- "------------------------同步clash配置到github-------------------------" |tee -a /tmp/clash_run_log.log
-while true;
-do
-prostr=`$parm_path/Creategithubfile.sh`
-if echo "$prostr" | grep -e "同步成功";then
-echo --$date-- "------------------------同步到github完成-------------------------" |tee -a /tmp/clash_run_log.log
-break
-else
-let try_num++
-date=$(date "+%Y-%m-%d %H:%M:%S")
-echo --$date-- "------------------------同步到github失败,执行第$try_num次尝试-------------------------" |tee -a /tmp/clash_run_log.log
-sleep 30
-if [ $try_num -eq 10 ];then
-echo --$date-- "------------------------经过$try_num次尝试依然失败,退出-------------------------" |tee -a /tmp/clash_run_log.log
-break
-fi
-fi
-done
+#执行github同步脚本
+$parm_path/Creategithubfile.sh
 #清除日志内容
 a=$(grep -c "" /tmp/clash_run_log.log)
 if [ $a -gt 106 ]; then
     rm /tmp/clash_run_log.log
 fi
-date=$(date "+%Y-%m-%d %H:%M:%S")
-echo --$date-- "------------------------CLASH配置更新完成-------------------------" |tee -a /tmp/clash_run_log.log
 #附节点订阅地址
 #https://github.com/freefq/free    freefq/free, 节点数量: 34
 #https://github.com/oslook/clash-freenode    oslook/clash-freenode, 节点数量: 42
