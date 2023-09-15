@@ -31,8 +31,8 @@ echo "$date 更新!" > README.md
 git init
 git add ./
 git commit -m "$date"
-git remote set-url origin https://$GITHUBTOKEN@github.com/hebe061103/clash.git
-result=`git push -u origin master  >> /tmp/pullgithub.log 2>&1`
+git remote set-url origin https://${GITHUBTOKEN}@github.com/hebe061103/clash.git
+result=`git push -u origin master`
 if echo "$result" | grep -e "set up to track remote branch";then
 date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "------------------------同步到github成功-------------------------" |tee -a /tmp/clash_run_log.log
