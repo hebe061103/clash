@@ -39,8 +39,13 @@ date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "------------------------同步到github成功-------------------------" |tee -a /tmp/clash_run_log.log
 break
 else
+let num++
+echo --$date-- "------------------------同步失败,开始进行第$num次重试-------------------------" |tee -a /tmp/clash_run_log.log
+sleep 10
+if [ $num -eq 10 ];then
 date=$(date "+%Y-%m-%d %H:%M:%S")
-echo --$date-- "------------------------同步到github失败-------------------------" |tee -a /tmp/clash_run_log.log
+echo --$date-- "------------------------重试$num次失败,故障退出-------------------------" |tee -a /tmp/clash_run_log.log
 break
+fi
 fi
 done
