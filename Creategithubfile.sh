@@ -31,8 +31,7 @@ echo "$date 更新!" > README.md
 git init
 git add ./
 git commit -m "$date"
-result0=`git remote set-url origin https://$GITHUBTOKEN@github.com/hebe061103/clash.git`
-echo "$result0" >> /tmp/result0.log
+git remote set-url origin https://$GITHUBTOKEN@github.com/hebe061103/clash.git
 result=`git push -u origin master`
 if echo "$result" | grep -e "set up to track remote branch";then
 date=$(date "+%Y-%m-%d %H:%M:%S")
