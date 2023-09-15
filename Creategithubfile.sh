@@ -1,6 +1,6 @@
 #!/bin/bash
 #开始整理config.yaml配置文件并提取代理
-source /etc/profile
+. /etc/profile
 date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "------------------------同步clash配置到github-------------------------" |tee -a /tmp/clash_run_log.log
 parm_path=$(cd `dirname $0`; pwd)
