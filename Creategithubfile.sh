@@ -40,6 +40,7 @@ echo --$date-- "------------------------同步到github成功-------------------
 break
 else
 let num++
+date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "------------------------同步失败,开始进行第$num次重试-------------------------" |tee -a /tmp/clash_run_log.log
 sleep 10
 if [ $num -eq 10 ];then
