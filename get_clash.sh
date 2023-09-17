@@ -49,6 +49,7 @@ for i in ${urllist[@]}
 echo "------------------------------------------please wait!----------------------------------------------------"
 echo "----------------------------------------------------------------------------------------------------------"
 echo "----------------------------------------------------------------------------------------------------------"
+sleep 3
 echo --$date-- "准备获取全部节点列表"|tee -a |tee -a /tmp/line.log
 for filename in $(ls /run/*.yaml)
 do
@@ -160,14 +161,7 @@ do
   while read line
   do
   if echo $line | grep "{name:";then
-  a=${line%%,*}
-  if echo $a | grep "+";then
-    b=`echo $a | sed 's/+/ /g'`
-    c=${line#*, }
-    echo "$b"", ""$c" >> /tmp/node_config.yaml
-  else
-  echo $line >> /tmp/node_config.yaml
-  fi
+    echo $line >> /tmp/node_config.yaml
   fi
   if echo $line | grep -q "proxy-groups:";then
        break

@@ -5,30 +5,26 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 吉祥|tLjQyGvZLQ3uPPo|, server: 172.67.148.210, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: 吉祥|DLkExcKj84Fbc9z|, server: 172.64.105.187, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 吉祥|isHRNedEHLmHMek|, server: 172.64.161.58, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: 吉祥|OjaJNJing2izBKR|, server: 162.159.243.53, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 吉祥|3mF5U1dGmVdTCyo|, server: 172.67.6.189, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: 吉祥|hOi7PcCOWTRnmbf|, server: wi.saintink.eu.org, port: 443, client-fingerprint: chrome, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}}
+  - {name: 吉祥|ypvweJB9s0r1bau|, server: v117.runba.gq, port: 80, client-fingerprint: chrome, type: vmess, uuid: 892ebb75-7055-3007-8d16-356e65c6a49a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v117DEcxDXxxOvD, headers: {Host: v117.runba.gq}}}
   - {name: 吉祥|8mp533DhAY9hydU|, server: 183.56.247.175, port: 14301, type: trojan, password: 8EF817EE-3221-8C6C-8EDB-A9A5A1AE7202, skip-cert-verify: true}
   - {name: 吉祥|nB5RCuWx6cxCuLo|, server: 14.18.101.205, port: 14303, type: trojan, password: 8EF817EE-3221-8C6C-8EDB-A9A5A1AE7202, skip-cert-verify: true}
   - {name: 吉祥|sin9MWlabp0AmOq|, server: 14.18.101.205, port: 14301, type: trojan, password: 8EF817EE-3221-8C6C-8EDB-A9A5A1AE7202, skip-cert-verify: true}
   - {name: 吉祥|cyss25gaMgCQk9d|, server: 183.56.219.111, port: 14391, type: trojan, password: 8EF817EE-3221-8C6C-8EDB-A9A5A1AE7202, skip-cert-verify: true}
   - {name: 吉祥|OUzeWLYDTaK4efR|, server: 14.18.101.205, port: 14302, type: trojan, password: 8EF817EE-3221-8C6C-8EDB-A9A5A1AE7202, skip-cert-verify: true}
-  - {name: 吉祥|kfzs0qMFCBwiE2e|, server: 78.39.56.7, port: 13227, client-fingerprint: chrome, type: vmess, uuid: ab3608a2-f43b-456f-83e2-dc7e8d683068, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 吉祥|xrIe3K0fGpwUPsJ|, server: 172.67.120.174, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 吉祥|mwHOuvM4Zd2i4EU|, server: 156.225.67.101, port: 52792, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 吉祥|w9M0nR5IrEZFA6T|, server: 172.64.202.22, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 吉祥|bduAaFWw7KUMR4x|, server: 45.199.138.163, port: 48912, client-fingerprint: chrome, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 吉祥|VisderSdRVlBKjo|, server: us1.mianfenyun012.eu.org, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 89e8501d-1a59-4754-cdc2-0e6334b97e3b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jdbp606, headers: {Host: us1.mianfenyun012.eu.org}}}
-  - {name: 吉祥|rZsT0a9GpjhkcxH|, server: 172.64.203.172, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 吉祥|jeIrGFKXvJ3o0Ds|, server: ci.outline-vpn.cloud, port: 43123, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: false}
-  - {name: 吉祥|i3cKXfXMPgpa0ws|, server: 107.167.30.132, port: 43900, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, alterId: 64, cipher: auto, tls: false}
-  - {name: 吉祥|Cdj1SPBM3hTXfWn|, server: 104.25.227.40, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vus3.0bad.com/chat, headers: {Host: sub.saintink.eu.org}}}
-  - {name: 吉祥|z7VcwVH4rqcZl4K|, server: 67.21.64.84, port: 43123, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: false}
-  - {name: 吉祥|Xlz4j6U0VAM0vBo|, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
-  - {name: 吉祥|1nA8K8y5cBQpKNd|, server: dx1.992688.xyz, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
+  - {name: 吉祥|pmIZkgYDMJIvpeh|, server: 78.39.56.7, port: 13227, client-fingerprint: chrome, type: vmess, uuid: ab3608a2-f43b-456f-83e2-dc7e8d683068, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 吉祥|nh6vsDJSMcQnksE|, server: 156.225.67.101, port: 52792, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 吉祥|nHqDr9uBSUIxo8z|, server: sg.wyhkaa0.cf, port: 80, client-fingerprint: chrome, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: 吉祥|5I68zS1Z9MFc6Nr|, server: v157.runba.gq, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /frfrfffvmn01N, headers: {Host: v157.runba.gq}}}
+  - {name: 吉祥|dmw8fXbr3aHbTOW|, server: 45.199.138.163, port: 48912, client-fingerprint: chrome, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 吉祥|yQMA7SLQ9VkoScz|, server: 172.64.203.172, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 吉祥|OcfSbHBZec4LPpF|, server: ci.outline-vpn.cloud, port: 43123, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: false}
+  - {name: 吉祥|HDKCh9kGu244enk|, server: 107.167.30.132, port: 43900, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, alterId: 64, cipher: auto, tls: false}
+  - {name: 吉祥|NSuatztxQBl47Bk|, server: 67.21.64.84, port: 43123, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: false}
+  - {name: 吉祥|EulCH2H9OeI92k7|, server: ufxeq-1080-tr-9.d-kcd.tuil.xyz, port: 39929, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: edge.cjhh.mom}
+  - {name: 吉祥|HGVraGkYV7MOMZ7|, server: dx1.992688.xyz, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -37,60 +33,52 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|tLjQyGvZLQ3uPPo|
       - 吉祥|DLkExcKj84Fbc9z|
-      - 吉祥|isHRNedEHLmHMek|
       - 吉祥|OjaJNJing2izBKR|
-      - 吉祥|3mF5U1dGmVdTCyo|
       - 吉祥|hOi7PcCOWTRnmbf|
+      - 吉祥|ypvweJB9s0r1bau|
       - 吉祥|8mp533DhAY9hydU|
       - 吉祥|nB5RCuWx6cxCuLo|
       - 吉祥|sin9MWlabp0AmOq|
       - 吉祥|cyss25gaMgCQk9d|
       - 吉祥|OUzeWLYDTaK4efR|
-      - 吉祥|kfzs0qMFCBwiE2e|
-      - 吉祥|xrIe3K0fGpwUPsJ|
-      - 吉祥|mwHOuvM4Zd2i4EU|
-      - 吉祥|w9M0nR5IrEZFA6T|
-      - 吉祥|bduAaFWw7KUMR4x|
-      - 吉祥|VisderSdRVlBKjo|
-      - 吉祥|rZsT0a9GpjhkcxH|
-      - 吉祥|jeIrGFKXvJ3o0Ds|
-      - 吉祥|i3cKXfXMPgpa0ws|
-      - 吉祥|Cdj1SPBM3hTXfWn|
-      - 吉祥|z7VcwVH4rqcZl4K|
-      - 吉祥|Xlz4j6U0VAM0vBo|
-      - 吉祥|1nA8K8y5cBQpKNd|
+      - 吉祥|pmIZkgYDMJIvpeh|
+      - 吉祥|nh6vsDJSMcQnksE|
+      - 吉祥|nHqDr9uBSUIxo8z|
+      - 吉祥|5I68zS1Z9MFc6Nr|
+      - 吉祥|dmw8fXbr3aHbTOW|
+      - 吉祥|yQMA7SLQ9VkoScz|
+      - 吉祥|OcfSbHBZec4LPpF|
+      - 吉祥|HDKCh9kGu244enk|
+      - 吉祥|NSuatztxQBl47Bk|
+      - 吉祥|EulCH2H9OeI92k7|
+      - 吉祥|HGVraGkYV7MOMZ7|
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|tLjQyGvZLQ3uPPo|
       - 吉祥|DLkExcKj84Fbc9z|
-      - 吉祥|isHRNedEHLmHMek|
       - 吉祥|OjaJNJing2izBKR|
-      - 吉祥|3mF5U1dGmVdTCyo|
       - 吉祥|hOi7PcCOWTRnmbf|
+      - 吉祥|ypvweJB9s0r1bau|
       - 吉祥|8mp533DhAY9hydU|
       - 吉祥|nB5RCuWx6cxCuLo|
       - 吉祥|sin9MWlabp0AmOq|
       - 吉祥|cyss25gaMgCQk9d|
       - 吉祥|OUzeWLYDTaK4efR|
-      - 吉祥|kfzs0qMFCBwiE2e|
-      - 吉祥|xrIe3K0fGpwUPsJ|
-      - 吉祥|mwHOuvM4Zd2i4EU|
-      - 吉祥|w9M0nR5IrEZFA6T|
-      - 吉祥|bduAaFWw7KUMR4x|
-      - 吉祥|VisderSdRVlBKjo|
-      - 吉祥|rZsT0a9GpjhkcxH|
-      - 吉祥|jeIrGFKXvJ3o0Ds|
-      - 吉祥|i3cKXfXMPgpa0ws|
-      - 吉祥|Cdj1SPBM3hTXfWn|
-      - 吉祥|z7VcwVH4rqcZl4K|
-      - 吉祥|Xlz4j6U0VAM0vBo|
-      - 吉祥|1nA8K8y5cBQpKNd|
+      - 吉祥|pmIZkgYDMJIvpeh|
+      - 吉祥|nh6vsDJSMcQnksE|
+      - 吉祥|nHqDr9uBSUIxo8z|
+      - 吉祥|5I68zS1Z9MFc6Nr|
+      - 吉祥|dmw8fXbr3aHbTOW|
+      - 吉祥|yQMA7SLQ9VkoScz|
+      - 吉祥|OcfSbHBZec4LPpF|
+      - 吉祥|HDKCh9kGu244enk|
+      - 吉祥|NSuatztxQBl47Bk|
+      - 吉祥|EulCH2H9OeI92k7|
+      - 吉祥|HGVraGkYV7MOMZ7|
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -98,60 +86,52 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|tLjQyGvZLQ3uPPo|
       - 吉祥|DLkExcKj84Fbc9z|
-      - 吉祥|isHRNedEHLmHMek|
       - 吉祥|OjaJNJing2izBKR|
-      - 吉祥|3mF5U1dGmVdTCyo|
       - 吉祥|hOi7PcCOWTRnmbf|
+      - 吉祥|ypvweJB9s0r1bau|
       - 吉祥|8mp533DhAY9hydU|
       - 吉祥|nB5RCuWx6cxCuLo|
       - 吉祥|sin9MWlabp0AmOq|
       - 吉祥|cyss25gaMgCQk9d|
       - 吉祥|OUzeWLYDTaK4efR|
-      - 吉祥|kfzs0qMFCBwiE2e|
-      - 吉祥|xrIe3K0fGpwUPsJ|
-      - 吉祥|mwHOuvM4Zd2i4EU|
-      - 吉祥|w9M0nR5IrEZFA6T|
-      - 吉祥|bduAaFWw7KUMR4x|
-      - 吉祥|VisderSdRVlBKjo|
-      - 吉祥|rZsT0a9GpjhkcxH|
-      - 吉祥|jeIrGFKXvJ3o0Ds|
-      - 吉祥|i3cKXfXMPgpa0ws|
-      - 吉祥|Cdj1SPBM3hTXfWn|
-      - 吉祥|z7VcwVH4rqcZl4K|
-      - 吉祥|Xlz4j6U0VAM0vBo|
-      - 吉祥|1nA8K8y5cBQpKNd|
+      - 吉祥|pmIZkgYDMJIvpeh|
+      - 吉祥|nh6vsDJSMcQnksE|
+      - 吉祥|nHqDr9uBSUIxo8z|
+      - 吉祥|5I68zS1Z9MFc6Nr|
+      - 吉祥|dmw8fXbr3aHbTOW|
+      - 吉祥|yQMA7SLQ9VkoScz|
+      - 吉祥|OcfSbHBZec4LPpF|
+      - 吉祥|HDKCh9kGu244enk|
+      - 吉祥|NSuatztxQBl47Bk|
+      - 吉祥|EulCH2H9OeI92k7|
+      - 吉祥|HGVraGkYV7MOMZ7|
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|tLjQyGvZLQ3uPPo|
       - 吉祥|DLkExcKj84Fbc9z|
-      - 吉祥|isHRNedEHLmHMek|
       - 吉祥|OjaJNJing2izBKR|
-      - 吉祥|3mF5U1dGmVdTCyo|
       - 吉祥|hOi7PcCOWTRnmbf|
+      - 吉祥|ypvweJB9s0r1bau|
       - 吉祥|8mp533DhAY9hydU|
       - 吉祥|nB5RCuWx6cxCuLo|
       - 吉祥|sin9MWlabp0AmOq|
       - 吉祥|cyss25gaMgCQk9d|
       - 吉祥|OUzeWLYDTaK4efR|
-      - 吉祥|kfzs0qMFCBwiE2e|
-      - 吉祥|xrIe3K0fGpwUPsJ|
-      - 吉祥|mwHOuvM4Zd2i4EU|
-      - 吉祥|w9M0nR5IrEZFA6T|
-      - 吉祥|bduAaFWw7KUMR4x|
-      - 吉祥|VisderSdRVlBKjo|
-      - 吉祥|rZsT0a9GpjhkcxH|
-      - 吉祥|jeIrGFKXvJ3o0Ds|
-      - 吉祥|i3cKXfXMPgpa0ws|
-      - 吉祥|Cdj1SPBM3hTXfWn|
-      - 吉祥|z7VcwVH4rqcZl4K|
-      - 吉祥|Xlz4j6U0VAM0vBo|
-      - 吉祥|1nA8K8y5cBQpKNd|
+      - 吉祥|pmIZkgYDMJIvpeh|
+      - 吉祥|nh6vsDJSMcQnksE|
+      - 吉祥|nHqDr9uBSUIxo8z|
+      - 吉祥|5I68zS1Z9MFc6Nr|
+      - 吉祥|dmw8fXbr3aHbTOW|
+      - 吉祥|yQMA7SLQ9VkoScz|
+      - 吉祥|OcfSbHBZec4LPpF|
+      - 吉祥|HDKCh9kGu244enk|
+      - 吉祥|NSuatztxQBl47Bk|
+      - 吉祥|EulCH2H9OeI92k7|
+      - 吉祥|HGVraGkYV7MOMZ7|
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -159,30 +139,26 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 吉祥|tLjQyGvZLQ3uPPo|
       - 吉祥|DLkExcKj84Fbc9z|
-      - 吉祥|isHRNedEHLmHMek|
       - 吉祥|OjaJNJing2izBKR|
-      - 吉祥|3mF5U1dGmVdTCyo|
       - 吉祥|hOi7PcCOWTRnmbf|
+      - 吉祥|ypvweJB9s0r1bau|
       - 吉祥|8mp533DhAY9hydU|
       - 吉祥|nB5RCuWx6cxCuLo|
       - 吉祥|sin9MWlabp0AmOq|
       - 吉祥|cyss25gaMgCQk9d|
       - 吉祥|OUzeWLYDTaK4efR|
-      - 吉祥|kfzs0qMFCBwiE2e|
-      - 吉祥|xrIe3K0fGpwUPsJ|
-      - 吉祥|mwHOuvM4Zd2i4EU|
-      - 吉祥|w9M0nR5IrEZFA6T|
-      - 吉祥|bduAaFWw7KUMR4x|
-      - 吉祥|VisderSdRVlBKjo|
-      - 吉祥|rZsT0a9GpjhkcxH|
-      - 吉祥|jeIrGFKXvJ3o0Ds|
-      - 吉祥|i3cKXfXMPgpa0ws|
-      - 吉祥|Cdj1SPBM3hTXfWn|
-      - 吉祥|z7VcwVH4rqcZl4K|
-      - 吉祥|Xlz4j6U0VAM0vBo|
-      - 吉祥|1nA8K8y5cBQpKNd|
+      - 吉祥|pmIZkgYDMJIvpeh|
+      - 吉祥|nh6vsDJSMcQnksE|
+      - 吉祥|nHqDr9uBSUIxo8z|
+      - 吉祥|5I68zS1Z9MFc6Nr|
+      - 吉祥|dmw8fXbr3aHbTOW|
+      - 吉祥|yQMA7SLQ9VkoScz|
+      - 吉祥|OcfSbHBZec4LPpF|
+      - 吉祥|HDKCh9kGu244enk|
+      - 吉祥|NSuatztxQBl47Bk|
+      - 吉祥|EulCH2H9OeI92k7|
+      - 吉祥|HGVraGkYV7MOMZ7|
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
