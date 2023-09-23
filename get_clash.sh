@@ -19,11 +19,12 @@ rm -rf line.log node_config.yaml config_cl.yaml
 cp $parm_path/formwork /tmp/newconfig
 date1=$(date "+%Y")
 date2=$(date "+%m")
-date3=$(date "+%Y%m%d")
+date3=$(date "+%d")
+date4=$(date "+%Y%m%d")
 #以下列表可插入能直接下载的配置文件网址
 urllist=("https://ghproxy.com/https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml"
 "https://ghproxy.com/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
-"https://clashnode.com/wp-content/uploads/$date1/$date2/$date3.yaml"
+"https://clashnode.com/wp-content/uploads/$date1/$date2/$date4.yaml"
 "$subdz&url=https://free.jingfu.cf/vmess/sub"
 "$subdz&url=https://ghproxy.com/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg"
 )
