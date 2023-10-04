@@ -16,6 +16,7 @@ echo --$date-- "-----------------------开始更新CLASH配置文件------------
 #删除排序文件
 cd /tmp
 rm -rf line.log node_config.yaml config_cl.yaml
+rm -rf /mnt/updateClashToGithub/node
 cp $parm_path/formwork /tmp/newconfig
 date1=$(date "+%Y")
 date2=$(date "+%m")
