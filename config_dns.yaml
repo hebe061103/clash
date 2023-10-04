@@ -31,7 +31,10 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
-  - {name: 吉祥|9GvASwDPq6p3XGN|, server: 45.199.138.191, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
+  - {name: 吉祥|dzd7pTEfnG4tjcE|, server: 45.199.138.191, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
+  - {name: 吉祥|cZkFhS95T7go3a7|, server: 2023-10.cfcdn.link, port: 80, type: vmess, uuid: 11111189-0502-48ab-f493-5e0f663a700c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: us04.cctvvip.tk}}}
+  - {name: 吉祥|YmWe57BV4puCUWb|, server: 23.108.100.101, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers}}
+  - {name: 吉祥|UGg98G8eOD1rwJg|, server: 23.108.100.103, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: www.40587333.xyz}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -40,14 +43,20 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|9GvASwDPq6p3XGN|
+      - 吉祥|dzd7pTEfnG4tjcE|
+      - 吉祥|cZkFhS95T7go3a7|
+      - 吉祥|YmWe57BV4puCUWb|
+      - 吉祥|UGg98G8eOD1rwJg|
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|9GvASwDPq6p3XGN|
+      - 吉祥|dzd7pTEfnG4tjcE|
+      - 吉祥|cZkFhS95T7go3a7|
+      - 吉祥|YmWe57BV4puCUWb|
+      - 吉祥|UGg98G8eOD1rwJg|
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -55,14 +64,20 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|9GvASwDPq6p3XGN|
+      - 吉祥|dzd7pTEfnG4tjcE|
+      - 吉祥|cZkFhS95T7go3a7|
+      - 吉祥|YmWe57BV4puCUWb|
+      - 吉祥|UGg98G8eOD1rwJg|
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|9GvASwDPq6p3XGN|
+      - 吉祥|dzd7pTEfnG4tjcE|
+      - 吉祥|cZkFhS95T7go3a7|
+      - 吉祥|YmWe57BV4puCUWb|
+      - 吉祥|UGg98G8eOD1rwJg|
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -71,7 +86,10 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|9GvASwDPq6p3XGN|
+      - 吉祥|dzd7pTEfnG4tjcE|
+      - 吉祥|cZkFhS95T7go3a7|
+      - 吉祥|YmWe57BV4puCUWb|
+      - 吉祥|UGg98G8eOD1rwJg|
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
