@@ -15,6 +15,63 @@ dns:
   # DNS监听端口
   listen: 0.0.0.0:9053
   fake-ip-range: 192.12.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
+    - localhost.ptlogin2.qq.com
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
   nameserver:
     - udp://223.5.5.5
     - udp://180.76.76.76
@@ -31,9 +88,6 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
-  - {name: 吉祥|iooRVVFTrWWc2t5|, server: 45.199.138.191, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
-  - {name: 吉祥|5qm7BIykqCd1Okl|, server: fd.shabijichang.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mrb.shabijichang.com}}}
-  - {name: 吉祥|dCTt3gMai1AkXcb|, server: cold-dawn-9246.fly.dev, port: 443, client-fingerprint: chrome, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -42,18 +96,12 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|iooRVVFTrWWc2t5|
-      - 吉祥|5qm7BIykqCd1Okl|
-      - 吉祥|dCTt3gMai1AkXcb|
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|iooRVVFTrWWc2t5|
-      - 吉祥|5qm7BIykqCd1Okl|
-      - 吉祥|dCTt3gMai1AkXcb|
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -61,18 +109,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|iooRVVFTrWWc2t5|
-      - 吉祥|5qm7BIykqCd1Okl|
-      - 吉祥|dCTt3gMai1AkXcb|
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|iooRVVFTrWWc2t5|
-      - 吉祥|5qm7BIykqCd1Okl|
-      - 吉祥|dCTt3gMai1AkXcb|
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -81,9 +123,6 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|iooRVVFTrWWc2t5|
-      - 吉祥|5qm7BIykqCd1Okl|
-      - 吉祥|dCTt3gMai1AkXcb|
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
