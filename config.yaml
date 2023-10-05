@@ -5,16 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 吉祥|lpbIHiMVBWtRCgI|, - {"name":"🇺🇸_US_美国->🇳🇱_NL_荷兰","type":"vmess","server":"45.199.138.191","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1696251522438","headers":{"host":"www.42077230.xyz"}}}
-  - {name: 吉祥|HJgYhGAIBDpee10|, - {"name":"🇺🇸_US_美国->🇮🇷_IR_伊朗","type":"vmess","server":"cf.yx.alue.link","port":2052,"cipher":"auto","uuid":"fe5edf04-c2af-4ac5-84ee-16d43024decb","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"us.wx.alue.link"}}}
-  - {name: 吉祥|zQ97oNHBGvepBn9|, - {"name":"🇺🇸_US_美国->🇧🇷_BR_巴西","type":"vmess","server":"sbl4.shabijichang.com","port":80,"cipher":"auto","uuid":"53701585-591f-48a3-9515-8831ed0524ac","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sbl4.shabijichang.com"}}}
-  - {name: 吉祥|V6nhYyVUeZVatK7|, - {"name":"🇺🇸_US_美国->🇦🇺_AU_澳大利亚","type":"vmess","server":"fd.shabijichang.com","port":80,"cipher":"auto","uuid":"5e48a497-f4ae-4129-afd6-ba26d75b792a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"mrb.shabijichang.com"}}}
-  - {name: 吉祥|Uxv0BTRtozXOFMu|, - {"name":"🇺🇸_US_美国_1","type":"vmess","server":"162.159.143.72","port":80,"cipher":"auto","uuid":"fab552f9-3c92-44ed-c086-08d631ee44ee","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"xui2.xuwu996.eu.org"}}}
-  - {name: 吉祥|AQ0Rd8ThD85wt3d|, - {"name":"🇺🇸_US_美国_2","type":"vmess","server":"67.21.90.5","port":443,"cipher":"auto","uuid":"28dd6c26-05a5-4bba-8a5d-052b70ac13b2","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1694429908748","headers":{"host":"www.75409854.xyz"}}}
-  - {name: 吉祥|RoSPXelz8jMLYsw|, - {"name":"🇺🇸_US_美国_3","type":"vmess","server":"ns1.v2-vip.fun","port":80,"cipher":"auto","uuid":"bffa23aa-ae0a-4c02-af77-2a14c8c0b81c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.ssrsub.com"}}}
-  - {name: 吉祥|PUUMTpnilO2s6Uo|, - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国_1","type":"vmess","server":"yd1.992688.xyz","port":8880,"cipher":"auto","uuid":"2fc248d5-7c81-471d-c2cf-a14e7f5aed2d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vceu3.vpn66.eu.org"}}}
-  - {name: 吉祥|vhX6NBEw7eQVyYk|, - {"name":"🇺🇸_US_美国->🇩🇪_DE_德国_2","type":"vmess","server":"104.20.142.55","port":2052,"cipher":"auto","uuid":"e37c2a6b-db4d-4ce0-8781-284d1c332134","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/public?ed=2048","headers":{"host":"de2.biqibao.site"}}}
-  - {name: 吉祥|OSha4JMcV1ALnKc|, - {"name":"🇺🇸_US_美国_4","type":"vmess","server":"cold-dawn-9246.fly.dev","port":443,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"cold-dawn-9246.fly.dev"}}}
+  - {name: 吉祥|DVD5C3zn5rXyIIE|, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb.shabijichang.com}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -23,32 +14,14 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|lpbIHiMVBWtRCgI|
-      - 吉祥|HJgYhGAIBDpee10|
-      - 吉祥|zQ97oNHBGvepBn9|
-      - 吉祥|V6nhYyVUeZVatK7|
-      - 吉祥|Uxv0BTRtozXOFMu|
-      - 吉祥|AQ0Rd8ThD85wt3d|
-      - 吉祥|RoSPXelz8jMLYsw|
-      - 吉祥|PUUMTpnilO2s6Uo|
-      - 吉祥|vhX6NBEw7eQVyYk|
-      - 吉祥|OSha4JMcV1ALnKc|
+      - 吉祥|DVD5C3zn5rXyIIE|
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|lpbIHiMVBWtRCgI|
-      - 吉祥|HJgYhGAIBDpee10|
-      - 吉祥|zQ97oNHBGvepBn9|
-      - 吉祥|V6nhYyVUeZVatK7|
-      - 吉祥|Uxv0BTRtozXOFMu|
-      - 吉祥|AQ0Rd8ThD85wt3d|
-      - 吉祥|RoSPXelz8jMLYsw|
-      - 吉祥|PUUMTpnilO2s6Uo|
-      - 吉祥|vhX6NBEw7eQVyYk|
-      - 吉祥|OSha4JMcV1ALnKc|
+      - 吉祥|DVD5C3zn5rXyIIE|
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -56,32 +29,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|lpbIHiMVBWtRCgI|
-      - 吉祥|HJgYhGAIBDpee10|
-      - 吉祥|zQ97oNHBGvepBn9|
-      - 吉祥|V6nhYyVUeZVatK7|
-      - 吉祥|Uxv0BTRtozXOFMu|
-      - 吉祥|AQ0Rd8ThD85wt3d|
-      - 吉祥|RoSPXelz8jMLYsw|
-      - 吉祥|PUUMTpnilO2s6Uo|
-      - 吉祥|vhX6NBEw7eQVyYk|
-      - 吉祥|OSha4JMcV1ALnKc|
+      - 吉祥|DVD5C3zn5rXyIIE|
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|lpbIHiMVBWtRCgI|
-      - 吉祥|HJgYhGAIBDpee10|
-      - 吉祥|zQ97oNHBGvepBn9|
-      - 吉祥|V6nhYyVUeZVatK7|
-      - 吉祥|Uxv0BTRtozXOFMu|
-      - 吉祥|AQ0Rd8ThD85wt3d|
-      - 吉祥|RoSPXelz8jMLYsw|
-      - 吉祥|PUUMTpnilO2s6Uo|
-      - 吉祥|vhX6NBEw7eQVyYk|
-      - 吉祥|OSha4JMcV1ALnKc|
+      - 吉祥|DVD5C3zn5rXyIIE|
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -89,16 +44,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 吉祥|lpbIHiMVBWtRCgI|
-      - 吉祥|HJgYhGAIBDpee10|
-      - 吉祥|zQ97oNHBGvepBn9|
-      - 吉祥|V6nhYyVUeZVatK7|
-      - 吉祥|Uxv0BTRtozXOFMu|
-      - 吉祥|AQ0Rd8ThD85wt3d|
-      - 吉祥|RoSPXelz8jMLYsw|
-      - 吉祥|PUUMTpnilO2s6Uo|
-      - 吉祥|vhX6NBEw7eQVyYk|
-      - 吉祥|OSha4JMcV1ALnKc|
+      - 吉祥|DVD5C3zn5rXyIIE|
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
