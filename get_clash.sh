@@ -24,7 +24,6 @@ day=$(date "+%d")
 merge=$(date "+%Y%m%d")
 #以下列表可插入能直接下载的配置文件网址
 urllist=(
-"https://ghproxy.com/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
 "https://clashnode.com/wp-content/uploads/$year/$month/$merge.yaml"
 )
 for i in ${urllist[@]}
