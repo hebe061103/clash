@@ -54,7 +54,7 @@ for filename in $(ls /run/*.yaml)
 do
   while read line
   do
-  if echo $line | grep  "{name:" | grep -v "中国";then
+  if echo $line | grep '{"name":' | grep -v "中国";then
      a=${line#*, }
      random=`head /dev/urandom | tr -dc A-Za-z0-9 | head -c 15`
      echo "- {name: 吉祥|"$random"|, "$a >> /mnt/updateClashToGithub/node
