@@ -5,7 +5,7 @@
 #https://ghproxy.com/
 #------------------------------------------------------------------------------------------------------
 get_arch=`arch`
-subdz="https://sub.789.st/sub?target=clash"
+sub="https://sub.789.st/sub?target=clash"
 #设置只提取平均速度大于多少M的节点,例如:10M*1024*1024=10485760,只能设置整数
 speed_gt=1
 let avg_speed=$speed_gt*1024*1024
@@ -24,7 +24,7 @@ day=$(date "+%d")
 merge=$(date "+%Y%m%d")
 #以下列表可插入能直接下载的配置文件网址
 urllist=(
-"https://clashnode.com/wp-content/uploads/$year/$month/$merge.yaml"
+"$sub&url=https://clashnode.com/wp-content/uploads/$year/$month/$merge.txt"
 )
 for i in ${urllist[@]}
     do
@@ -54,7 +54,7 @@ for filename in $(ls /run/*.yaml)
 do
   while read line
   do
-  if echo $line | grep -a "{name:" | grep -v "中国";then
+  if echo $line | grep  "{name:" | grep -v "中国";then
      a=${line#*, }
      random=`head /dev/urandom | tr -dc A-Za-z0-9 | head -c 15`
      echo "- {name: 吉祥|"$random"|, "$a >> /mnt/updateClashToGithub/node
@@ -117,6 +117,8 @@ fi
 rm -rf /tmp/samenodeserver
 #---------------------------------------------------------------------------------------------
 #提取代理与模板文件进行合并并生成新的配置文件
+date=$(date "+%Y-%m-%d %H:%M:%S")
+echo --$date-- "开始合并订阅文件" |tee -a /tmp/clash_run_log.log
 for filename in $(ls /mnt/updateClashToGithub/node)
 do
   while read line
@@ -150,7 +152,7 @@ elif [[ $get_arch =~ "armv7l" ]];then
     echo "第统类型:armv7l"
     ./lite-linux-armv7 --config ./config.json --test /tmp/allnode_config.yaml
 else
-    echo "系统类型不支持!!"
+    echo "系统类型不支持!"
 fi
 date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "测速完成!" |tee -a /tmp/clash_run_log.log
