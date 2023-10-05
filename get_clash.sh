@@ -18,21 +18,21 @@ cd /tmp
 rm -rf line.log node_config.yaml config_cl.yaml
 rm -rf /mnt/updateClashToGithub/node
 cp $parm_path/formwork /tmp/newconfig
-date1=$(date "+%Y")
-date2=$(date "+%m")
-date3=$(date "+%d")
-date4=$(date "+%Y%m%d")
+year=$(date "+%Y")
+month=$(date "+%m")
+day=$(date "+%d")
+merge=$(date "+%Y%m%d")
 #以下列表可插入能直接下载的配置文件网址
 urllist=(
 "https://ghproxy.com/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
-"https://clashnode.com/wp-content/uploads/$date1/$date2/$date4.yaml"
+"https://clashnode.com/wp-content/uploads/$year/$month/$merge.yaml"
 )
 for i in ${urllist[@]}
     do
     a=${i#*//}
     b=${a%%.*}
     let c++
-    get=`aria2c -d /run -o $b$c.yaml $i -l /tmp/aria2c.log 2>&1`
+    get=`aria2c -s 3 -d /run -o $b$c.yaml $i`
     echo $get >> /tmp/clash_run_log.log
     if echo "$get" | grep -e "download completed";then
     date=$(date "+%Y-%m-%d %H:%M:%S")
@@ -55,7 +55,7 @@ for filename in $(ls /run/*.yaml)
 do
   while read line
   do
-  if echo $line | grep "{name:" | grep -v "中国";then
+  if echo $line | grep -a "{name:" | grep -v "中国";then
      a=${line#*, }
      random=`head /dev/urandom | tr -dc A-Za-z0-9 | head -c 15`
      echo "- {name: 吉祥|"$random"|, "$a >> /mnt/updateClashToGithub/node
