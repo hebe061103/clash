@@ -24,7 +24,7 @@ day=$(date "+%d")
 merge=$(date "+%Y%m%d")
 #以下列表可插入能直接下载的配置文件网址
 urllist=(
-"$sub&url=https://clashnode.com/wp-content/uploads/$year/$month/$merge.txt"
+"https://nodefree.org/dy/$year/$month/$merge.yaml"
 )
 for i in ${urllist[@]}
     do
