@@ -5,7 +5,6 @@
 #https://ghproxy.com/
 #------------------------------------------------------------------------------------------------------
 get_arch=`arch`
-sub="https://sub.789.st/sub?target=clash"
 #设置只提取平均速度大于多少M的节点,例如:10M*1024*1024=10485760,只能设置整数
 speed_gt=1
 let avg_speed=$speed_gt*1024*1024
@@ -24,7 +23,8 @@ day=$(date "+%d")
 merge=$(date "+%Y%m%d")
 #以下列表可插入能直接下载的配置文件网址
 urllist=(
-"$sub&url=https://clashnode.com/wp-content/uploads/$year/$month/$merge.txt"
+"https://sub.789.st/sub?target=clash&url=https://jiang.netlify.app"
+"https://sub.789.st/sub?target=clash&url=https://clashnode.com/wp-content/uploads/$year/$month/$merge.txt"
 )
 for i in ${urllist[@]}
     do
