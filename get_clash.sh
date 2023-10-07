@@ -23,7 +23,7 @@ day=$(date "+%d")
 merge=$(date "+%Y%m%d")
 #以下列表可插入能直接下载的配置文件网址
 urllist=(
-"https://rvorch.treze.cc/clash/proxies?type=ss,ssr,vmess"
+"https://sub.789.st/sub?target=clash&url=https://rvorch.treze.cc/clash/proxies?type=ss,ssr,vmess"
 "https://sub.789.st/sub?target=clash&url=https://clashnode.com/wp-content/uploads/$year/$month/$merge.txt"
 )
 for i in ${urllist[@]}
@@ -54,7 +54,7 @@ for filename in $(ls /run/*.yaml)
 do
   while read line
   do
-  if echo $line | grep '{name:' | grep -v "中国";then
+  if echo $line | grep "{name:" | grep -v "中国";then
      a=${line#*, }
      random=`head /dev/urandom | tr -dc A-Za-z0-9 | head -c 15`
      echo "- {name: 吉祥|"$random"|, "$a >> /mnt/updateClashToGithub/node
