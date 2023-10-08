@@ -5,7 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 吉祥|48uIbSTbaZICNUP|, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb.shabijichang.com}}}
+  - {name: 吉祥|xAV3sFizhbKeXj2|, server: 54.38.156.210, port: 443, type: trojan, password: 1970a7f0-64c0-11ee-8afe-1239d0255272, skip-cert-verify: true}
+  - {name: 吉祥|OzW0cTFVsYL5rrK|, server: dx1.992688.xyz, port: 8880, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vceu3.vpn66.eu.org}}}
+  - {name: 吉祥|thFF8j3ESBSxnsb|, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vceu3.vpn66.eu.org}}}
+  - {name: 吉祥|8imxbbF5UGCAWcs|, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
+  - {name: 吉祥|4CtmtLbbcS4MWsF|, server: singapore.com, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}}
+  - {name: 吉祥|SiXnRKFf8SeR1M7|, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb.shabijichang.com}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -14,14 +19,24 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|48uIbSTbaZICNUP|
+      - 吉祥|xAV3sFizhbKeXj2|
+      - 吉祥|OzW0cTFVsYL5rrK|
+      - 吉祥|thFF8j3ESBSxnsb|
+      - 吉祥|8imxbbF5UGCAWcs|
+      - 吉祥|4CtmtLbbcS4MWsF|
+      - 吉祥|SiXnRKFf8SeR1M7|
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|48uIbSTbaZICNUP|
+      - 吉祥|xAV3sFizhbKeXj2|
+      - 吉祥|OzW0cTFVsYL5rrK|
+      - 吉祥|thFF8j3ESBSxnsb|
+      - 吉祥|8imxbbF5UGCAWcs|
+      - 吉祥|4CtmtLbbcS4MWsF|
+      - 吉祥|SiXnRKFf8SeR1M7|
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -29,14 +44,24 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|48uIbSTbaZICNUP|
+      - 吉祥|xAV3sFizhbKeXj2|
+      - 吉祥|OzW0cTFVsYL5rrK|
+      - 吉祥|thFF8j3ESBSxnsb|
+      - 吉祥|8imxbbF5UGCAWcs|
+      - 吉祥|4CtmtLbbcS4MWsF|
+      - 吉祥|SiXnRKFf8SeR1M7|
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|48uIbSTbaZICNUP|
+      - 吉祥|xAV3sFizhbKeXj2|
+      - 吉祥|OzW0cTFVsYL5rrK|
+      - 吉祥|thFF8j3ESBSxnsb|
+      - 吉祥|8imxbbF5UGCAWcs|
+      - 吉祥|4CtmtLbbcS4MWsF|
+      - 吉祥|SiXnRKFf8SeR1M7|
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -44,7 +69,12 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 吉祥|48uIbSTbaZICNUP|
+      - 吉祥|xAV3sFizhbKeXj2|
+      - 吉祥|OzW0cTFVsYL5rrK|
+      - 吉祥|thFF8j3ESBSxnsb|
+      - 吉祥|8imxbbF5UGCAWcs|
+      - 吉祥|4CtmtLbbcS4MWsF|
+      - 吉祥|SiXnRKFf8SeR1M7|
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
