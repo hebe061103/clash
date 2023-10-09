@@ -231,7 +231,8 @@ date=$(date "+%Y-%m-%d %H:%M:%S")
 echo --$date-- "待删除的节点数量:""${#remarks_array[*]}" |tee -a /tmp/clash_run_log.log
 echo --$date-- "待删除的节点数量:""${#remarks_array[*]}" |tee -a /tmp/line.log
 #----------------------------------------------------------------------------------------------
-echo --$date-- "开始排序待删除的:""${#remarks_array[*]}""个节点......"|tee -a /tmp/clash_run_log.log
+echo --$date-- "准备排序待删除的:""${#remarks_array[*]}""个节点......"|tee -a /tmp/clash_run_log.log
+sleep 5
 start_time=`date +%s`  #定义脚本运行的开始时间
 MAX=`echo "${remarks_array[0]}" | awk '{print length($0)}'`
 for I in ${!remarks_array[@]};do
