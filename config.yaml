@@ -5,11 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 吉祥|r1aVuUW4vjo0ayT|, server: 112.29.94.22, port: 53737, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 吉祥|hST8w4icpC5IaKW|, server: aidarostami.ddns.net, port: 443, type: vmess, uuid: 6B21EBEE-17AD-4B04-B498-561D5B4CA0EB, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: fn.mostafago.tk}}}
-  - {name: 吉祥|6OVEEQLfLRBZlCh|, server: auth0.openai.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /odelia.autos:443/linkvws, headers: {Host: sub.yifenjichang.top}}}
-  - {name: 吉祥|e7ym67mmZUhps6A|, server: 18.136.118.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 吉祥|2XfOzuI02MA3rTn|, server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}}
+  - {name: 吉祥|QF9fqo4luH3TyRP|, server: 183.238.202.173, port: 51904, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 吉祥|f886NyG8eCfFY3Z|, server: datacenter.ct.01.biqibao.site, port: 2052, type: vmess, uuid: d9e00d61-60aa-4da5-856f-a2aba235a14e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /public, headers: {Host: de.biqibao.site}}}
+  - {name: 吉祥|REKPQZbFKMJTAkm|, server: 13.212.59.246, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 吉祥|svgTcuj9eofEwu6|, server: 3.0.139.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 吉祥|xGMEIBPxztm0lMY|, server: 52.221.184.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 吉祥|2c3KoFQGBaAMZ1w|, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
+  - {name: 吉祥|6WwaV0d4f5uXPm4|, server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -18,22 +20,26 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|r1aVuUW4vjo0ayT|
-      - 吉祥|hST8w4icpC5IaKW|
-      - 吉祥|6OVEEQLfLRBZlCh|
-      - 吉祥|e7ym67mmZUhps6A|
-      - 吉祥|2XfOzuI02MA3rTn|
+      - 吉祥|QF9fqo4luH3TyRP|
+      - 吉祥|f886NyG8eCfFY3Z|
+      - 吉祥|REKPQZbFKMJTAkm|
+      - 吉祥|svgTcuj9eofEwu6|
+      - 吉祥|xGMEIBPxztm0lMY|
+      - 吉祥|2c3KoFQGBaAMZ1w|
+      - 吉祥|6WwaV0d4f5uXPm4|
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|r1aVuUW4vjo0ayT|
-      - 吉祥|hST8w4icpC5IaKW|
-      - 吉祥|6OVEEQLfLRBZlCh|
-      - 吉祥|e7ym67mmZUhps6A|
-      - 吉祥|2XfOzuI02MA3rTn|
+      - 吉祥|QF9fqo4luH3TyRP|
+      - 吉祥|f886NyG8eCfFY3Z|
+      - 吉祥|REKPQZbFKMJTAkm|
+      - 吉祥|svgTcuj9eofEwu6|
+      - 吉祥|xGMEIBPxztm0lMY|
+      - 吉祥|2c3KoFQGBaAMZ1w|
+      - 吉祥|6WwaV0d4f5uXPm4|
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -41,22 +47,26 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|r1aVuUW4vjo0ayT|
-      - 吉祥|hST8w4icpC5IaKW|
-      - 吉祥|6OVEEQLfLRBZlCh|
-      - 吉祥|e7ym67mmZUhps6A|
-      - 吉祥|2XfOzuI02MA3rTn|
+      - 吉祥|QF9fqo4luH3TyRP|
+      - 吉祥|f886NyG8eCfFY3Z|
+      - 吉祥|REKPQZbFKMJTAkm|
+      - 吉祥|svgTcuj9eofEwu6|
+      - 吉祥|xGMEIBPxztm0lMY|
+      - 吉祥|2c3KoFQGBaAMZ1w|
+      - 吉祥|6WwaV0d4f5uXPm4|
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|r1aVuUW4vjo0ayT|
-      - 吉祥|hST8w4icpC5IaKW|
-      - 吉祥|6OVEEQLfLRBZlCh|
-      - 吉祥|e7ym67mmZUhps6A|
-      - 吉祥|2XfOzuI02MA3rTn|
+      - 吉祥|QF9fqo4luH3TyRP|
+      - 吉祥|f886NyG8eCfFY3Z|
+      - 吉祥|REKPQZbFKMJTAkm|
+      - 吉祥|svgTcuj9eofEwu6|
+      - 吉祥|xGMEIBPxztm0lMY|
+      - 吉祥|2c3KoFQGBaAMZ1w|
+      - 吉祥|6WwaV0d4f5uXPm4|
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -64,11 +74,13 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 吉祥|r1aVuUW4vjo0ayT|
-      - 吉祥|hST8w4icpC5IaKW|
-      - 吉祥|6OVEEQLfLRBZlCh|
-      - 吉祥|e7ym67mmZUhps6A|
-      - 吉祥|2XfOzuI02MA3rTn|
+      - 吉祥|QF9fqo4luH3TyRP|
+      - 吉祥|f886NyG8eCfFY3Z|
+      - 吉祥|REKPQZbFKMJTAkm|
+      - 吉祥|svgTcuj9eofEwu6|
+      - 吉祥|xGMEIBPxztm0lMY|
+      - 吉祥|2c3KoFQGBaAMZ1w|
+      - 吉祥|6WwaV0d4f5uXPm4|
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
