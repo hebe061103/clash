@@ -5,20 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 吉祥|0rNttf4dVqMsAGg|, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251522438}}
-  - {name: 吉祥|HEfBAXDWCj1JGCl|, server: 141.148.149.116, port: 20353, type: vmess, uuid: 0672c1be-77a9-43a9-8d32-6be8c3cba84a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 吉祥|woc28FkAoiYfFUA|, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws}}
-  - {name: 吉祥|TUlwj7ABS7MF6wp|, server: us-02.cloudlion.me, port: 2082, type: vmess, uuid: d08cf983-754c-410d-b877-aac54ae43ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-02.cloudlion.me}}}
-  - {name: 吉祥|deQEkdIgb9fgY2O|, server: fr-01.cloudlion.me, port: 2082, type: vmess, uuid: d08cf983-754c-410d-b877-aac54ae43ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fr-01.cloudlion.me}}}
-  - {name: 吉祥|xAppeZVvdRnKxGp|, server: kr-cdn-6273819.starnetcn.top, port: 53782, type: vmess, uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1c1791euidqihd, headers: {Host: 127.0.0.1}}}
-  - {name: 吉祥|bTVGXXNuVROkD00|, server: us-04.cloudlion.me, port: 2082, type: vmess, uuid: d08cf983-754c-410d-b877-aac54ae43ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-04.cloudlion.me}}}
-  - {name: 吉祥|Us7o2Q1tOWy8W8j|, server: au-01.cloudlion.me, port: 2082, type: vmess, uuid: d08cf983-754c-410d-b877-aac54ae43ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: au-01.cloudlion.me}}}
-  - {name: 吉祥|BD325yd63caO85k|, server: cloudconebbb.gorgorchicken.one, port: 8443, type: vmess, uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cloudconebbb, headers: {Host: cloudconebbb.gorgorchicken.one}}}
-  - {name: 吉祥|xAqk6oQq4KF5uCH|, server: us-01.cloudlion.me, port: 2082, type: vmess, uuid: d08cf983-754c-410d-b877-aac54ae43ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-01.cloudlion.me}}}
-  - {name: 吉祥|NhZ2v0Un1JOROMi|, server: 172.66.47.84, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /oliv.beauty:443/linkvws, headers: {Host: sub.yifenjichang.top}}}
-  - {name: 吉祥|9U8hML4HSUtsF61|, server: 23.108.100.103, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /footers, headers: {Host: www.40587333.xyz}}}
-  - {name: 吉祥|zWDGoN3Li4Fs5PI|, server: 57.180.61.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 吉祥|YKZspMHAZOHoZ5o|, server: 43.202.60.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 吉祥|NOBfwtAfYtopKPI|, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
+  - {name: 吉祥|CWY62KxHZXOwwLI|, server: 45.199.138.222, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696251693048, headers: {Host: www.19229362.xyz}}}
+  - {name: 吉祥|ELRhliMkR8IfeJm|, server: b.baozinet.top, port: 25010, type: vmess, uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 吉祥|faswAT9ifNgUMwg|, server: 104.18.203.232, port: 443, type: vmess, uuid: 8d48dab3-cb73-4a92-b575-e9fb0003dfc8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/@hopev2ray,@hopev2ray", headers: {Host: fr2vm.cdn-03.live}}}
+  - {name: 吉祥|YgYL7Fy9b1LweDm|, server: 104.31.16.14, port: 80, type: vmess, uuid: 8d48dab3-cb73-4a92-b575-e9fb0003dfc8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: fr2vm.cdn-03.live}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -27,40 +18,22 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|0rNttf4dVqMsAGg|
-      - 吉祥|HEfBAXDWCj1JGCl|
-      - 吉祥|woc28FkAoiYfFUA|
-      - 吉祥|TUlwj7ABS7MF6wp|
-      - 吉祥|deQEkdIgb9fgY2O|
-      - 吉祥|xAppeZVvdRnKxGp|
-      - 吉祥|bTVGXXNuVROkD00|
-      - 吉祥|Us7o2Q1tOWy8W8j|
-      - 吉祥|BD325yd63caO85k|
-      - 吉祥|xAqk6oQq4KF5uCH|
-      - 吉祥|NhZ2v0Un1JOROMi|
-      - 吉祥|9U8hML4HSUtsF61|
-      - 吉祥|zWDGoN3Li4Fs5PI|
-      - 吉祥|YKZspMHAZOHoZ5o|
+      - 吉祥|NOBfwtAfYtopKPI|
+      - 吉祥|CWY62KxHZXOwwLI|
+      - 吉祥|ELRhliMkR8IfeJm|
+      - 吉祥|faswAT9ifNgUMwg|
+      - 吉祥|YgYL7Fy9b1LweDm|
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|0rNttf4dVqMsAGg|
-      - 吉祥|HEfBAXDWCj1JGCl|
-      - 吉祥|woc28FkAoiYfFUA|
-      - 吉祥|TUlwj7ABS7MF6wp|
-      - 吉祥|deQEkdIgb9fgY2O|
-      - 吉祥|xAppeZVvdRnKxGp|
-      - 吉祥|bTVGXXNuVROkD00|
-      - 吉祥|Us7o2Q1tOWy8W8j|
-      - 吉祥|BD325yd63caO85k|
-      - 吉祥|xAqk6oQq4KF5uCH|
-      - 吉祥|NhZ2v0Un1JOROMi|
-      - 吉祥|9U8hML4HSUtsF61|
-      - 吉祥|zWDGoN3Li4Fs5PI|
-      - 吉祥|YKZspMHAZOHoZ5o|
+      - 吉祥|NOBfwtAfYtopKPI|
+      - 吉祥|CWY62KxHZXOwwLI|
+      - 吉祥|ELRhliMkR8IfeJm|
+      - 吉祥|faswAT9ifNgUMwg|
+      - 吉祥|YgYL7Fy9b1LweDm|
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -68,40 +41,22 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|0rNttf4dVqMsAGg|
-      - 吉祥|HEfBAXDWCj1JGCl|
-      - 吉祥|woc28FkAoiYfFUA|
-      - 吉祥|TUlwj7ABS7MF6wp|
-      - 吉祥|deQEkdIgb9fgY2O|
-      - 吉祥|xAppeZVvdRnKxGp|
-      - 吉祥|bTVGXXNuVROkD00|
-      - 吉祥|Us7o2Q1tOWy8W8j|
-      - 吉祥|BD325yd63caO85k|
-      - 吉祥|xAqk6oQq4KF5uCH|
-      - 吉祥|NhZ2v0Un1JOROMi|
-      - 吉祥|9U8hML4HSUtsF61|
-      - 吉祥|zWDGoN3Li4Fs5PI|
-      - 吉祥|YKZspMHAZOHoZ5o|
+      - 吉祥|NOBfwtAfYtopKPI|
+      - 吉祥|CWY62KxHZXOwwLI|
+      - 吉祥|ELRhliMkR8IfeJm|
+      - 吉祥|faswAT9ifNgUMwg|
+      - 吉祥|YgYL7Fy9b1LweDm|
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|0rNttf4dVqMsAGg|
-      - 吉祥|HEfBAXDWCj1JGCl|
-      - 吉祥|woc28FkAoiYfFUA|
-      - 吉祥|TUlwj7ABS7MF6wp|
-      - 吉祥|deQEkdIgb9fgY2O|
-      - 吉祥|xAppeZVvdRnKxGp|
-      - 吉祥|bTVGXXNuVROkD00|
-      - 吉祥|Us7o2Q1tOWy8W8j|
-      - 吉祥|BD325yd63caO85k|
-      - 吉祥|xAqk6oQq4KF5uCH|
-      - 吉祥|NhZ2v0Un1JOROMi|
-      - 吉祥|9U8hML4HSUtsF61|
-      - 吉祥|zWDGoN3Li4Fs5PI|
-      - 吉祥|YKZspMHAZOHoZ5o|
+      - 吉祥|NOBfwtAfYtopKPI|
+      - 吉祥|CWY62KxHZXOwwLI|
+      - 吉祥|ELRhliMkR8IfeJm|
+      - 吉祥|faswAT9ifNgUMwg|
+      - 吉祥|YgYL7Fy9b1LweDm|
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -109,20 +64,11 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️  自动选择
       - 🔮 负载均衡
-      - 吉祥|0rNttf4dVqMsAGg|
-      - 吉祥|HEfBAXDWCj1JGCl|
-      - 吉祥|woc28FkAoiYfFUA|
-      - 吉祥|TUlwj7ABS7MF6wp|
-      - 吉祥|deQEkdIgb9fgY2O|
-      - 吉祥|xAppeZVvdRnKxGp|
-      - 吉祥|bTVGXXNuVROkD00|
-      - 吉祥|Us7o2Q1tOWy8W8j|
-      - 吉祥|BD325yd63caO85k|
-      - 吉祥|xAqk6oQq4KF5uCH|
-      - 吉祥|NhZ2v0Un1JOROMi|
-      - 吉祥|9U8hML4HSUtsF61|
-      - 吉祥|zWDGoN3Li4Fs5PI|
-      - 吉祥|YKZspMHAZOHoZ5o|
+      - 吉祥|NOBfwtAfYtopKPI|
+      - 吉祥|CWY62KxHZXOwwLI|
+      - 吉祥|ELRhliMkR8IfeJm|
+      - 吉祥|faswAT9ifNgUMwg|
+      - 吉祥|YgYL7Fy9b1LweDm|
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
