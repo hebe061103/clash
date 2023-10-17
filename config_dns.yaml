@@ -88,8 +88,7 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
-  - {name: 吉祥|1d6NYYs81yQMxts|, server: 107.167.16.85, port: 443, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.51109057.xyz}}}
-  - {name: 吉祥|HFtWRWF6IamoSoN|, server: 108.181.10.17, port: 80, type: vmess, uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 吉祥|OJ2ZSlDaCGhjRQA|, server: 154.85.1.244, port: 30000, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696682720138}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -98,16 +97,14 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|1d6NYYs81yQMxts|
-      - 吉祥|HFtWRWF6IamoSoN|
+      - 吉祥|OJ2ZSlDaCGhjRQA|
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|1d6NYYs81yQMxts|
-      - 吉祥|HFtWRWF6IamoSoN|
+      - 吉祥|OJ2ZSlDaCGhjRQA|
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -115,16 +112,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|1d6NYYs81yQMxts|
-      - 吉祥|HFtWRWF6IamoSoN|
+      - 吉祥|OJ2ZSlDaCGhjRQA|
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|1d6NYYs81yQMxts|
-      - 吉祥|HFtWRWF6IamoSoN|
+      - 吉祥|OJ2ZSlDaCGhjRQA|
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -133,8 +128,7 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|1d6NYYs81yQMxts|
-      - 吉祥|HFtWRWF6IamoSoN|
+      - 吉祥|OJ2ZSlDaCGhjRQA|
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
