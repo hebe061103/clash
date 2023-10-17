@@ -88,7 +88,9 @@ dns:
     - https://doh.opendns.com/dns-query
     - https://1.1.1.1/dns-query
 proxies:
-  - {name: 吉祥|OJ2ZSlDaCGhjRQA|, server: 154.85.1.244, port: 30000, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696682720138}}
+  - {name: 吉祥|LV9EruY2jTPYHun|, server: 156.225.67.104, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1696944806961}}
+  - {name: 吉祥|nfNLwj86ActQvOg|, server: 51.158.195.96, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 吉祥|ucIPGHuuutMuNaV|, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -97,14 +99,18 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|OJ2ZSlDaCGhjRQA|
+      - 吉祥|LV9EruY2jTPYHun|
+      - 吉祥|nfNLwj86ActQvOg|
+      - 吉祥|ucIPGHuuutMuNaV|
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|OJ2ZSlDaCGhjRQA|
+      - 吉祥|LV9EruY2jTPYHun|
+      - 吉祥|nfNLwj86ActQvOg|
+      - 吉祥|ucIPGHuuutMuNaV|
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -112,14 +118,18 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|OJ2ZSlDaCGhjRQA|
+      - 吉祥|LV9EruY2jTPYHun|
+      - 吉祥|nfNLwj86ActQvOg|
+      - 吉祥|ucIPGHuuutMuNaV|
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 吉祥|OJ2ZSlDaCGhjRQA|
+      - 吉祥|LV9EruY2jTPYHun|
+      - 吉祥|nfNLwj86ActQvOg|
+      - 吉祥|ucIPGHuuutMuNaV|
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -128,7 +138,9 @@ proxy-groups:
       - ♻️  自动选择
       - 🔮 负载均衡
       - 🔯 故障转移
-      - 吉祥|OJ2ZSlDaCGhjRQA|
+      - 吉祥|LV9EruY2jTPYHun|
+      - 吉祥|nfNLwj86ActQvOg|
+      - 吉祥|ucIPGHuuutMuNaV|
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
