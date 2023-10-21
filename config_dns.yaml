@@ -90,8 +90,9 @@ dns:
 proxies:
   - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
   - {name: 🇮🇪 _IE_爱尔兰, server: 54.216.221.117, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
-  - {name: 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯, server: jd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jd3.shabijichang.com}}}
   - {name: 🇩🇪 _DE_德国, server: 5.104.107.143, port: 443, type: trojan, password: 3ed4d5f3-68e9-42fc-978a-22afc2523e5a, sni: de1.xn--mes358a9urctx.com, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国 4, server: ns1.v2-vip.fun, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v002.ssrsub.com}}}
+  - {name: 🇺🇸 _US_美国 5, server: 172.67.229.17, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v002.ssrsub.com}}}
   # 以上为代理地址请插入
 proxy-groups:
   - name: 🚀 节点选择
@@ -102,8 +103,9 @@ proxy-groups:
       - 🔯 故障转移
       - 🇺🇸 _US_美国->🇬🇧_GB_英国
       - 🇮🇪 _IE_爱尔兰
-      - 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
       - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
       # 以上为节点选择组的自动选择代理请插入
   - name: ♻️  自动选择
     type: url-test
@@ -112,8 +114,9 @@ proxy-groups:
     proxies:
       - 🇺🇸 _US_美国->🇬🇧_GB_英国
       - 🇮🇪 _IE_爱尔兰
-      - 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
       - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
       # 以上为自动选择组下面的代理地址请插入
   - name: 🔮 负载均衡
     type: load-balance
@@ -123,8 +126,9 @@ proxy-groups:
     proxies:
       - 🇺🇸 _US_美国->🇬🇧_GB_英国
       - 🇮🇪 _IE_爱尔兰
-      - 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
       - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
       # 以上为负载均衡组下面的代理地址请插入
   - name: 🔯 故障转移
     type: fallback
@@ -133,8 +137,9 @@ proxy-groups:
     proxies:
       - 🇺🇸 _US_美国->🇬🇧_GB_英国
       - 🇮🇪 _IE_爱尔兰
-      - 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
       - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
       # 以上为故障转移组下面的代理地址请插入
   - name: 🐟 漏网之鱼
     type: select
@@ -145,8 +150,9 @@ proxy-groups:
       - 🔯 故障转移
       - 🇺🇸 _US_美国->🇬🇧_GB_英国
       - 🇮🇪 _IE_爱尔兰
-      - 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
       - 🇩🇪 _DE_德国
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国 5
       # 以上为漏网之鱼组下面的代理地址请插入
 rules:
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
