@@ -57,7 +57,7 @@ do
   while read line
   do
   line=`echo $line | sed 's/\"//g'`
-  if echo $line | grep "{name:" | grep -v "中国";then
+  if echo $line | grep "{name:" | grep "type" | grep -v "中国";then
 #     a=${line#*, }
 #     random=`head /dev/urandom | tr -dc A-Za-z0-9 | head -c 15`
 #     echo "- {name: 吉祥|"$random"|, "$a >> /mnt/updateClashToGithub/node
