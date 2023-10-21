@@ -24,6 +24,7 @@ merge=$(date "+%Y%m%d")
 #以下列表可插入能直接下载的配置文件网址
 urllist=(
 "https://sub.789.st/sub?target=clash&url=https://clashnode.com/wp-content/uploads/$year/$month/$merge.txt"
+"https://sub.789.st/sub?target=clash&url=https://rvorch.treze.cc/clash/proxies?c=HK,TW,US,JP,SG"
 )
 for i in ${urllist[@]}
     do
