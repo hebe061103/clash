@@ -1,28 +1,28 @@
 {
 	"nodes": [
 		{
-			"id": 8,
+			"id": 12,
 			"group": "job",
-			"remarks": "🇮🇪+_IE_爱尔兰+2",
-			"protocol": "trojan",
-			"ping": "0",
-			"avg_speed": 0,
-			"max_speed": 0,
-			"isok": true,
-			"traffic": 0,
-			"link": "trojan://telegram-id-directvpn@52.215.170.185:22222?allowInsecure=1\u0026sni=trj.rollingnext.co.uk#%F0%9F%87%AE%F0%9F%87%AA+_IE_%E7%88%B1%E5%B0%94%E5%85%B0+2"
-		},
-		{
-			"id": 2,
-			"group": "job",
-			"remarks": "🇺🇸 _US_美国-\u003e🇧🇷_BR_巴西",
+			"remarks": "🇺🇸 _US_美国 3",
 			"protocol": "vmess/ws",
 			"ping": "0",
 			"avg_speed": 0,
 			"max_speed": 0,
 			"isok": true,
 			"traffic": 0,
-			"link": "vmess://ewogICAgImFkZCI6ICJmcmVleXguY2xvdWRmbGFyZTg4LmV1Lm9yZyIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogImpkMmt1YWk1eXVhbi5jbG91ZGZsYXJlODguZXUub3JnIiwKICAgICJpZCI6ICI4YTZmYjFiNy1kOTM5LTQwMzAtYTRkYS0xYzBiMjYzN2M4NjUiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIv5pyN5Yqh5ZmoNOWFg+aciO+8jOiKgueCuTIuNeWFg+aciEBuYXRkY2lib3QiLAogICAgInBvcnQiOiA4MDgwLAogICAgInBzIjogIvCfh7rwn4e4IF9VU1/nvo7lm70tXHUwMDNl8J+Hp/Cfh7dfQlJf5be06KW/IiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0="
+			"link": "vmess://ewogICAgImFkZCI6ICIxNzIuNjcuMTg0LjEzIiwKICAgICJhaWQiOiAwLAogICAgImhvc3QiOiAic2JsMi5zaGFiaWppY2hhbmcuY29tIiwKICAgICJpZCI6ICJjNDU4Njk1ZC02OTA4LTQ1YzMtOTUxMi1lMGM0NjQxODQ1NGMiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvIiwKICAgICJwb3J0IjogODAsCiAgICAicHMiOiAi8J+HuvCfh7ggX1VTX+e+juWbvSAzIiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0="
+		},
+		{
+			"id": 13,
+			"group": "job",
+			"remarks": "🇺🇸 _US_美国-\u003e🇧🇷_BR_巴西 6",
+			"protocol": "vmess/ws",
+			"ping": "0",
+			"avg_speed": 0,
+			"max_speed": 0,
+			"isok": true,
+			"traffic": 0,
+			"link": "vmess://ewogICAgImFkZCI6ICJmcmVleXguY2xvdWRmbGFyZTg4LmV1Lm9yZyIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogImpkMmt1YWk1eXVhbi5jbG91ZGZsYXJlODguZXUub3JnIiwKICAgICJpZCI6ICI4YTZmYjFiNy1kOTM5LTQwMzAtYTRkYS0xYzBiMjYzN2M4NjUiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIv5pyN5Yqh5ZmoNOWFg+aciO+8jOiKgueCuTIuNeWFg+aciEBuYXRkY2lib3QiLAogICAgInBvcnQiOiAyMDgyLAogICAgInBzIjogIvCfh7rwn4e4IF9VU1/nvo7lm70tXHUwMDNl8J+Hp/Cfh7dfQlJf5be06KW/IDYiLAogICAgInRscyI6ICIiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ=="
 		},
 		{
 			"id": 9,
@@ -37,16 +37,16 @@
 			"link": "vmess://ewogICAgImFkZCI6ICJmcmVleXguY2xvdWRmbGFyZTg4LmV1Lm9yZyIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogImpkMmt1YWk1eXVhbi5jbG91ZGZsYXJlODguZXUub3JnIiwKICAgICJpZCI6ICI4YTZmYjFiNy1kOTM5LTQwMzAtYTRkYS0xYzBiMjYzN2M4NjUiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIv5pyN5Yqh5ZmoNOWFg+aciO+8jOiKgueCuTIuNeWFg+aciEBuYXRkY2lib3QiLAogICAgInBvcnQiOiAyMDg2LAogICAgInBzIjogIvCfh7rwn4e4IF9VU1/nvo7lm70tXHUwMDNl8J+Hp/Cfh7dfQlJf5be06KW/IDUiLAogICAgInRscyI6ICIiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ=="
 		},
 		{
-			"id": 10,
+			"id": 15,
 			"group": "job",
-			"remarks": "🇺🇸 _US_美国",
-			"protocol": "vmess/tcp",
+			"remarks": "🇺🇸 _US_美国 4",
+			"protocol": "vmess/ws",
 			"ping": "0",
 			"avg_speed": 0,
 			"max_speed": 0,
 			"isok": true,
 			"traffic": 0,
-			"link": "vmess://ewogICAgImFkZCI6ICIxOTUuMTIzLjI0MC4xNzAiLAogICAgImFpZCI6IDAsCiAgICAiaG9zdCI6ICIiLAogICAgImlkIjogIjEyNzcyZGY5LTQ4NWYtNDEzYy1lZGJmLTNmNTYyZDYxZGU0ZSIsCiAgICAibmV0IjogInRjcCIsCiAgICAicGF0aCI6ICIiLAogICAgInBvcnQiOiA0MTkxNiwKICAgICJwcyI6ICLwn4e68J+HuCBfVVNf576O5Zu9IiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0="
+			"link": "vmess://ewogICAgImFkZCI6ICJuczEudjItdmlwLmZ1biIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogInNzcnN1Yi52MDAyLnNzcnN1Yi5jb20iLAogICAgImlkIjogImQzZjgzMGEyLTIwNWEtNGJiYS1hN2NhLTVlODc4OTlhYzA0ZCIsCiAgICAibmV0IjogIndzIiwKICAgICJwYXRoIjogIi9hcGkvdjMvZG93bmxvYWQuZ2V0RmlsZSIsCiAgICAicG9ydCI6IDgwODAsCiAgICAicHMiOiAi8J+HuvCfh7ggX1VTX+e+juWbvSA0IiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0="
 		},
 		{
 			"id": 4,
@@ -61,18 +61,6 @@
 			"link": "vmess://ewogICAgImFkZCI6ICJmcmVleXguY2xvdWRmbGFyZTg4LmV1Lm9yZyIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogImpkMmt1YWk1eXVhbi5jbG91ZGZsYXJlODguZXUub3JnIiwKICAgICJpZCI6ICI4YTZmYjFiNy1kOTM5LTQwMzAtYTRkYS0xYzBiMjYzN2M4NjUiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIv5pyN5Yqh5ZmoNOWFg+aciO+8jOiKgueCuTIuNeWFg+aciEBuYXRkY2lib3QiLAogICAgInBvcnQiOiA4ODgwLAogICAgInBzIjogIvCfh7rwn4e4IF9VU1/nvo7lm70tXHUwMDNl8J+Hp/Cfh7dfQlJf5be06KW/IDMiLAogICAgInRscyI6ICIiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ=="
 		},
 		{
-			"id": 5,
-			"group": "job",
-			"remarks": "🇺🇸 _US_美国-\u003e🇸🇦_SA_沙特阿拉伯",
-			"protocol": "vmess/ws",
-			"ping": "0",
-			"avg_speed": 0,
-			"max_speed": 0,
-			"isok": true,
-			"traffic": 0,
-			"link": "vmess://ewogICAgImFkZCI6ICJqZDMuc2hhYmlqaWNoYW5nLmNvbSIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogImpkMy5zaGFiaWppY2hhbmcuY29tIiwKICAgICJpZCI6ICJjNDU4Njk1ZC02OTA4LTQ1YzMtOTUxMi1lMGM0NjQxODQ1NGMiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvIiwKICAgICJwb3J0IjogODAsCiAgICAicHMiOiAi8J+HuvCfh7ggX1VTX+e+juWbvS1cdTAwM2Xwn4e48J+Hpl9TQV/mspnnibnpmL/mi4nkvK8iLAogICAgInRscyI6ICIiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ=="
-		},
-		{
 			"id": 14,
 			"group": "job",
 			"remarks": "🇺🇸 _US_美国-\u003e🇳🇱_NL_荷兰",
@@ -83,6 +71,18 @@
 			"isok": true,
 			"traffic": 0,
 			"link": "vmess://ewogICAgImFkZCI6ICIxMDQuMjQuMTg0LjY1IiwKICAgICJhaWQiOiAwLAogICAgImhvc3QiOiAiczEuc2hhcmdoLnNob3AiLAogICAgImlkIjogImRkZGU5Y2M3LTAwYjEtNDYzNy1jZTQyLWNjZjdjZWIwZDYxMiIsCiAgICAibmV0IjogIndzIiwKICAgICJwYXRoIjogIi8iLAogICAgInBvcnQiOiAyMDk2LAogICAgInBzIjogIvCfh7rwn4e4IF9VU1/nvo7lm70tXHUwMDNl8J+Hs/Cfh7FfTkxf6I235YWwIiwKICAgICJ0bHMiOiAidGxzIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0="
+		},
+		{
+			"id": 0,
+			"group": "job",
+			"remarks": "🇺🇸 _US_美国-\u003e🇬🇧_GB_英国",
+			"protocol": "vmess/ws",
+			"ping": "0",
+			"avg_speed": 0,
+			"max_speed": 0,
+			"isok": true,
+			"traffic": 0,
+			"link": "vmess://ewogICAgImFkZCI6ICJtcmIyLnNoYWJpamljaGFuZy5jb20iLAogICAgImFpZCI6IDAsCiAgICAiaG9zdCI6ICJtcmIyLnNoYWJpamljaGFuZy5jb20iLAogICAgImlkIjogImM0NTg2OTVkLTY5MDgtNDVjMy05NTEyLWUwYzQ2NDE4NDU0YyIsCiAgICAibmV0IjogIndzIiwKICAgICJwYXRoIjogIi8iLAogICAgInBvcnQiOiA4MCwKICAgICJwcyI6ICLwn4e68J+HuCBfVVNf576O5Zu9LVx1MDAzZfCfh6zwn4enX0dCX+iLseWbvSIsCiAgICAidGxzIjogIiIsCiAgICAidHlwZSI6ICJhdXRvIiwKICAgICJzZWN1cml0eSI6ICJhdXRvIiwKICAgICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwKICAgICJzbmkiOiAiIgp9"
 		},
 		{
 			"id": 7,
@@ -109,16 +109,16 @@
 			"link": "vmess://ewogICAgImFkZCI6ICJmcmVleXguY2xvdWRmbGFyZTg4LmV1Lm9yZyIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogImpkMmt1YWk1eXVhbi5jbG91ZGZsYXJlODguZXUub3JnIiwKICAgICJpZCI6ICI4YTZmYjFiNy1kOTM5LTQwMzAtYTRkYS0xYzBiMjYzN2M4NjUiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIv5pyN5Yqh5ZmoNOWFg+aciO+8jOiKgueCuTIuNeWFg+aciEBuYXRkY2lib3QiLAogICAgInBvcnQiOiA4MCwKICAgICJwcyI6ICLwn4e68J+HuCBfVVNf576O5Zu9LVx1MDAzZfCfh6fwn4e3X0JSX+W3tOilvyA3IiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0="
 		},
 		{
-			"id": 13,
+			"id": 2,
 			"group": "job",
-			"remarks": "🇺🇸 _US_美国-\u003e🇧🇷_BR_巴西 6",
+			"remarks": "🇺🇸 _US_美国-\u003e🇧🇷_BR_巴西",
 			"protocol": "vmess/ws",
 			"ping": "0",
 			"avg_speed": 0,
 			"max_speed": 0,
 			"isok": true,
 			"traffic": 0,
-			"link": "vmess://ewogICAgImFkZCI6ICJmcmVleXguY2xvdWRmbGFyZTg4LmV1Lm9yZyIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogImpkMmt1YWk1eXVhbi5jbG91ZGZsYXJlODguZXUub3JnIiwKICAgICJpZCI6ICI4YTZmYjFiNy1kOTM5LTQwMzAtYTRkYS0xYzBiMjYzN2M4NjUiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIv5pyN5Yqh5ZmoNOWFg+aciO+8jOiKgueCuTIuNeWFg+aciEBuYXRkY2lib3QiLAogICAgInBvcnQiOiAyMDgyLAogICAgInBzIjogIvCfh7rwn4e4IF9VU1/nvo7lm70tXHUwMDNl8J+Hp/Cfh7dfQlJf5be06KW/IDYiLAogICAgInRscyI6ICIiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ=="
+			"link": "vmess://ewogICAgImFkZCI6ICJmcmVleXguY2xvdWRmbGFyZTg4LmV1Lm9yZyIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogImpkMmt1YWk1eXVhbi5jbG91ZGZsYXJlODguZXUub3JnIiwKICAgICJpZCI6ICI4YTZmYjFiNy1kOTM5LTQwMzAtYTRkYS0xYzBiMjYzN2M4NjUiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIv5pyN5Yqh5ZmoNOWFg+aciO+8jOiKgueCuTIuNeWFg+aciEBuYXRkY2lib3QiLAogICAgInBvcnQiOiA4MDgwLAogICAgInBzIjogIvCfh7rwn4e4IF9VU1/nvo7lm70tXHUwMDNl8J+Hp/Cfh7dfQlJf5be06KW/IiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0="
 		},
 		{
 			"id": 3,
@@ -133,28 +133,16 @@
 			"link": "vmess://ewogICAgImFkZCI6ICJmcmVleXguY2xvdWRmbGFyZTg4LmV1Lm9yZyIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogImpkMmt1YWk1eXVhbi5jbG91ZGZsYXJlODguZXUub3JnIiwKICAgICJpZCI6ICI4YTZmYjFiNy1kOTM5LTQwMzAtYTRkYS0xYzBiMjYzN2M4NjUiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIv5pyN5Yqh5ZmoNOWFg+aciO+8jOiKgueCuTIuNeWFg+aciEBuYXRkY2lib3QiLAogICAgInBvcnQiOiAyMDk1LAogICAgInBzIjogIvCfh7rwn4e4IF9VU1/nvo7lm70tXHUwMDNl8J+Hp/Cfh7dfQlJf5be06KW/IDIiLAogICAgInRscyI6ICIiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ=="
 		},
 		{
-			"id": 11,
+			"id": 10,
 			"group": "job",
-			"remarks": "🇺🇸 _US_美国 2",
-			"protocol": "vmess/ws",
+			"remarks": "🇺🇸 _US_美国",
+			"protocol": "vmess/tcp",
 			"ping": "0",
-			"avg_speed": 0,
-			"max_speed": 0,
+			"avg_speed": 80254,
+			"max_speed": 32423,
 			"isok": true,
-			"traffic": 0,
-			"link": "vmess://ewogICAgImFkZCI6ICIxMDQuMjEuNzUuMjQ2IiwKICAgICJhaWQiOiAwLAogICAgImhvc3QiOiAic2JsMi5zaGFiaWppY2hhbmcuY29tIiwKICAgICJpZCI6ICJjNDU4Njk1ZC02OTA4LTQ1YzMtOTUxMi1lMGM0NjQxODQ1NGMiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvIiwKICAgICJwb3J0IjogODAsCiAgICAicHMiOiAi8J+HuvCfh7ggX1VTX+e+juWbvSAyIiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0="
-		},
-		{
-			"id": 12,
-			"group": "job",
-			"remarks": "🇺🇸 _US_美国 3",
-			"protocol": "vmess/ws",
-			"ping": "0",
-			"avg_speed": 0,
-			"max_speed": 0,
-			"isok": true,
-			"traffic": 0,
-			"link": "vmess://ewogICAgImFkZCI6ICIxNzIuNjcuMTg0LjEzIiwKICAgICJhaWQiOiAwLAogICAgImhvc3QiOiAic2JsMi5zaGFiaWppY2hhbmcuY29tIiwKICAgICJpZCI6ICJjNDU4Njk1ZC02OTA4LTQ1YzMtOTUxMi1lMGM0NjQxODQ1NGMiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvIiwKICAgICJwb3J0IjogODAsCiAgICAicHMiOiAi8J+HuvCfh7ggX1VTX+e+juWbvSAzIiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0="
+			"traffic": 32423,
+			"link": "vmess://ewogICAgImFkZCI6ICIxOTUuMTIzLjI0MC4xNzAiLAogICAgImFpZCI6IDAsCiAgICAiaG9zdCI6ICIiLAogICAgImlkIjogIjEyNzcyZGY5LTQ4NWYtNDEzYy1lZGJmLTNmNTYyZDYxZGU0ZSIsCiAgICAibmV0IjogInRjcCIsCiAgICAicGF0aCI6ICIiLAogICAgInBvcnQiOiA0MTkxNiwKICAgICJwcyI6ICLwn4e68J+HuCBfVVNf576O5Zu9IiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0="
 		},
 		{
 			"id": 1,
@@ -162,10 +150,10 @@
 			"remarks": "🇮🇪+_IE_爱尔兰",
 			"protocol": "trojan",
 			"ping": "0",
-			"avg_speed": 13556,
-			"max_speed": 40720,
+			"avg_speed": 17043,
+			"max_speed": 40816,
 			"isok": true,
-			"traffic": 154032,
+			"traffic": 227426,
 			"link": "trojan://telegram-id-privatevpns@54.216.221.117:22222?allowInsecure=1\u0026sni=trj.rollingnext.co.uk#%F0%9F%87%AE%F0%9F%87%AA+_IE_%E7%88%B1%E5%B0%94%E5%85%B0"
 		},
 		{
@@ -174,23 +162,47 @@
 			"remarks": "🇺🇸 _US_美国 5",
 			"protocol": "vmess/ws",
 			"ping": "0",
-			"avg_speed": 19817,
-			"max_speed": 64351,
+			"avg_speed": 16612,
+			"max_speed": 52231,
 			"isok": true,
-			"traffic": 211039,
+			"traffic": 186607,
 			"link": "vmess://ewogICAgImFkZCI6ICIxNzIuNjcuMjI5LjE3IiwKICAgICJhaWQiOiAwLAogICAgImhvc3QiOiAic3Nyc3ViLnYwMDIuc3Nyc3ViLmNvbSIsCiAgICAiaWQiOiAiZDNmODMwYTItMjA1YS00YmJhLWE3Y2EtNWU4Nzg5OWFjMDRkIiwKICAgICJuZXQiOiAid3MiLAogICAgInBhdGgiOiAiL2FwaS92My9kb3dubG9hZC5nZXRGaWxlIiwKICAgICJwb3J0IjogODA4MCwKICAgICJwcyI6ICLwn4e68J+HuCBfVVNf576O5Zu9IDUiLAogICAgInRscyI6ICIiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ=="
 		},
 		{
-			"id": 15,
+			"id": 8,
 			"group": "job",
-			"remarks": "🇺🇸 _US_美国 4",
+			"remarks": "🇮🇪+_IE_爱尔兰+2",
+			"protocol": "trojan",
+			"ping": "0",
+			"avg_speed": 27255,
+			"max_speed": 61272,
+			"isok": true,
+			"traffic": 390111,
+			"link": "trojan://telegram-id-directvpn@52.215.170.185:22222?allowInsecure=1\u0026sni=trj.rollingnext.co.uk#%F0%9F%87%AE%F0%9F%87%AA+_IE_%E7%88%B1%E5%B0%94%E5%85%B0+2"
+		},
+		{
+			"id": 11,
+			"group": "job",
+			"remarks": "🇺🇸 _US_美国 2",
 			"protocol": "vmess/ws",
 			"ping": "0",
-			"avg_speed": 26300,
-			"max_speed": 97119,
+			"avg_speed": 77796,
+			"max_speed": 146688,
 			"isok": true,
-			"traffic": 211039,
-			"link": "vmess://ewogICAgImFkZCI6ICJuczEudjItdmlwLmZ1biIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogInNzcnN1Yi52MDAyLnNzcnN1Yi5jb20iLAogICAgImlkIjogImQzZjgzMGEyLTIwNWEtNGJiYS1hN2NhLTVlODc4OTlhYzA0ZCIsCiAgICAibmV0IjogIndzIiwKICAgICJwYXRoIjogIi9hcGkvdjMvZG93bmxvYWQuZ2V0RmlsZSIsCiAgICAicG9ydCI6IDgwODAsCiAgICAicHMiOiAi8J+HuvCfh7ggX1VTX+e+juWbvSA0IiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0="
+			"traffic": 911314,
+			"link": "vmess://ewogICAgImFkZCI6ICIxMDQuMjEuNzUuMjQ2IiwKICAgICJhaWQiOiAwLAogICAgImhvc3QiOiAic2JsMi5zaGFiaWppY2hhbmcuY29tIiwKICAgICJpZCI6ICJjNDU4Njk1ZC02OTA4LTQ1YzMtOTUxMi1lMGM0NjQxODQ1NGMiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvIiwKICAgICJwb3J0IjogODAsCiAgICAicHMiOiAi8J+HuvCfh7ggX1VTX+e+juWbvSAyIiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0="
+		},
+		{
+			"id": 5,
+			"group": "job",
+			"remarks": "🇺🇸 _US_美国-\u003e🇸🇦_SA_沙特阿拉伯",
+			"protocol": "vmess/ws",
+			"ping": "0",
+			"avg_speed": 84342,
+			"max_speed": 236272,
+			"isok": true,
+			"traffic": 781015,
+			"link": "vmess://ewogICAgImFkZCI6ICJqZDMuc2hhYmlqaWNoYW5nLmNvbSIsCiAgICAiYWlkIjogMCwKICAgICJob3N0IjogImpkMy5zaGFiaWppY2hhbmcuY29tIiwKICAgICJpZCI6ICJjNDU4Njk1ZC02OTA4LTQ1YzMtOTUxMi1lMGM0NjQxODQ1NGMiLAogICAgIm5ldCI6ICJ3cyIsCiAgICAicGF0aCI6ICIvIiwKICAgICJwb3J0IjogODAsCiAgICAicHMiOiAi8J+HuvCfh7ggX1VTX+e+juWbvS1cdTAwM2Xwn4e48J+Hpl9TQV/mspnnibnpmL/mi4nkvK8iLAogICAgInRscyI6ICIiLAogICAgInR5cGUiOiAiYXV0byIsCiAgICAic2VjdXJpdHkiOiAiYXV0byIsCiAgICAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsCiAgICAic25pIjogIiIKfQ=="
 		},
 		{
 			"id": 6,
@@ -198,23 +210,11 @@
 			"remarks": "🇩🇪+_DE_德国",
 			"protocol": "trojan",
 			"ping": "0",
-			"avg_speed": 105147,
-			"max_speed": 203504,
+			"avg_speed": 195536,
+			"max_speed": 370648,
 			"isok": true,
-			"traffic": 1432529,
+			"traffic": 2768211,
 			"link": "trojan://3ed4d5f3-68e9-42fc-978a-22afc2523e5a@5.104.107.143:443?allowInsecure=1\u0026sni=de1.xn--mes358a9urctx.com#%F0%9F%87%A9%F0%9F%87%AA+_DE_%E5%BE%B7%E5%9B%BD"
-		},
-		{
-			"id": 0,
-			"group": "job",
-			"remarks": "🇺🇸 _US_美国-\u003e🇬🇧_GB_英国",
-			"protocol": "vmess/ws",
-			"ping": "0",
-			"avg_speed": 340657,
-			"max_speed": 561936,
-			"isok": true,
-			"traffic": 1277805,
-			"link": "vmess://ewogICAgImFkZCI6ICJtcmIyLnNoYWJpamljaGFuZy5jb20iLAogICAgImFpZCI6IDAsCiAgICAiaG9zdCI6ICJtcmIyLnNoYWJpamljaGFuZy5jb20iLAogICAgImlkIjogImM0NTg2OTVkLTY5MDgtNDVjMy05NTEyLWUwYzQ2NDE4NDU0YyIsCiAgICAibmV0IjogIndzIiwKICAgICJwYXRoIjogIi8iLAogICAgInBvcnQiOiA4MCwKICAgICJwcyI6ICLwn4e68J+HuCBfVVNf576O5Zu9LVx1MDAzZfCfh6zwn4enX0dCX+iLseWbvSIsCiAgICAidGxzIjogIiIsCiAgICAidHlwZSI6ICJhdXRvIiwKICAgICJzZWN1cml0eSI6ICJhdXRvIiwKICAgICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZSwKICAgICJzbmkiOiAiIgp9"
 		}
 	],
 	"options": {
@@ -235,7 +235,7 @@
 		"generatePicMode": 3,
 		"outputMode": 3
 	},
-	"traffic": 3286444,
+	"traffic": 5297107,
 	"duration": "0m 17s",
 	"successCount": 18,
 	"linksCount": 18

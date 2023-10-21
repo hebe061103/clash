@@ -26,7 +26,7 @@ merge=$(date "+%Y%m%d")
 #以下列表可插入能直接下载的配置文件网址
 urllist=(
 "https://sub.789.st/sub?target=clash&url=https://clashnode.com/wp-content/uploads/$year/$month/$merge.txt"
-"https://ghproxy.com/https://raw.githubusercontent.com/snakem982/proxypool/main/clash73544.yaml"
+"https://github.moeyy.xyz/https://raw.githubusercontent.com/snakem982/proxypool/main/clash73544.yaml"
 )
 for i in ${urllist[@]}
     do
@@ -56,6 +56,7 @@ for filename in $(ls /run/*.yaml)
 do
   while read line
   do
+  line=`echo $line | sed 's/\"//g'`
   if echo $line | grep "{name:" | grep -v "中国";then
 #     a=${line#*, }
 #     random=`head /dev/urandom | tr -dc A-Za-z0-9 | head -c 15`
