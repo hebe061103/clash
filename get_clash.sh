@@ -60,7 +60,7 @@ do
 #     a=${line#*, }
 #     random=`head /dev/urandom | tr -dc A-Za-z0-9 | head -c 15`
 #     echo "- {name: 吉祥|"$random"|, "$a >> /mnt/updateClashToGithub/node
-      $line >> /mnt/updateClashToGithub/node
+      echo $line >> /mnt/updateClashToGithub/node
   fi
   if echo $line | grep -q "proxy-groups:";then
        break

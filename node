@@ -1,0 +1,61 @@
+- {name: 🇺🇸 _US_美国->🇬🇧_GB_英国, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
+- {name: 🇮🇪 _IE_爱尔兰, server: 54.216.221.117, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+- {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西, server: freeyx.cloudflare88.eu.org, port: 8080, type: vmess, uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /服务器4元月，节点2.5元月@natdcibot, headers: {Host: jd2kuai5yuan.cloudflare88.eu.org}}}
+- {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 2, server: freeyx.cloudflare88.eu.org, port: 2095, type: vmess, uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /服务器4元月，节点2.5元月@natdcibot, headers: {Host: jd2kuai5yuan.cloudflare88.eu.org}}}
+- {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 3, server: freeyx.cloudflare88.eu.org, port: 8880, type: vmess, uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /服务器4元月，节点2.5元月@natdcibot, headers: {Host: jd2kuai5yuan.cloudflare88.eu.org}}}
+- {name: 🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯, server: jd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jd3.shabijichang.com}}}
+- {name: 🇩🇪 _DE_德国, server: 5.104.107.143, port: 443, type: trojan, password: 3ed4d5f3-68e9-42fc-978a-22afc2523e5a, sni: de1.xn--mes358a9urctx.com, skip-cert-verify: true}
+- {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 4, server: freeyx.cloudflare88.eu.org, port: 2052, type: vmess, uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /服务器4元月，节点2.5元月@natdcibot, headers: {Host: jd2kuai5yuan.cloudflare88.eu.org}}}
+- {name: 🇮🇪 _IE_爱尔兰 2, server: 52.215.170.185, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
+- {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 5, server: freeyx.cloudflare88.eu.org, port: 2086, type: vmess, uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /服务器4元月，节点2.5元月@natdcibot, headers: {Host: jd2kuai5yuan.cloudflare88.eu.org}}}
+- {name: 🇺🇸 _US_美国, server: 195.123.240.170, port: 41916, type: vmess, uuid: 12772df9-485f-413c-edbf-3f562d61de4e, alterId: 0, cipher: auto, tls: false}
+- {name: 🇺🇸 _US_美国 2, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+- {name: 🇺🇸 _US_美国 3, server: 172.67.184.13, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}}
+- {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 6, server: freeyx.cloudflare88.eu.org, port: 2082, type: vmess, uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /服务器4元月，节点2.5元月@natdcibot, headers: {Host: jd2kuai5yuan.cloudflare88.eu.org}}}
+- {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰, server: 104.24.184.65, port: 2096, type: vmess, uuid: ddde9cc7-00b1-4637-ce42-ccf7ceb0d612, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: s1.shargh.shop}}}
+- {name: 🇺🇸 _US_美国 4, server: ns1.v2-vip.fun, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v002.ssrsub.com}}}
+- {name: 🇺🇸 _US_美国 5, server: 172.67.229.17, port: 8080, type: vmess, uuid: d3f830a2-205a-4bba-a7ca-5e87899ac04d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v002.ssrsub.com}}}
+- {name: 🇺🇸 _US_美国->🇧🇷_BR_巴西 7, server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /服务器4元月，节点2.5元月@natdcibot, headers: {Host: jd2kuai5yuan.cloudflare88.eu.org}}}
+- {name: HK_15, server: ru.mjt001.com, port: 443, type: trojan, password: 5a035db3-34ea-48ca-9aa2-72c8229e1532, skip-cert-verify: true, udp: true}
+- {name: SG_16 |52.99Mb, server: 139.162.5.19, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+- {name: SG_17 |30.36Mb, server: 139.162.41.174, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+- {name: US_18 | 8.35Mb, server: 38.68.134.9, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: US_19 | 8.42Mb, server: 38.68.134.9, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: US_20 | 8.37Mb, server: 38.68.134.9, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+- {name: US_21 | 8.30Mb, server: 38.68.134.9, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+- {name: US_22 | 8.21Mb, server: 38.68.134.9, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+- {name: US_23 | 8.34Mb, server: 38.68.134.9, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: US_24 | 8.50Mb, server: 38.68.134.9, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+- {name: US_25 | 8.39Mb, server: 38.68.134.9, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: US_26 | 8.24Mb, server: 38.68.134.9, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+- {name: US_27 | 8.31Mb, server: 38.68.134.9, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+- {name: US_28 | 6.15Mb, server: 172.99.188.99, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+- {name: US_29 | 8.35Mb, server: 38.68.134.9, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+- {name: US_30 | 8.21Mb, server: 38.68.134.9, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+- {name: US_31 | 8.17Mb, server: 38.68.134.9, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+- {name: US_32 | 8.16Mb, server: 38.121.43.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+- {name: US_33 | 8.25Mb, server: 38.68.134.9, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+- {name: US_34 | 1.95Mb, server: 167.88.61.175, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+- {name: US_35 | 8.34Mb, server: 38.68.134.9, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: US_36 | 8.19Mb, server: 38.68.134.9, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+- {name: US_37 | 7.27Mb, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+- {name: US_38 | 8.27Mb, server: 38.121.43.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+- {name: US_39 | 8.25Mb, server: 38.68.134.9, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+- {name: US_40 | 8.45Mb, server: 38.68.134.9, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+- {name: US_41 |10.52Mb, server: 38.68.134.9, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+- {name: US_42 | 6.34Mb, server: 172.99.188.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: US_43 | 6.32Mb, server: 172.99.188.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+- {name: US_44 | 8.15Mb, server: 142.202.48.7, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+- {name: US_45 | 8.27Mb, server: 38.68.134.9, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+- {name: US_46 | 9.54Mb, server: 142.202.48.7, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+- {name: US_47 |11.45Mb, server: 38.68.134.9, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+- {name: US_48 |15.71Mb, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+- {name: US_49 |23.12Mb, server: facet.x31416.top, port: 443, type: vmess, uuid: c090fe2c-442b-4643-ef5e-98d53a5d72ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: facet.x31416.top}
+- {name: US_50 |27.21Mb, server: 23.234.233.21, port: 80, type: vmess, uuid: c78614f6-d18f-4994-c530-501f6c7f8a48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bb}}
+- {name: US_51 | 4.00Mb, server: octavi.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: octavi.cfd, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
+- {name: US_52, server: sk01.trojanyyds.xyz, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, skip-cert-verify: true, udp: true}
+- {name: US_53, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, skip-cert-verify: true, udp: true}
+- {name: US_54, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, skip-cert-verify: true, udp: true}
+- {name: US_55, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, skip-cert-verify: true, udp: true}
+- {name: US_56, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, skip-cert-verify: true, udp: true}
+- {name: US_57, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, skip-cert-verify: true, udp: true}
