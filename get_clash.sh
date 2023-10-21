@@ -6,8 +6,10 @@
 #------------------------------------------------------------------------------------------------------
 get_arch=`arch`
 #设置只提取平均速度大于多少M的节点,例如:10M*1024*1024=10485760,只能设置整数
-speed_gt=1
-let avg_speed=$speed_gt*1024*1024
+#
+#speed_gt=1
+#let avg_speed=$speed_gt*1024*1024
+avg_speed=100
 #模板文件路径
 parm_path=$(cd `dirname $0`; pwd)
 date=$(date "+%Y-%m-%d %H:%M:%S")
@@ -209,6 +211,7 @@ do
   	let l++
   done < $filename
 done
+if [[ -e "/tmp/validnode.mp" ]];then
 for filename in $(ls /tmp/validnode.mp)
 do
   while read line
@@ -217,6 +220,11 @@ do
   	let y++
   done < $filename
 done
+else
+echo --$date-- "不好意思,一个可用的节点都没有,程序退出!"|tee -a /tmp/clash_run_log.log
+rm -rf /tmp/*.mp  #清理线程临时文件
+exit 1
+fi
 rm -rf /tmp/*.mp  #清理线程临时文件
 #----------------------------------------------------------------------------------
 date=$(date "+%Y-%m-%d %H:%M:%S")
